@@ -90,7 +90,7 @@ for ficheiro in files:
                 if similarity_matrix[i][j] == 1.0:
                     similarity_matrix[i][j] = -math.inf
 
-        pattern_mining(copy_df, sup)
+        #pattern_mining(copy_df, sup)
         '''
         K = len(similarity_matrix)
         a = int(round(math.log(K, 2), 0))

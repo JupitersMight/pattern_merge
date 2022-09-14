@@ -1,0 +1,1385 @@
+0.0
+0.21075809614719843
+0.35094534299644053
+0.5544923070581673
+0.5929060718765461
+0.7029948713721116
+1.0
+Current file: datasets/pumsb.txt
+Minimum support : 0.0
+#########################################################################################
+Number of variables: 4
+
+
+#########################################################################################
+#########################################################################################
+Similar
+#########################################################################################
+similarity matrix: 0.4607663 seconds
+{0: array([0, 2, 3, 1])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 16.4753434 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 16.9361097 seconds
+similarity matrix: 0.2503629 seconds
+{0: array([0, 3, 1, 2])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 14.6120293 seconds
+Merging with clusters: 0.0009973 seconds
+Combined time: 14.8633895 seconds
+similarity matrix: 0.308214 seconds
+{0: array([0, 1, 3, 2])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 14.5296472 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 14.8378612 seconds
+similarity matrix: 0.3101525 seconds
+{0: array([0, 2, 3, 1])}
+Hierarchical clustering: 0.0009977 seconds
+Number of clusters : 1
+Apriori with clusters: 14.6995088 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 15.010659 seconds
+similarity matrix: 0.2065396 seconds
+{0: array([0, 1, 2, 3])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 14.479672 seconds
+Merging with clusters: 0.0009979 seconds
+Combined time: 14.6872095 seconds
+similarity matrix: 0.5216049 seconds
+{0: array([0, 1, 3, 2])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 15.9169925 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 16.4385974 seconds
+similarity matrix: 0.3161528 seconds
+{0: array([0, 2, 3, 1])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 14.7594855 seconds
+Merging with clusters: 0.0009981 seconds
+Combined time: 15.0766364 seconds
+similarity matrix: 0.2672458 seconds
+{0: array([0, 1, 3, 2])}
+Hierarchical clustering: 0.00103 seconds
+Number of clusters : 1
+Apriori with clusters: 14.8594993 seconds
+Merging with clusters: 0.0009974 seconds
+Combined time: 15.1287725 seconds
+similarity matrix: 0.4408223 seconds
+{0: array([0, 1, 3, 2])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 16.3016696 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 16.7424919 seconds
+similarity matrix: 0.4128959 seconds
+{0: array([0, 1, 3, 2])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 15.5805353 seconds
+Merging with clusters: 0.0009975 seconds
+Combined time: 15.9944287 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 4 variables the time were:
+Similarity Matrix
+[0.4607663, 0.2503629, 0.308214, 0.3101525, 0.2065396, 0.5216049, 0.3161528, 0.2672458, 0.4408223, 0.4128959]
+Hierarchical clustering
+[0.0, 0.0, 0.0, 0.0009977, 0.0, 0.0, 0.0, 0.00103, 0.0, 0.0]
+Apriori with clusters
+[16.4753434, 14.6120293, 14.5296472, 14.6995088, 14.479672, 15.9169925, 14.7594855, 14.8594993, 16.3016696, 15.5805353]
+Merging of patterns
+[0.0, 0.0009973, 0.0, 0.0, 0.0009979, 0.0, 0.0009981, 0.0009974, 0.0, 0.0009975]
+Number of patterns discovered
+[6, 5, 6, 6, 4, 9, 6, 5, 8, 7]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Dissimilar
+#########################################################################################
+similarity matrix: 0.4916849 seconds
+{0: array([0, 1, 3, 2])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 16.8631099 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 17.3547948 seconds
+similarity matrix: 0.2632966 seconds
+{0: array([0, 1, 2, 3])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 15.0540034 seconds
+Merging with clusters: 0.000996 seconds
+Combined time: 15.318296 seconds
+similarity matrix: 0.3230961 seconds
+{0: array([0, 2, 3, 1])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 14.9671783 seconds
+Merging with clusters: 0.0009975 seconds
+Combined time: 15.2912719 seconds
+similarity matrix: 0.4576327 seconds
+{0: array([0, 1, 3, 2])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 15.2694343 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 15.727067 seconds
+similarity matrix: 0.2054567 seconds
+{0: array([0, 1, 2, 3])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 14.9986918 seconds
+Merging with clusters: 0.000997 seconds
+Combined time: 15.2051455 seconds
+similarity matrix: 0.5266993 seconds
+{0: array([0, 3, 1, 2])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 16.3238595 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 16.8505588 seconds
+similarity matrix: 0.3400864 seconds
+{0: array([0, 1, 3, 2])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 14.8459086 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 15.185995 seconds
+similarity matrix: 0.2512863 seconds
+{0: array([0, 1, 2, 3])}
+Hierarchical clustering: 0.0009977 seconds
+Number of clusters : 1
+Apriori with clusters: 14.4162094 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 14.6684934 seconds
+similarity matrix: 0.4348764 seconds
+{0: array([0, 1, 2, 3])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 15.8713598 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 16.3062362 seconds
+similarity matrix: 0.4358329 seconds
+{0: array([0, 1, 2, 3])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 17.0323621 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 17.468195 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 4 variables the time were:
+Similarity Matrix
+[0.4916849, 0.2632966, 0.3230961, 0.4576327, 0.2054567, 0.5266993, 0.3400864, 0.2512863, 0.4348764, 0.4358329]
+Hierarchical clustering
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0009977, 0.0, 0.0]
+Apriori with clusters
+[16.8631099, 15.0540034, 14.9671783, 15.2694343, 14.9986918, 16.3238595, 14.8459086, 14.4162094, 15.8713598, 17.0323621]
+Merging of patterns
+[0.0, 0.000996, 0.0009975, 0.0, 0.000997, 0.0, 0.0, 0.0, 0.0, 0.0]
+Number of patterns discovered
+[6, 5, 6, 6, 4, 9, 6, 5, 8, 7]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Random
+#########################################################################################
+similarity matrix: 0.5066461 seconds
+{0: ['5983', '4440', '4516', '2339']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 16.6599866 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 17.1666327 seconds
+similarity matrix: 0.2652893 seconds
+{0: ['4880', '5724', '4008', '2317']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 15.0242038 seconds
+Merging with clusters: 0.0009987 seconds
+Combined time: 15.2904918 seconds
+similarity matrix: 0.3121645 seconds
+{0: ['5393', '244', '5274', '5885']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 15.115097 seconds
+Merging with clusters: 0.0009971 seconds
+Combined time: 15.4282586 seconds
+similarity matrix: 0.3372051 seconds
+{0: ['6024', '6862', '6175', '4865']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 15.0360678 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 15.3732729 seconds
+similarity matrix: 0.2074449 seconds
+{0: ['6479', '4471', '6461', '913']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 15.0911068 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 15.2985517 seconds
+similarity matrix: 0.5326994 seconds
+{0: ['2297', '6984', '4858', '5755']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 16.0972831 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 16.6299825 seconds
+similarity matrix: 0.332112 seconds
+{0: ['6001', '4973', '4614', '4501']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 15.0343256 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 15.3664376 seconds
+similarity matrix: 0.2672838 seconds
+{0: ['2349', '6125', '6879', '6971']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 14.9344952 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 15.201779 seconds
+similarity matrix: 0.4328422 seconds
+{0: ['4780', '320', '4270', '6293']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 15.706137 seconds
+Merging with clusters: 0.0009975 seconds
+Combined time: 16.1399767 seconds
+similarity matrix: 0.3889581 seconds
+{0: ['1048', '4494', '4823', '634']}
+Hierarchical clustering: 0.0009975 seconds
+Number of clusters : 1
+Apriori with clusters: 15.3996197 seconds
+Merging with clusters: 0.0009974 seconds
+Combined time: 15.7905727 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 4 variables the time were:
+Similarity Matrix
+[0.5066461, 0.2652893, 0.3121645, 0.3372051, 0.2074449, 0.5326994, 0.332112, 0.2672838, 0.4328422, 0.3889581]
+Hierarchical clustering
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0009975]
+Apriori with clusters
+[16.6599866, 15.0242038, 15.115097, 15.0360678, 15.0911068, 16.0972831, 15.0343256, 14.9344952, 15.706137, 15.3996197]
+Merging of patterns
+[0.0, 0.0009987, 0.0009971, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0009975, 0.0009974]
+Number of patterns discovered
+[6, 5, 6, 6, 4, 9, 6, 5, 8, 7]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Number of variables: 8
+
+
+#########################################################################################
+#########################################################################################
+Similar
+#########################################################################################
+similarity matrix: 1.0262529 seconds
+{0: array([0, 5, 6, 7]), 1: array([1, 2, 3, 4])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 30.5914976 seconds
+Merging with clusters: 0.0089783 seconds
+Combined time: 31.6267288 seconds
+similarity matrix: 1.0920921 seconds
+{1: array([1, 2, 5, 7]), 0: array([0, 3, 4, 6])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 32.0578022 seconds
+Merging with clusters: 0.0019959 seconds
+Combined time: 33.1518902 seconds
+similarity matrix: 0.7968309 seconds
+{1: array([1, 5, 4, 7]), 0: array([0, 2, 3, 6])}
+Hierarchical clustering: 0.0009981 seconds
+Number of clusters : 2
+Apriori with clusters: 30.6246081 seconds
+Merging with clusters: 0.0019902 seconds
+Combined time: 31.4244273 seconds
+similarity matrix: 0.8358892 seconds
+{2: array([2, 5, 6, 3]), 0: array([0, 1, 4, 7])}
+Hierarchical clustering: 0.0009964 seconds
+Number of clusters : 2
+Apriori with clusters: 30.1707601 seconds
+Merging with clusters: 0.001993 seconds
+Combined time: 31.0096387 seconds
+similarity matrix: 0.8197978 seconds
+{1: array([1, 5, 3, 7]), 0: array([0, 2, 4, 6])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 30.3331996 seconds
+Merging with clusters: 0.0009974 seconds
+Combined time: 31.1539948 seconds
+similarity matrix: 0.9027611 seconds
+{0: array([0, 3, 1, 4]), 2: array([2, 5, 6, 7])}
+Hierarchical clustering: 0.0009984 seconds
+Number of clusters : 2
+Apriori with clusters: 30.3207643 seconds
+Merging with clusters: 0.0019942 seconds
+Combined time: 31.226518 seconds
+similarity matrix: 0.5834281 seconds
+{0: array([0, 1, 2, 5]), 3: array([3, 4, 6, 7])}
+Hierarchical clustering: 0.0010002 seconds
+Number of clusters : 2
+Apriori with clusters: 30.0855757 seconds
+Merging with clusters: 0.0009973 seconds
+Combined time: 30.6710013 seconds
+similarity matrix: 1.3138665 seconds
+{2: array([2, 4, 7, 6]), 0: array([0, 1, 3, 5])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 32.2801515 seconds
+Merging with clusters: 0.0169544 seconds
+Combined time: 33.6109724 seconds
+similarity matrix: 0.7829048 seconds
+{0: array([0, 5, 1, 3]), 2: array([2, 6, 7, 4])}
+Hierarchical clustering: 0.0009949 seconds
+Number of clusters : 2
+Apriori with clusters: 29.9473279 seconds
+Merging with clusters: 0.0019945 seconds
+Combined time: 30.7332221 seconds
+similarity matrix: 0.5804852 seconds
+{0: array([0, 4, 1, 2]), 3: array([3, 5, 6, 7])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 29.6016185 seconds
+Merging with clusters: 0.0009975 seconds
+Combined time: 30.1831012 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 8 variables the time were:
+Similarity Matrix
+[1.0262529, 1.0920921, 0.7968309, 0.8358892, 0.8197978, 0.9027611, 0.5834281, 1.3138665, 0.7829048, 0.5804852]
+Hierarchical clustering
+[0.0, 0.0, 0.0009981, 0.0009964, 0.0, 0.0009984, 0.0010002, 0.0, 0.0009949, 0.0]
+Apriori with clusters
+[30.5914976, 32.0578022, 30.6246081, 30.1707601, 30.3331996, 30.3207643, 30.0855757, 32.2801515, 29.9473279, 29.6016185]
+Merging of patterns
+[0.0089783, 0.0019959, 0.0019902, 0.001993, 0.0009974, 0.0019942, 0.0009973, 0.0169544, 0.0019945, 0.0009975]
+Number of patterns discovered
+[26, 30, 24, 28, 28, 30, 21, 18, 21, 21]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Dissimilar
+#########################################################################################
+similarity matrix: 1.0223038 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 7, 6])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 30.8045258 seconds
+Merging with clusters: 0.0069811 seconds
+Combined time: 31.8338107 seconds
+similarity matrix: 1.0661873 seconds
+{0: array([0, 1, 3, 4]), 2: array([2, 7, 5, 6])}
+Hierarchical clustering: 0.0009967 seconds
+Number of clusters : 2
+Apriori with clusters: 29.9428122 seconds
+Merging with clusters: 0.001998 seconds
+Combined time: 31.0119942 seconds
+similarity matrix: 0.7369907 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 6, 5, 7])}
+Hierarchical clustering: 0.0015688 seconds
+Number of clusters : 2
+Apriori with clusters: 29.4531666 seconds
+Merging with clusters: 0.0020033 seconds
+Combined time: 30.1937294 seconds
+similarity matrix: 0.764067 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 7, 6])}
+Hierarchical clustering: 0.0009894 seconds
+Number of clusters : 2
+Apriori with clusters: 29.5957445 seconds
+Merging with clusters: 0.0019947 seconds
+Combined time: 30.3627956 seconds
+similarity matrix: 0.7400227 seconds
+{0: array([0, 1, 2, 4]), 3: array([3, 6, 7, 5])}
+Hierarchical clustering: 0.0009981 seconds
+Number of clusters : 2
+Apriori with clusters: 31.8051274 seconds
+Merging with clusters: 0.0009972 seconds
+Combined time: 32.5471454 seconds
+similarity matrix: 0.9115723 seconds
+{0: array([0, 2, 4, 5]), 1: array([1, 6, 7, 3])}
+Hierarchical clustering: 0.0009979 seconds
+Number of clusters : 2
+Apriori with clusters: 30.6481542 seconds
+Merging with clusters: 0.0019945 seconds
+Combined time: 31.5627189 seconds
+similarity matrix: 0.5964049 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 6, 7])}
+Hierarchical clustering: 0.0009977 seconds
+Number of clusters : 2
+Apriori with clusters: 30.465959 seconds
+Merging with clusters: 0.0009974 seconds
+Combined time: 31.064359 seconds
+similarity matrix: 1.2456802 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 6, 7])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 32.2600523 seconds
+Merging with clusters: 0.0169551 seconds
+Combined time: 33.5236854 seconds
+similarity matrix: 0.7569747 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 6, 7])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 29.7528923 seconds
+Merging with clusters: 0.0019974 seconds
+Combined time: 30.5118644 seconds
+similarity matrix: 0.5814128 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 6, 7])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 29.3497351 seconds
+Merging with clusters: 0.0009975 seconds
+Combined time: 29.9321454 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 8 variables the time were:
+Similarity Matrix
+[1.0223038, 1.0661873, 0.7369907, 0.764067, 0.7400227, 0.9115723, 0.5964049, 1.2456802, 0.7569747, 0.5814128]
+Hierarchical clustering
+[0.0, 0.0009967, 0.0015688, 0.0009894, 0.0009981, 0.0009979, 0.0009977, 0.0, 0.0, 0.0]
+Apriori with clusters
+[30.8045258, 29.9428122, 29.4531666, 29.5957445, 31.8051274, 30.6481542, 30.465959, 32.2600523, 29.7528923, 29.3497351]
+Merging of patterns
+[0.0069811, 0.001998, 0.0020033, 0.0019947, 0.0009972, 0.0019945, 0.0009974, 0.0169551, 0.0019974, 0.0009975]
+Number of patterns discovered
+[26, 26, 24, 24, 23, 25, 24, 18, 24, 24]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Random
+#########################################################################################
+similarity matrix: 0.9843692 seconds
+{0: ['2327', '4246', '1398', '4786'], 1: ['6700', '6539', '1452', '6273']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 30.9404108 seconds
+Merging with clusters: 0.0079786 seconds
+Combined time: 31.9327586 seconds
+similarity matrix: 1.0223606 seconds
+{0: ['5514', '6414', '6802', '6455'], 1: ['6917', '5143', '5265', '3400']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 31.4185525 seconds
+Merging with clusters: 0.0009947 seconds
+Combined time: 32.4419078 seconds
+similarity matrix: 0.7699517 seconds
+{0: ['6604', '5013', '2460', '132'], 1: ['6815', '4522', '2438', '5304']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 30.2097436 seconds
+Merging with clusters: 0.001994 seconds
+Combined time: 30.9816893 seconds
+similarity matrix: 0.7589306 seconds
+{0: ['4963', '6705', '64', '303'], 1: ['559', '2483', '7037', '4896']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 30.1986038 seconds
+Merging with clusters: 0.0019954 seconds
+Combined time: 30.9595298 seconds
+similarity matrix: 0.7849002 seconds
+{0: ['3360', '4417', '521', '2307'], 1: ['4609', '6729', '2303', '5263']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 30.2291189 seconds
+Merging with clusters: 0.0009975 seconds
+Combined time: 31.0150166 seconds
+similarity matrix: 0.8537171 seconds
+{0: ['4748', '4635', '5695', '5424'], 1: ['284', '156', '6189', '5535']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 29.971344 seconds
+Merging with clusters: 0.0029913 seconds
+Combined time: 30.8280524 seconds
+similarity matrix: 0.6104912 seconds
+{0: ['87', '6229', '4656', '136'], 1: ['4899', '1727', '1723', '343']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 30.1187062 seconds
+Merging with clusters: 0.0009938 seconds
+Combined time: 30.7311879 seconds
+similarity matrix: 1.2366528 seconds
+{0: ['6330', '4788', '180', '4873'], 1: ['4014', '4195', '6409', '134']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 32.3711689 seconds
+Merging with clusters: 0.0179512 seconds
+Combined time: 33.6267704 seconds
+similarity matrix: 0.768041 seconds
+{0: ['7064', '53', '4529', '6389'], 1: ['6250', '727', '4015', '6469']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 30.2090047 seconds
+Merging with clusters: 0.001995 seconds
+Combined time: 30.9800383 seconds
+similarity matrix: 0.606378 seconds
+{0: ['6402', '6031', '2435', '6665'], 1: ['401', '6369', '238', '5053']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 30.2809789 seconds
+Merging with clusters: 0.0 seconds
+Combined time: 30.8873569 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 8 variables the time were:
+Similarity Matrix
+[0.9843692, 1.0223606, 0.7699517, 0.7589306, 0.7849002, 0.8537171, 0.6104912, 1.2366528, 0.768041, 0.606378]
+Hierarchical clustering
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Apriori with clusters
+[30.9404108, 31.4185525, 30.2097436, 30.1986038, 30.2291189, 29.971344, 30.1187062, 32.3711689, 30.2090047, 30.2809789]
+Merging of patterns
+[0.0079786, 0.0009947, 0.001994, 0.0019954, 0.0009975, 0.0029913, 0.0009938, 0.0179512, 0.001995, 0.0]
+Number of patterns discovered
+[26, 33, 21, 24, 24, 30, 24, 21, 24, 21]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Number of variables: 12
+
+
+#########################################################################################
+#########################################################################################
+Similar
+#########################################################################################
+similarity matrix: 1.6356229 seconds
+{3: array([ 3,  7,  9, 10]), 0: array([0, 1, 2, 4]), 5: array([ 5,  6,  8, 11])}
+Hierarchical clustering: 0.0009995 seconds
+Number of clusters : 3
+Apriori with clusters: 45.1416304 seconds
+Merging with clusters: 0.011968 seconds
+Combined time: 46.7902208 seconds
+similarity matrix: 2.2540122 seconds
+{0: array([ 0,  5, 10,  7]), 1: array([ 1, 11,  3,  6]), 2: array([2, 4, 8, 9])}
+Hierarchical clustering: 0.0009955 seconds
+Number of clusters : 3
+Apriori with clusters: 44.9276404 seconds
+Merging with clusters: 0.0189492 seconds
+Combined time: 47.2015973 seconds
+similarity matrix: 1.5937391 seconds
+{2: array([2, 4, 7, 6]), 0: array([0, 1, 5, 9]), 3: array([ 3,  8, 10, 11])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 44.5521535 seconds
+Merging with clusters: 0.0129636 seconds
+Combined time: 46.1588562 seconds
+similarity matrix: 1.3863731 seconds
+{0: array([0, 6, 5, 1]), 2: array([2, 3, 4, 7]), 8: array([ 8,  9, 10, 11])}
+Hierarchical clustering: 0.000998 seconds
+Number of clusters : 3
+Apriori with clusters: 44.3767555 seconds
+Merging with clusters: 0.0079787 seconds
+Combined time: 45.7721053 seconds
+similarity matrix: 1.6386294 seconds
+{3: array([3, 9, 5, 8]), 0: array([0, 1, 6, 4]), 2: array([ 2, 11,  7, 10])}
+Hierarchical clustering: 0.0009977 seconds
+Number of clusters : 3
+Apriori with clusters: 44.5319239 seconds
+Merging with clusters: 0.0129659 seconds
+Combined time: 46.1845169 seconds
+similarity matrix: 1.9487499 seconds
+{0: array([0, 9, 6, 2]), 1: array([ 1,  5,  7, 10]), 3: array([ 3,  4,  8, 11])}
+Hierarchical clustering: 0.0009979 seconds
+Number of clusters : 3
+Apriori with clusters: 45.1809738 seconds
+Merging with clusters: 0.0219416 seconds
+Combined time: 47.1526632 seconds
+similarity matrix: 2.546261 seconds
+{0: array([ 0,  5, 10,  9]), 1: array([1, 8, 2, 6]), 3: array([ 3,  4,  7, 11])}
+Hierarchical clustering: 0.0009976 seconds
+Number of clusters : 3
+Apriori with clusters: 44.9468379 seconds
+Merging with clusters: 0.0468591 seconds
+Combined time: 47.5409556 seconds
+similarity matrix: 2.4222419 seconds
+{1: array([ 1,  8, 11, 10]), 2: array([2, 3, 5, 7]), 0: array([0, 4, 6, 9])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 46.4519986 seconds
+Merging with clusters: 0.0398933 seconds
+Combined time: 48.9141338 seconds
+similarity matrix: 1.7533171 seconds
+{0: array([ 0,  3,  5, 10]), 1: array([1, 6, 4, 9]), 2: array([ 2,  7,  8, 11])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 44.4982221 seconds
+Merging with clusters: 0.0159575 seconds
+Combined time: 46.2684943 seconds
+similarity matrix: 1.3384214 seconds
+{1: array([ 1, 10,  2,  7]), 0: array([0, 3, 4, 5]), 6: array([ 6,  8,  9, 11])}
+Hierarchical clustering: 0.0009984 seconds
+Number of clusters : 3
+Apriori with clusters: 45.2273498 seconds
+Merging with clusters: 0.0059839 seconds
+Combined time: 46.5727535 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 12 variables the time were:
+Similarity Matrix
+[1.6356229, 2.2540122, 1.5937391, 1.3863731, 1.6386294, 1.9487499, 2.546261, 2.4222419, 1.7533171, 1.3384214]
+Hierarchical clustering
+[0.0009995, 0.0009955, 0.0, 0.000998, 0.0009977, 0.0009979, 0.0009976, 0.0, 0.0, 0.0009984]
+Apriori with clusters
+[45.1416304, 44.9276404, 44.5521535, 44.3767555, 44.5319239, 45.1809738, 44.9468379, 46.4519986, 44.4982221, 45.2273498]
+Merging of patterns
+[0.011968, 0.0189492, 0.0129636, 0.0079787, 0.0129659, 0.0219416, 0.0468591, 0.0398933, 0.0159575, 0.0059839]
+Number of patterns discovered
+[102, 98, 70, 99, 59, 109, 59, 77, 50, 65]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Dissimilar
+#########################################################################################
+similarity matrix: 1.6227909 seconds
+{0: array([0, 1, 2, 4]), 3: array([ 3,  6,  8, 11]), 5: array([ 5,  7,  9, 10])}
+Hierarchical clustering: 0.0009977 seconds
+Number of clusters : 3
+Apriori with clusters: 45.0194479 seconds
+Merging with clusters: 0.011968 seconds
+Combined time: 46.6552045 seconds
+similarity matrix: 2.2531011 seconds
+{0: array([0, 2, 4, 8]), 5: array([ 5,  9, 11,  6]), 1: array([ 1,  3,  7, 10])}
+Hierarchical clustering: 0.000998 seconds
+Number of clusters : 3
+Apriori with clusters: 45.3293749 seconds
+Merging with clusters: 0.0139634 seconds
+Combined time: 47.5974374 seconds
+similarity matrix: 1.6207671 seconds
+{0: array([0, 1, 2, 3]), 4: array([ 4,  5,  8, 10]), 6: array([ 6,  7, 11,  9])}
+Hierarchical clustering: 0.0009996 seconds
+Number of clusters : 3
+Apriori with clusters: 44.9994065 seconds
+Merging with clusters: 0.0049865 seconds
+Combined time: 46.6261597 seconds
+similarity matrix: 1.3808403 seconds
+{0: array([0, 2, 3, 4]), 1: array([1, 7, 8, 9]), 5: array([ 5, 10, 11,  6])}
+Hierarchical clustering: 0.0009979 seconds
+Number of clusters : 3
+Apriori with clusters: 44.7161268 seconds
+Merging with clusters: 0.0049855 seconds
+Combined time: 46.1029505 seconds
+similarity matrix: 1.6073795 seconds
+{0: array([0, 2, 3, 4]), 1: array([1, 6, 7, 8]), 5: array([ 5, 10, 11,  9])}
+Hierarchical clustering: 0.0009973 seconds
+Number of clusters : 3
+Apriori with clusters: 44.7585433 seconds
+Merging with clusters: 0.0049829 seconds
+Combined time: 46.371903 seconds
+similarity matrix: 1.9101046 seconds
+{0: array([0, 1, 3, 5]), 2: array([ 2,  4,  6, 10]), 7: array([ 7,  8, 11,  9])}
+Hierarchical clustering: 0.0009954 seconds
+Number of clusters : 3
+Apriori with clusters: 44.8132707 seconds
+Merging with clusters: 0.0079801 seconds
+Combined time: 46.7323508 seconds
+similarity matrix: 2.5393379 seconds
+{1: array([1, 2, 3, 4]), 6: array([ 6,  8,  9, 11]), 0: array([ 0,  5,  7, 10])}
+Hierarchical clustering: 0.0009959 seconds
+Number of clusters : 3
+Apriori with clusters: 45.2476104 seconds
+Merging with clusters: 0.0428872 seconds
+Combined time: 47.8308314 seconds
+similarity matrix: 2.3399937 seconds
+{0: array([0, 1, 4, 5]), 2: array([2, 6, 7, 9]), 3: array([ 3, 10, 11,  8])}
+Hierarchical clustering: 0.0009914 seconds
+Number of clusters : 3
+Apriori with clusters: 45.5567664 seconds
+Merging with clusters: 0.0548545 seconds
+Combined time: 47.952606 seconds
+similarity matrix: 1.8382107 seconds
+{0: array([0, 2, 6, 7]), 1: array([1, 5, 8, 9]), 3: array([ 3, 11,  4, 10])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 44.7650168 seconds
+Merging with clusters: 0.0109705 seconds
+Combined time: 46.614198 seconds
+similarity matrix: 1.3035139 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 6, 7]), 8: array([ 8,  9, 11, 10])}
+Hierarchical clustering: 0.0009978 seconds
+Number of clusters : 3
+Apriori with clusters: 44.7384997 seconds
+Merging with clusters: 0.0049866 seconds
+Combined time: 46.047998 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 12 variables the time were:
+Similarity Matrix
+[1.6227909, 2.2531011, 1.6207671, 1.3808403, 1.6073795, 1.9101046, 2.5393379, 2.3399937, 1.8382107, 1.3035139]
+Hierarchical clustering
+[0.0009977, 0.000998, 0.0009996, 0.0009979, 0.0009973, 0.0009954, 0.0009959, 0.0009914, 0.0, 0.0009978]
+Apriori with clusters
+[45.0194479, 45.3293749, 44.9994065, 44.7161268, 44.7585433, 44.8132707, 45.2476104, 45.5567664, 44.7650168, 44.7384997]
+Merging of patterns
+[0.011968, 0.0139634, 0.0049865, 0.0049855, 0.0049829, 0.0079801, 0.0428872, 0.0548545, 0.0109705, 0.0049866]
+Number of patterns discovered
+[70, 70, 70, 67, 71, 77, 73, 89, 90, 65]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Random
+#########################################################################################
+similarity matrix: 1.5881362 seconds
+{0: ['6371', '6408', '5285', '1763'], 1: ['4948', '6124', '6123', '6312'], 2: ['4433', '4039', '4557', '284']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 44.5791783 seconds
+Merging with clusters: 0.0209439 seconds
+Combined time: 46.1882584 seconds
+similarity matrix: 2.2380262 seconds
+{0: ['4569', '4507', '4668', '1519'], 1: ['262', '5613', '6330', '2336'], 2: ['6380', '2325', '4761', '4908']}
+Hierarchical clustering: 0.0009975 seconds
+Number of clusters : 3
+Apriori with clusters: 45.0155546 seconds
+Merging with clusters: 0.0109701 seconds
+Combined time: 47.2655484 seconds
+similarity matrix: 1.5258822 seconds
+{0: ['6659', '7055', '4884', '1531'], 1: ['179', '6481', '4406', '1309'], 2: ['6712', '6001', '6105', '827']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 44.4876733 seconds
+Merging with clusters: 0.0059839 seconds
+Combined time: 46.0195394 seconds
+similarity matrix: 1.4152676 seconds
+{0: ['6939', '413', '4797', '6940'], 1: ['2459', '6774', '6164', '173'], 2: ['5884', '6673', '4147', '4583']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 44.4360133 seconds
+Merging with clusters: 0.0049863 seconds
+Combined time: 45.8562672 seconds
+similarity matrix: 1.5898708 seconds
+{0: ['4639', '6149', '31', '4107'], 1: ['6870', '6918', '25', '6389'], 2: ['6977', '4792', '6109', '474']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 44.8144732 seconds
+Merging with clusters: 0.0089761 seconds
+Combined time: 46.4133201 seconds
+similarity matrix: 1.9159809 seconds
+{0: ['4751', '4784', '275', '4949'], 1: ['4572', '269', '2458', '4787'], 2: ['6162', '1450', '6151', '5073']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 44.722427 seconds
+Merging with clusters: 0.011968 seconds
+Combined time: 46.6503759 seconds
+similarity matrix: 2.5802179 seconds
+{0: ['4045', '5576', '5714', '253'], 1: ['5585', '7046', '3360', '5694'], 2: ['6799', '5713', '4768', '4822']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 45.0248806 seconds
+Merging with clusters: 0.0418879 seconds
+Combined time: 47.6469864 seconds
+similarity matrix: 2.2330537 seconds
+{0: ['6940', '6521', '5425', '62'], 1: ['90', '6349', '5375', '287'], 2: ['6813', '7052', '318', '33']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 45.574894 seconds
+Merging with clusters: 0.0767948 seconds
+Combined time: 47.8847425 seconds
+similarity matrix: 1.7822737 seconds
+{0: ['309', '5953', '2459', '6325'], 1: ['6275', '91', '5013', '2478'], 2: ['2340', '7096', '5324', '255']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 44.5738291 seconds
+Merging with clusters: 0.01097 seconds
+Combined time: 46.3670728 seconds
+similarity matrix: 1.3434074 seconds
+{0: ['6935', '4464', '6871', '6592'], 1: ['4008', '218', '5185', '2321'], 2: ['6824', '6035', '6205', '6420']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 44.3027449 seconds
+Merging with clusters: 0.0039917 seconds
+Combined time: 45.650144 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 12 variables the time were:
+Similarity Matrix
+[1.5881362, 2.2380262, 1.5258822, 1.4152676, 1.5898708, 1.9159809, 2.5802179, 2.2330537, 1.7822737, 1.3434074]
+Hierarchical clustering
+[0.0, 0.0009975, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Apriori with clusters
+[44.5791783, 45.0155546, 44.4876733, 44.4360133, 44.8144732, 44.722427, 45.0248806, 45.574894, 44.5738291, 44.3027449]
+Merging of patterns
+[0.0209439, 0.0109701, 0.0059839, 0.0049863, 0.0089761, 0.011968, 0.0418879, 0.0767948, 0.01097, 0.0039917]
+Number of patterns discovered
+[58, 82, 54, 55, 71, 77, 86, 68, 53, 65]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Number of variables: 16
+
+
+#########################################################################################
+#########################################################################################
+Similar
+#########################################################################################
+similarity matrix: 4.1760649 seconds
+{10: array([10, 13, 15, 14]), 2: array([ 2,  3,  9, 12]), 0: array([0, 4, 5, 1]), 6: array([ 6,  7,  8, 11])}
+Hierarchical clustering: 0.0019908 seconds
+Number of clusters : 4
+Apriori with clusters: 60.1671336 seconds
+Merging with clusters: 1.472062 seconds
+Combined time: 65.8172513 seconds
+similarity matrix: 3.4557251 seconds
+{10: array([10, 11,  2, 13]), 0: array([ 0,  9, 12,  5]), 1: array([1, 3, 6, 7]), 4: array([ 4, 14, 15,  8])}
+Hierarchical clustering: 0.001037 seconds
+Number of clusters : 4
+Apriori with clusters: 60.3698396 seconds
+Merging with clusters: 0.6193423 seconds
+Combined time: 64.445944 seconds
+similarity matrix: 2.0357322 seconds
+{3: array([ 3,  7, 15,  8]), 0: array([0, 1, 2, 4]), 5: array([ 5,  6,  9, 10]), 11: array([11, 12, 13, 14])}
+Hierarchical clustering: 0.000996 seconds
+Number of clusters : 4
+Apriori with clusters: 59.9507498 seconds
+Merging with clusters: 0.122672 seconds
+Combined time: 62.11015 seconds
+similarity matrix: 1.90405 seconds
+{0: array([0, 7, 1, 2]), 3: array([ 3,  4, 10, 11]), 5: array([ 5, 15,  6,  8]), 9: array([ 9, 12, 13, 14])}
+Hierarchical clustering: 0.0009978 seconds
+Number of clusters : 4
+Apriori with clusters: 59.6111308 seconds
+Merging with clusters: 0.0877651 seconds
+Combined time: 61.6039437 seconds
+similarity matrix: 4.7377001 seconds
+{3: array([ 3, 14,  9, 12]), 1: array([ 1,  4, 13,  8]), 5: array([ 5,  7,  6, 15]), 0: array([ 0,  2, 11, 10])}
+Hierarchical clustering: 0.0009977 seconds
+Number of clusters : 4
+Apriori with clusters: 60.7225352 seconds
+Merging with clusters: 2.1573214 seconds
+Combined time: 67.6185544 seconds
+similarity matrix: 4.0113148 seconds
+{1: array([ 1, 11,  4, 15]), 0: array([0, 2, 3, 5]), 6: array([ 6,  7,  8, 13]), 9: array([ 9, 10, 12, 14])}
+Hierarchical clustering: 0.0019869 seconds
+Number of clusters : 4
+Apriori with clusters: 61.1816269 seconds
+Merging with clusters: 0.5385575 seconds
+Combined time: 65.7334861 seconds
+similarity matrix: 2.4464543 seconds
+{8: array([ 8, 12, 14, 15]), 0: array([0, 1, 2, 4]), 3: array([ 3, 11,  5,  6]), 7: array([ 7,  9, 10, 13])}
+Hierarchical clustering: 0.0009976 seconds
+Number of clusters : 4
+Apriori with clusters: 59.3818256 seconds
+Merging with clusters: 0.1565815 seconds
+Combined time: 61.985859 seconds
+similarity matrix: 3.6922303 seconds
+{4: array([4, 5, 9, 6]), 0: array([0, 1, 2, 7]), 3: array([ 3, 10,  8, 11]), 12: array([12, 13, 14, 15])}
+Hierarchical clustering: 0.0019896 seconds
+Number of clusters : 4
+Apriori with clusters: 61.5366925 seconds
+Merging with clusters: 0.3081799 seconds
+Combined time: 65.5390923 seconds
+similarity matrix: 3.1000035 seconds
+{0: array([ 0,  7, 15,  5]), 2: array([ 2,  8, 12, 14]), 1: array([ 1,  3,  4, 13]), 6: array([ 6, 11,  9, 10])}
+Hierarchical clustering: 0.0019987 seconds
+Number of clusters : 4
+Apriori with clusters: 60.0829465 seconds
+Merging with clusters: 0.3540911 seconds
+Combined time: 63.5390398 seconds
+similarity matrix: 5.958325 seconds
+{2: array([2, 4, 5, 9]), 3: array([ 3, 13, 11,  8]), 0: array([0, 1, 6, 7]), 10: array([10, 12, 14, 15])}
+Hierarchical clustering: 0.0019925 seconds
+Number of clusters : 4
+Apriori with clusters: 62.3065094 seconds
+Merging with clusters: 1.9327921 seconds
+Combined time: 70.199619 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 16 variables the time were:
+Similarity Matrix
+[4.1760649, 3.4557251, 2.0357322, 1.90405, 4.7377001, 4.0113148, 2.4464543, 3.6922303, 3.1000035, 5.958325]
+Hierarchical clustering
+[0.0019908, 0.001037, 0.000996, 0.0009978, 0.0009977, 0.0019869, 0.0009976, 0.0019896, 0.0019987, 0.0019925]
+Apriori with clusters
+[60.1671336, 60.3698396, 59.9507498, 59.6111308, 60.7225352, 61.1816269, 59.3818256, 61.5366925, 60.0829465, 62.3065094]
+Merging of patterns
+[1.472062, 0.6193423, 0.122672, 0.0877651, 2.1573214, 0.5385575, 0.1565815, 0.3081799, 0.3540911, 1.9327921]
+Number of patterns discovered
+[134, 288, 342, 128, 221, 166, 269, 95, 147, 191]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Dissimilar
+#########################################################################################
+similarity matrix: 4.2368357 seconds
+{0: array([0, 1, 2, 4]), 3: array([3, 5, 6, 7]), 8: array([ 8,  9, 11, 12]), 10: array([10, 14, 13, 15])}
+Hierarchical clustering: 0.0009991 seconds
+Number of clusters : 4
+Apriori with clusters: 59.8611545 seconds
+Merging with clusters: 0.421983 seconds
+Combined time: 64.5209723 seconds
+similarity matrix: 3.5675497 seconds
+{0: array([0, 3, 6, 8]), 1: array([1, 2, 4, 5]), 7: array([ 7,  9, 11, 14]), 10: array([10, 15, 13, 12])}
+Hierarchical clustering: 0.0019949 seconds
+Number of clusters : 4
+Apriori with clusters: 59.5016089 seconds
+Merging with clusters: 0.0957419 seconds
+Combined time: 63.1668954 seconds
+similarity matrix: 2.0106437 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 6, 7]), 8: array([ 8,  9, 10, 11]), 12: array([12, 13, 14, 15])}
+Hierarchical clustering: 0.0009976 seconds
+Number of clusters : 4
+Apriori with clusters: 59.2255896 seconds
+Merging with clusters: 0.0369087 seconds
+Combined time: 61.2741396 seconds
+similarity matrix: 1.9340535 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 6, 7]), 8: array([ 8,  9, 10, 12]), 11: array([11, 13, 14, 15])}
+Hierarchical clustering: 0.0019952 seconds
+Number of clusters : 4
+Apriori with clusters: 59.6316388 seconds
+Merging with clusters: 0.0378992 seconds
+Combined time: 61.6055867 seconds
+similarity matrix: 4.8048404 seconds
+{0: array([0, 2, 4, 5]), 3: array([ 3, 10, 12, 15]), 1: array([ 1,  8,  9, 14]), 6: array([ 6,  7, 11, 13])}
+Hierarchical clustering: 0.0009958 seconds
+Number of clusters : 4
+Apriori with clusters: 60.4883467 seconds
+Merging with clusters: 0.1915267 seconds
+Combined time: 65.4857096 seconds
+similarity matrix: 4.1370705 seconds
+{0: array([0, 2, 3, 4]), 5: array([5, 6, 7, 9]), 8: array([ 8, 10, 12, 13]), 1: array([ 1, 14, 15, 11])}
+Hierarchical clustering: 0.0009945 seconds
+Number of clusters : 4
+Apriori with clusters: 61.348108 seconds
+Merging with clusters: 0.7260546 seconds
+Combined time: 66.2122276 seconds
+similarity matrix: 2.3817562 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 6, 7]), 8: array([ 8,  9, 10, 11]), 12: array([12, 13, 15, 14])}
+Hierarchical clustering: 0.0009973 seconds
+Number of clusters : 4
+Apriori with clusters: 59.4538668 seconds
+Merging with clusters: 0.083776 seconds
+Combined time: 61.9203963 seconds
+similarity matrix: 3.7310455 seconds
+{0: array([0, 1, 2, 3]), 4: array([ 4,  7, 11, 12]), 6: array([ 6, 10, 13, 14]), 5: array([ 5,  8, 15,  9])}
+Hierarchical clustering: 0.0009976 seconds
+Number of clusters : 4
+Apriori with clusters: 61.2317349 seconds
+Merging with clusters: 0.6582398 seconds
+Combined time: 65.6220178 seconds
+similarity matrix: 2.9713178 seconds
+{0: array([ 0,  6, 10, 12]), 1: array([ 1,  2,  3, 13]), 4: array([4, 5, 7, 8]), 9: array([ 9, 11, 14, 15])}
+Hierarchical clustering: 0.000994 seconds
+Number of clusters : 4
+Apriori with clusters: 60.4172337 seconds
+Merging with clusters: 0.0428933 seconds
+Combined time: 63.4324388 seconds
+similarity matrix: 5.9373804 seconds
+{0: array([0, 1, 3, 6]), 2: array([ 2,  7, 10, 15]), 8: array([ 8, 12, 11, 14]), 4: array([ 4,  5, 13,  9])}
+Hierarchical clustering: 0.0019929 seconds
+Number of clusters : 4
+Apriori with clusters: 62.1304821 seconds
+Merging with clusters: 3.3372028 seconds
+Combined time: 71.4070582 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 16 variables the time were:
+Similarity Matrix
+[4.2368357, 3.5675497, 2.0106437, 1.9340535, 4.8048404, 4.1370705, 2.3817562, 3.7310455, 2.9713178, 5.9373804]
+Hierarchical clustering
+[0.0009991, 0.0019949, 0.0009976, 0.0019952, 0.0009958, 0.0009945, 0.0009973, 0.0009976, 0.000994, 0.0019929]
+Apriori with clusters
+[59.8611545, 59.5016089, 59.2255896, 59.6316388, 60.4883467, 61.348108, 59.4538668, 61.2317349, 60.4172337, 62.1304821]
+Merging of patterns
+[0.421983, 0.0957419, 0.0369087, 0.0378992, 0.1915267, 0.7260546, 0.083776, 0.6582398, 0.0428933, 3.3372028]
+Number of patterns discovered
+[134, 304, 278, 276, 317, 186, 285, 175, 295, 191]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Random
+#########################################################################################
+similarity matrix: 4.2300173 seconds
+{0: ['7054', '4728', '6640', '5125'], 1: ['4642', '1385', '4507', '165'], 2: ['6163', '4448', '4604', '6283'], 3: ['7044', '6493', '2482', '4816']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 60.1799785 seconds
+Merging with clusters: 0.5477022 seconds
+Combined time: 64.957698 seconds
+similarity matrix: 3.5068716 seconds
+{0: ['4466', '221', '4822', '4039'], 1: ['1485', '6163', '211', '4439'], 2: ['4791', '2473', '6043', '6858'], 3: ['296', '6062', '5854', '6392']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 62.5447408 seconds
+Merging with clusters: 0.2454312 seconds
+Combined time: 66.2970436 seconds
+similarity matrix: 2.0227598 seconds
+{0: ['4559', '4456', '4783', '6399'], 1: ['5634', '658', '1452', '6090'], 2: ['4610', '1014', '31', '5125'], 3: ['37', '529', '4595', '2342']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 59.8531124 seconds
+Merging with clusters: 0.0538561 seconds
+Combined time: 61.9297283 seconds
+similarity matrix: 1.8830033 seconds
+{0: ['6604', '6774', '5484', '6029'], 1: ['2337', '2456', '4013', '1233'], 2: ['4664', '5945', '6723', '6799'], 3: ['5494', '5613', '6331', '5453']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 59.7169299 seconds
+Merging with clusters: 0.0528585 seconds
+Combined time: 61.6527917 seconds
+similarity matrix: 4.8939466 seconds
+{0: ['2463', '224', '4818', '6690'], 1: ['6907', '1198', '4444', '5946'], 2: ['6032', '6322', '6897', '6968'], 3: ['10', '5225', '309', '5744']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 62.4322104 seconds
+Merging with clusters: 0.8267873 seconds
+Combined time: 68.1529443 seconds
+similarity matrix: 4.0373107 seconds
+{0: ['6865', '5355', '260', '2484'], 1: ['1046', '2018', '5675', '1601'], 2: ['6755', '306', '6082', '6390'], 3: ['4918', '6933', '160', '6911']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 62.3091077 seconds
+Merging with clusters: 0.4059555 seconds
+Combined time: 66.7523739 seconds
+similarity matrix: 2.5003101 seconds
+{0: ['6380', '1046', '6918', '4789'], 1: ['2413', '5343', '2406', '2452'], 2: ['46', '658', '2373', '6951'], 3: ['4', '6772', '4181', '2447']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 60.4575343 seconds
+Merging with clusters: 0.0628318 seconds
+Combined time: 63.0206762 seconds
+similarity matrix: 3.7420293 seconds
+{0: ['4570', '6902', '7102', '5234'], 1: ['451', '7045', '3361', '4870'], 2: ['5794', '6481', '4908', '6699'], 3: ['4061', '5613', '6112', '7053']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 63.7088361 seconds
+Merging with clusters: 0.1994665 seconds
+Combined time: 67.6503319 seconds
+similarity matrix: 3.047898 seconds
+{0: ['6143', '6541', '4804', '6958'], 1: ['1091', '4200', '4872', '4082'], 2: ['5453', '6914', '5423', '6141'], 3: ['426', '4492', '6120', '2373']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 60.4411426 seconds
+Merging with clusters: 0.2054507 seconds
+Combined time: 63.6944913 seconds
+similarity matrix: 6.0419824 seconds
+{0: ['7092', '1589', '6749', '880'], 1: ['4645', '4628', '2420', '4504'], 2: ['4657', '4286', '4407', '66'], 3: ['179', '6294', '17', '153']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 65.7504825 seconds
+Merging with clusters: 1.5199356 seconds
+Combined time: 73.3124005 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 16 variables the time were:
+Similarity Matrix
+[4.2300173, 3.5068716, 2.0227598, 1.8830033, 4.8939466, 4.0373107, 2.5003101, 3.7420293, 3.047898, 6.0419824]
+Hierarchical clustering
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Apriori with clusters
+[60.1799785, 62.5447408, 59.8531124, 59.7169299, 62.4322104, 62.3091077, 60.4575343, 63.7088361, 60.4411426, 65.7504825]
+Merging of patterns
+[0.5477022, 0.2454312, 0.0538561, 0.0528585, 0.8267873, 0.4059555, 0.0628318, 0.1994665, 0.2054507, 1.5199356]
+Number of patterns discovered
+[158, 156, 214, 164, 131, 250, 173, 155, 183, 197]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Number of variables: 20
+
+
+#########################################################################################
+#########################################################################################
+Similar
+#########################################################################################
+similarity matrix: 4.164886 seconds
+{4: array([ 4, 19, 10, 15]), 0: array([ 0, 16, 14,  1]), 2: array([2, 3, 5, 6]), 7: array([ 7,  8,  9, 11]), 12: array([12, 13, 17, 18])}
+Hierarchical clustering: 0.0019945 seconds
+Number of clusters : 5
+Apriori with clusters: 74.5084167 seconds
+Merging with clusters: 7.7117064 seconds
+Combined time: 86.3870036 seconds
+similarity matrix: 6.3871368 seconds
+{0: array([ 0,  4,  5, 17]), 1: array([ 1, 16, 19, 12]), 2: array([2, 3, 6, 7]), 8: array([ 8,  9, 10, 13]), 11: array([11, 18, 14, 15])}
+Hierarchical clustering: 0.0029924 seconds
+Number of clusters : 5
+Apriori with clusters: 78.4522923 seconds
+Merging with clusters: 27.5265707 seconds
+Combined time: 112.3689922 seconds
+similarity matrix: 6.6202984 seconds
+{1: array([ 1,  2,  9, 11]), 0: array([ 0,  4, 19, 18]), 3: array([ 3,  5, 15,  6]), 7: array([ 7, 13,  8, 10]), 12: array([12, 14, 16, 17])}
+Hierarchical clustering: 0.0019926 seconds
+Number of clusters : 5
+Apriori with clusters: 77.0194843 seconds
+Merging with clusters: 33.5830105 seconds
+Combined time: 117.2247858 seconds
+similarity matrix: 7.4630367 seconds
+{1: array([ 1,  2, 18,  3]), 5: array([ 5,  7,  9, 19]), 0: array([0, 4, 6, 8]), 10: array([10, 12, 16, 11]), 13: array([13, 15, 14, 17])}
+Hierarchical clustering: 0.0029926 seconds
+Number of clusters : 5
+Apriori with clusters: 77.17403 seconds
+Merging with clusters: 73.3204711 seconds
+Combined time: 157.9605304 seconds
+similarity matrix: 4.5488354 seconds
+{2: array([ 2,  7, 13, 16]), 5: array([ 5,  6, 10, 18]), 0: array([ 0,  1, 14,  3]), 4: array([ 4,  8,  9, 11]), 12: array([12, 15, 17, 19])}
+Hierarchical clustering: 0.0029922 seconds
+Number of clusters : 5
+Apriori with clusters: 74.4740839 seconds
+Merging with clusters: 8.9942225 seconds
+Combined time: 88.020134 seconds
+similarity matrix: 3.7932456 seconds
+{6: array([ 6, 16,  3, 14]), 2: array([ 2,  9,  7, 10]), 0: array([ 0,  1,  5, 11]), 4: array([ 4, 15, 19,  8]), 12: array([12, 13, 17, 18])}
+Hierarchical clustering: 0.0029924 seconds
+Number of clusters : 5
+Apriori with clusters: 75.3529828 seconds
+Merging with clusters: 17.6280483 seconds
+Combined time: 96.7772691 seconds
+similarity matrix: 4.5708612 seconds
+{2: array([ 2, 14,  8, 11]), 3: array([ 3, 12,  6,  9]), 1: array([ 1, 13, 16, 18]), 0: array([ 0,  4,  5, 15]), 7: array([ 7, 10, 17, 19])}
+Hierarchical clustering: 0.0029921 seconds
+Number of clusters : 5
+Apriori with clusters: 74.3815073 seconds
+Merging with clusters: 16.3660968 seconds
+Combined time: 95.3214574 seconds
+similarity matrix: 4.4534332 seconds
+{6: array([ 6, 10, 13, 17]), 8: array([ 8, 14, 11, 19]), 0: array([ 0,  1, 15,  2]), 3: array([3, 4, 5, 9]), 7: array([ 7, 12, 16, 18])}
+Hierarchical clustering: 0.002992 seconds
+Number of clusters : 5
+Apriori with clusters: 76.392762 seconds
+Merging with clusters: 11.2359413 seconds
+Combined time: 92.0851285 seconds
+similarity matrix: 6.9196505 seconds
+{12: array([12, 18, 15, 16]), 2: array([ 2,  9, 17, 13]), 0: array([ 0, 11,  1,  3]), 4: array([4, 7, 5, 6]), 8: array([ 8, 10, 14, 19])}
+Hierarchical clustering: 0.0019967 seconds
+Number of clusters : 5
+Apriori with clusters: 75.4447516 seconds
+Merging with clusters: 58.5966503 seconds
+Combined time: 140.9630491 seconds
+similarity matrix: 5.7496095 seconds
+{1: array([ 1, 10, 15, 17]), 2: array([ 2, 14,  5,  9]), 0: array([0, 3, 4, 6]), 7: array([ 7,  8, 11, 12]), 13: array([13, 16, 18, 19])}
+Hierarchical clustering: 0.0019947 seconds
+Number of clusters : 5
+Apriori with clusters: 75.3659114 seconds
+Merging with clusters: 9.5917421 seconds
+Combined time: 90.7092577 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 20 variables the time were:
+Similarity Matrix
+[4.164886, 6.3871368, 6.6202984, 7.4630367, 4.5488354, 3.7932456, 4.5708612, 4.4534332, 6.9196505, 5.7496095]
+Hierarchical clustering
+[0.0019945, 0.0029924, 0.0019926, 0.0029926, 0.0029922, 0.0029924, 0.0029921, 0.002992, 0.0019967, 0.0019947]
+Apriori with clusters
+[74.5084167, 78.4522923, 77.0194843, 77.17403, 74.4740839, 75.3529828, 74.3815073, 76.392762, 75.4447516, 75.3659114]
+Merging of patterns
+[7.7117064, 27.5265707, 33.5830105, 73.3204711, 8.9942225, 17.6280483, 16.3660968, 11.2359413, 58.5966503, 9.5917421]
+Number of patterns discovered
+[627, 293, 459, 349, 349, 367, 635, 274, 354, 663]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Dissimilar
+#########################################################################################
+similarity matrix: 4.1740537 seconds
+{0: array([0, 1, 2, 3]), 4: array([ 4,  5,  8, 12]), 6: array([ 6,  7,  9, 10]), 11: array([11, 13, 14, 15]), 16: array([16, 18, 17, 19])}
+Hierarchical clustering: 0.0019947 seconds
+Number of clusters : 5
+Apriori with clusters: 76.0029496 seconds
+Merging with clusters: 1.0890879 seconds
+Combined time: 81.2680859 seconds
+similarity matrix: 6.3869434 seconds
+{0: array([0, 1, 6, 7]), 2: array([2, 3, 8, 9]), 10: array([10, 11, 12, 14]), 5: array([ 5, 13, 15, 16]), 4: array([ 4, 18, 19, 17])}
+Hierarchical clustering: 0.0019948 seconds
+Number of clusters : 5
+Apriori with clusters: 78.8357133 seconds
+Merging with clusters: 4.3325638 seconds
+Combined time: 89.5572153 seconds
+similarity matrix: 6.582859 seconds
+{0: array([0, 1, 3, 5]), 2: array([ 2,  6,  7, 10]), 8: array([ 8,  9, 12, 14]), 11: array([11, 15, 16, 17]), 4: array([ 4, 13, 19, 18])}
+Hierarchical clustering: 0.0019963 seconds
+Number of clusters : 5
+Apriori with clusters: 76.8293674 seconds
+Merging with clusters: 7.2386429 seconds
+Combined time: 90.6528656 seconds
+similarity matrix: 7.6311489 seconds
+{5: array([ 5,  6,  8, 11]), 7: array([ 7,  9, 12, 13]), 10: array([10, 14, 15, 17]), 0: array([ 0,  3,  4, 16]), 1: array([ 1, 18, 19,  2])}
+Hierarchical clustering: 0.0029956 seconds
+Number of clusters : 5
+Apriori with clusters: 77.9769027 seconds
+Merging with clusters: 11.6295065 seconds
+Combined time: 97.2405537 seconds
+similarity matrix: 4.7933504 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 7, 8]), 6: array([ 6, 11, 12, 19]), 9: array([ 9, 10, 14, 15]), 13: array([13, 16, 17, 18])}
+Hierarchical clustering: 0.0019994 seconds
+Number of clusters : 5
+Apriori with clusters: 75.5860022 seconds
+Merging with clusters: 1.2785813 seconds
+Combined time: 81.6599333 seconds
+similarity matrix: 3.7230975 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 6, 7]), 8: array([ 8,  9, 10, 11]), 12: array([12, 13, 15, 17]), 14: array([14, 18, 19, 16])}
+Hierarchical clustering: 0.0029841 seconds
+Number of clusters : 5
+Apriori with clusters: 75.4965304 seconds
+Merging with clusters: 1.1349651 seconds
+Combined time: 80.3575771 seconds
+similarity matrix: 4.7026794 seconds
+{0: array([0, 1, 4, 5]), 2: array([ 2,  7,  9, 13]), 3: array([ 3,  6, 10, 14]), 11: array([11, 15, 16, 17]), 8: array([ 8, 18, 12, 19])}
+Hierarchical clustering: 0.002003 seconds
+Number of clusters : 5
+Apriori with clusters: 74.9338672 seconds
+Merging with clusters: 1.089121 seconds
+Combined time: 80.7276706 seconds
+similarity matrix: 4.6179812 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 6, 7]), 8: array([ 8,  9, 11, 12]), 10: array([10, 13, 14, 15]), 16: array([16, 18, 19, 17])}
+Hierarchical clustering: 0.0019948 seconds
+Number of clusters : 5
+Apriori with clusters: 76.060528 seconds
+Merging with clusters: 1.8490541 seconds
+Combined time: 82.5295581 seconds
+similarity matrix: 7.0355869 seconds
+{0: array([0, 1, 3, 4]), 2: array([2, 5, 6, 7]), 8: array([ 8, 10, 11, 13]), 9: array([ 9, 14, 19, 16]), 12: array([12, 17, 15, 18])}
+Hierarchical clustering: 0.0019867 seconds
+Number of clusters : 5
+Apriori with clusters: 77.2707916 seconds
+Merging with clusters: 9.481885 seconds
+Combined time: 93.7902502 seconds
+similarity matrix: 5.6232098 seconds
+{0: array([0, 2, 3, 4]), 1: array([ 1,  5,  8, 11]), 6: array([ 6,  7,  9, 12]), 10: array([10, 13, 16, 18]), 14: array([14, 19, 15, 17])}
+Hierarchical clustering: 0.0029924 seconds
+Number of clusters : 5
+Apriori with clusters: 76.7441286 seconds
+Merging with clusters: 2.9254198 seconds
+Combined time: 85.2957506 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 20 variables the time were:
+Similarity Matrix
+[4.1740537, 6.3869434, 6.582859, 7.6311489, 4.7933504, 3.7230975, 4.7026794, 4.6179812, 7.0355869, 5.6232098]
+Hierarchical clustering
+[0.0019947, 0.0019948, 0.0019963, 0.0029956, 0.0019994, 0.0029841, 0.002003, 0.0019948, 0.0019867, 0.0029924]
+Apriori with clusters
+[76.0029496, 78.8357133, 76.8293674, 77.9769027, 75.5860022, 75.4965304, 74.9338672, 76.060528, 77.2707916, 76.7441286]
+Merging of patterns
+[1.0890879, 4.3325638, 7.2386429, 11.6295065, 1.2785813, 1.1349651, 1.089121, 1.8490541, 9.481885, 2.9254198]
+Number of patterns discovered
+[819, 677, 355, 349, 829, 811, 827, 826, 330, 599]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Random
+#########################################################################################
+similarity matrix: 4.1581346 seconds
+{0: ['2482', '5364', '1729', '2351'], 1: ['6745', '2355', '2119', '6523'], 2: ['4029', '6948', '537', '6015'], 3: ['4985', '81', '7044', '1233'], 4: ['6590', '5524', '6414', '5954']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 75.34497 seconds
+Merging with clusters: 3.5976457 seconds
+Combined time: 83.1007503 seconds
+similarity matrix: 6.2537121 seconds
+{0: ['2439', '4648', '6831', '6385'], 1: ['4433', '5734', '6394', '1018'], 2: ['6659', '2301', '1474', '493'], 3: ['5503', '52', '5674', '6880'], 4: ['2440', '14', '1198', '4606']}
+Hierarchical clustering: 0.0009977 seconds
+Number of clusters : 5
+Apriori with clusters: 77.2945289 seconds
+Merging with clusters: 13.9015765 seconds
+Combined time: 97.4508152 seconds
+similarity matrix: 6.5020022 seconds
+{0: ['1294', '4929', '6523', '6204'], 1: ['2439', '4458', '6210', '0'], 2: ['1018', '5505', '17', '6875'], 3: ['4626', '5784', '6369', '5393'], 4: ['306', '4559', '6469', '5464']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 77.5243414 seconds
+Merging with clusters: 8.7231086 seconds
+Combined time: 92.7494522 seconds
+similarity matrix: 7.6805887 seconds
+{0: ['28', '1589', '195', '5204'], 1: ['4785', '520', '6052', '7045'], 2: ['5971', '4536', '70', '6744'], 3: ['6824', '5115', '4565', '11'], 4: ['2329', '548', '4496', '4811']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 78.6666405 seconds
+Merging with clusters: 18.6259563 seconds
+Combined time: 104.9731855 seconds
+similarity matrix: 4.5309348 seconds
+{0: ['6154', '4761', '4049', '4873'], 1: ['6860', '6700', '1101', '6680'], 2: ['266', '4941', '6105', '4935'], 3: ['4862', '6001', '880', '6912'], 4: ['4419', '6031', '6585', '305']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 81.46742 seconds
+Merging with clusters: 5.3596719 seconds
+Combined time: 91.3580267 seconds
+similarity matrix: 4.3144249 seconds
+{0: ['4585', '4163', '2327', '4593'], 1: ['6022', '6961', '4206', '4416'], 2: ['4945', '2409', '4639', '5714'], 3: ['4541', '4871', '5854', '2310'], 4: ['6249', '6162', '5424', '5343']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 81.4450089 seconds
+Merging with clusters: 0.8152766 seconds
+Combined time: 86.5747104 seconds
+similarity matrix: 4.9397991 seconds
+{0: ['6080', '24', '4661', '4761'], 1: ['4649', '4412', '52', '6120'], 2: ['524', '6321', '4806', '5586'], 3: ['2307', '1440', '485', '6263'], 4: ['5885', '5483', '4852', '1349']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 94.9574103 seconds
+Merging with clusters: 2.2360162 seconds
+Combined time: 102.1332256 seconds
+similarity matrix: 4.8679865 seconds
+{0: ['2476', '6372', '5625', '7025'], 1: ['49', '5164', '6752', '5313'], 2: ['5893', '4953', '6050', '5375'], 3: ['6833', '4829', '6930', '7007'], 4: ['6934', '4463', '5494', '5564']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 82.1576695 seconds
+Merging with clusters: 2.0263415 seconds
+Combined time: 89.0529914 seconds
+similarity matrix: 7.779871 seconds
+{0: ['5214', '2336', '4814', '1535'], 1: ['4544', '4663', '176', '6895'], 2: ['4171', '7114', '6025', '4542'], 3: ['160', '382', '2349', '6152'], 4: ['2227', '274', '82', '197']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 88.6311405 seconds
+Merging with clusters: 22.2718445 seconds
+Combined time: 118.682856 seconds
+similarity matrix: 5.8034819 seconds
+{0: ['702', '6395', '4763', '7056'], 1: ['6931', '5895', '5663', '6986'], 2: ['6922', '4594', '2460', '6260'], 3: ['4439', '1658', '4653', '7026'], 4: ['2404', '4648', '6393', '4108']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 78.5909353 seconds
+Merging with clusters: 4.1803734 seconds
+Combined time: 88.5747906 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 20 variables the time were:
+Similarity Matrix
+[4.1581346, 6.2537121, 6.5020022, 7.6805887, 4.5309348, 4.3144249, 4.9397991, 4.8679865, 7.779871, 5.8034819]
+Hierarchical clustering
+[0.0, 0.0009977, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Apriori with clusters
+[75.34497, 77.2945289, 77.5243414, 78.6666405, 81.46742, 81.4450089, 94.9574103, 82.1576695, 88.6311405, 78.5909353]
+Merging of patterns
+[3.5976457, 13.9015765, 8.7231086, 18.6259563, 5.3596719, 0.8152766, 2.2360162, 2.0263415, 22.2718445, 4.1803734]
+Number of patterns discovered
+[1011, 533, 342, 400, 637, 811, 302, 826, 300, 411]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################

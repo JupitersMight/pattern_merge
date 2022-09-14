@@ -6,14 +6,18 @@ from apriori_numerical import runApriori
 import time
 from sklearn.cluster import AgglomerativeClustering
 from merge_patterns import merge_patterns
+from merge_patterns import merge_patterns_a
 import random
 from scipy.stats import binom
 from scipy.special import betainc
+from scipy.special import betaincinv
 
+#x = betaincinv(100, 1300, 0.33*0.33*0.33)
+#x = binom.ppf(q=0.05, n=1300, p=0.33*0.33*0.33)
+#y = betainc(100, 1300, 0.33)
+#Y = 1 - binom.cdf(10, 1300, 0.33*0.33*0.33)
+#y = 0
 
-x = binom.ppf(q=0.05, n=1300, p=0.2)
-y = 1 - binom.cdf(236, 1300, 0.2)
-y = 0
 
 def average_link(active_set, sim_matrix, max_num_per_cluster, broken_down):
     g1 = 0
@@ -254,7 +258,7 @@ d = pandas.DataFrame(data=[
 similarity_m = construct_distance_matrix(d, "constant")
 
 
-datasets = ["datasets/chess.txt"] #, "datasets/accidents.txt", "datasets/pumsb.txt"]
+datasets = ["datasets/pumsb.txt"] #, "datasets/accidents.txt", "datasets/pumsb.txt"]
 
 for file in datasets:
     print("Current file: " + file)
@@ -287,15 +291,16 @@ for file in datasets:
     for col in df.columns:
         ones += len(df[df[col] == 1])
 
+    number_of_variables = [4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,64,68,72]
+    max_per_cluster = 4
     total_entries = df.shape[0] * df.shape[1]
     p = ones/total_entries
     n = len(df[df.columns[0]])
+    p = pow(p, max_per_cluster)
     min_support = binom.ppf(q=0.05, n=n, p=p)/n
 
     print("Minimum support : "+str(min_support))
 
-    number_of_variables = [8,16,24,32,40,48]#[6,12,18,24,30,36,42,48,54,60]#[4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,64,68,72]
-    max_per_cluster = 8
     for N in number_of_variables:
         print("#########################################################################################")
         print("Number of variables: " + str(N))
@@ -311,6 +316,10 @@ for file in datasets:
         hierarchical_times = []
         apriori_clusters_times = []
         merging_times = []
+        intersections = []
+        variables_subsets = []
+        variables_per_pattern = []
+        observations_per_pattern = []
 
         #hierarchichal clustering properties
         patterns_discovered = []
@@ -348,15 +357,41 @@ for file in datasets:
                 for value in clusters[cluster]:
                     columns_to_use.append(copy_df.columns[value])
                 df_copy = copy_df[columns_to_use].copy()
-                y=runApriori(data_iter=df_copy, class_vector=0, minSupport=min_support, minLift=1.3)
+                y = runApriori(data_iter=df_copy, class_vector=0, minSupport=min_support, minLift=1.3)
+                y = merge_patterns([y], nr_lines, min_support)
                 clusters_apriori.append(y)
 
             end = time.time_ns()
             apriori_clusters_times.append((end - s1) / 1000000000)
             print("Apriori with clusters: " + str((end - s1) / 1000000000) + " seconds")
+            print("#########################################################################################")
+            print("Intermediate analysis")
+            nr_patterns_bef = []
+            size_obs_bef = []
+            size_vars = []
+            for cluster in clusters_apriori:
+                nr_patterns_bef.append(len(cluster))
+                variables_p = []
+                obs_p = []
+                for pattern in cluster:
+                    variables_p.append(len(pattern["columns"]))
+                    obs_p.append(len(pattern["indexes"]))
+                size_obs_bef.append(round((sum(obs_p)/(len(cluster) if len(cluster) > 0 else 1)), 0))
+                size_vars.append(round(sum(variables_p)/(len(cluster) if len(cluster) > 0 else 1), 2))
 
+            observations_per_pattern.append(sum(size_obs_bef)/len(clusters_apriori))
+            variables_per_pattern.append(sum(size_vars)/len(clusters_apriori))
+            print("Number of patterns per cluster: "+ str(nr_patterns_bef))
+            print("Average number of observations per cluster: "+ str(size_obs_bef))
+            print("Average number of variables per cluster: "+ str(size_vars))
+            print("End of intermediate analysis")
+            print("#########################################################################################")
             start_merge = time.time_ns()
-            result = merge_patterns(clusters_apriori, nr_lines, min_support)
+            intermediate_intersections = []
+            intermediate_variables = []
+            result = merge_patterns_a(clusters_apriori, nr_lines, min_support, intermediate_intersections, intermediate_variables)
+            intersections.append(sum(intermediate_intersections))
+            variables_subsets.append(sum(intermediate_variables))
             end_merge = time.time_ns()
             merging_times.append((end_merge - start_merge) / 1000000000)
 
@@ -377,6 +412,15 @@ for file in datasets:
         print("Merging of patterns")
         print(str(merging_times))
 
+        print("Number of intersections")
+        print(str(intersections))
+        print("Number of variables tested for subsets")
+        print(str(variables_subsets))
+        print("Number of observations per pattern")
+        print(str(observations_per_pattern))
+        print("Number of variables per pattern")
+        print(str(variables_per_pattern))
+
         print("Number of patterns discovered")
         print(str(patterns_discovered))
         print("#########################################################################################")
@@ -390,6 +434,11 @@ for file in datasets:
         hierarchical_times = []
         apriori_clusters_times = []
         merging_times = []
+        intersections = []
+        variables_subsets = []
+        variables_per_pattern = []
+        observations_per_pattern = []
+
 
         #hierarchichal clustering properties
         patterns_discovered = []
@@ -429,7 +478,8 @@ for file in datasets:
                 for value in clusters[cluster]:
                     columns_to_use.append(copy_df.columns[value])
                 df_copy = copy_df[columns_to_use].copy()
-                y=runApriori(data_iter=df_copy, class_vector=0, minSupport=min_support, minLift=1.3)
+                y = runApriori(data_iter=df_copy, class_vector=0, minSupport=min_support, minLift=1.3)
+                y = merge_patterns([y], nr_lines, min_support)
                 clusters_apriori.append(y)
 
                 #print(len(y))
@@ -437,8 +487,35 @@ for file in datasets:
             apriori_clusters_times.append((end - s1) / 1000000000)
             print("Apriori with clusters: " + str((end - s1) / 1000000000) + " seconds")
 
+            print("Intermediate analysis")
+            nr_patterns_bef = []
+            size_obs_bef = []
+            size_vars = []
+            for cluster in clusters_apriori:
+                nr_patterns_bef.append(len(cluster))
+                variables_p = []
+                obs_p = []
+                for pattern in cluster:
+                    variables_p.append(len(pattern["columns"]))
+                    obs_p.append(len(pattern["indexes"]))
+                size_obs_bef.append(round((sum(obs_p)/(len(cluster) if len(cluster) > 0 else 1)), 0))
+                size_vars.append(round(sum(variables_p)/(len(cluster) if len(cluster) > 0 else 1), 2))
+
+
+            observations_per_pattern.append(sum(size_obs_bef)/len(clusters_apriori))
+            variables_per_pattern.append(sum(size_vars)/len(clusters_apriori))
+            print("Number of patterns per cluster: "+ str(nr_patterns_bef))
+            print("Average number of observations per cluster: "+ str(size_obs_bef))
+            print("Average number of variables per cluster: "+ str(size_vars))
+            print("End of intermediate analysis")
+
+
             start_merge = time.time_ns()
-            result = merge_patterns(clusters_apriori, nr_lines, min_support)
+            intermediate_intersections = []
+            intermediate_variables = []
+            result = merge_patterns_a(clusters_apriori, nr_lines, min_support, intermediate_intersections, intermediate_variables)
+            intersections.append(sum(intermediate_intersections))
+            variables_subsets.append(sum(intermediate_variables))
             end_merge = time.time_ns()
             merging_times.append((end_merge - start_merge) / 1000000000)
 
@@ -459,6 +536,15 @@ for file in datasets:
         print("Merging of patterns")
         print(str(merging_times))
 
+        print("Number of intersections")
+        print(str(intersections))
+        print("Number of variables tested for subsets")
+        print(str(variables_subsets))
+        print("Number of observations per pattern")
+        print(str(observations_per_pattern))
+        print("Number of variables per pattern")
+        print(str(variables_per_pattern))
+
         print("Number of patterns discovered")
         print(str(patterns_discovered))
         print("#########################################################################################")
@@ -473,6 +559,11 @@ for file in datasets:
         hierarchical_times = []
         apriori_clusters_times = []
         merging_times = []
+        intersections = []
+        variables_subsets = []
+        variables_per_pattern = []
+        observations_per_pattern = []
+
 
         #hierarchichal clustering properties
         patterns_discovered = []
@@ -522,7 +613,8 @@ for file in datasets:
             for cluster in clusters.keys():
                 columns_to_use = clusters[cluster]
                 df_copy = copy_df[columns_to_use].copy()
-                y=runApriori(data_iter=df_copy, class_vector=0, minSupport=min_support, minLift=1.3)
+                y = runApriori(data_iter=df_copy, class_vector=0, minSupport=min_support, minLift=1.3)
+                y = merge_patterns([y], nr_lines, min_support)
                 clusters_apriori.append(y)
 
                 #print(len(y))
@@ -530,8 +622,34 @@ for file in datasets:
             apriori_clusters_times.append((end - s1) / 1000000000)
             print("Apriori with clusters: " + str((end - s1) / 1000000000) + " seconds")
 
+            print("Intermediate analysis")
+            nr_patterns_bef = []
+            size_obs_bef = []
+            size_vars = []
+            for cluster in clusters_apriori:
+                nr_patterns_bef.append(len(cluster))
+                variables_p = []
+                obs_p = []
+                for pattern in cluster:
+                    variables_p.append(len(pattern["columns"]))
+                    obs_p.append(len(pattern["indexes"]))
+                size_obs_bef.append(round((sum(obs_p)/(len(cluster) if len(cluster) > 0 else 1)), 0))
+                size_vars.append(round(sum(variables_p)/(len(cluster) if len(cluster) > 0 else 1), 2))
+
+
+            observations_per_pattern.append(sum(size_obs_bef)/len(clusters_apriori))
+            variables_per_pattern.append(sum(size_vars)/len(clusters_apriori))
+            print("Number of patterns per cluster: "+ str(nr_patterns_bef))
+            print("Average number of observations per cluster: "+ str(size_obs_bef))
+            print("Average number of variables per cluster: "+ str(size_vars))
+            print("End of intermediate analysis")
+
             start_merge = time.time_ns()
-            result = merge_patterns(clusters_apriori, nr_lines, min_support)
+            intermediate_intersections = []
+            intermediate_variables = []
+            result = merge_patterns_a(clusters_apriori, nr_lines, min_support, intermediate_intersections, intermediate_variables)
+            intersections.append(sum(intermediate_intersections))
+            variables_subsets.append(sum(intermediate_variables))
             end_merge = time.time_ns()
             merging_times.append((end_merge - start_merge) / 1000000000)
 
@@ -551,6 +669,15 @@ for file in datasets:
         print(str(apriori_clusters_times))
         print("Merging of patterns")
         print(str(merging_times))
+
+        print("Number of intersections")
+        print(str(intersections))
+        print("Number of variables tested for subsets")
+        print(str(variables_subsets))
+        print("Number of observations per pattern")
+        print(str(observations_per_pattern))
+        print("Number of variables per pattern")
+        print(str(variables_per_pattern))
 
         print("Number of patterns discovered")
         print(str(patterns_discovered))
