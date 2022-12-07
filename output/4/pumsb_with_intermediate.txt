@@ -1,0 +1,3855 @@
+0.0
+0.21075809614719843
+0.35094534299644053
+0.5544923070581673
+0.5929060718765461
+0.7029948713721116
+1.0
+Current file: datasets/pumsb.txt
+Minimum support : 0.0
+#########################################################################################
+Number of variables: 4
+
+
+#########################################################################################
+#########################################################################################
+Similar
+#########################################################################################
+similarity matrix: 0.1562566 seconds
+{0: array([0, 1, 2, 3])}
+Hierarchical clustering: 0.0155814 seconds
+Number of clusters : 1
+Apriori with clusters: 13.4062802 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [4]
+Average number of observations per cluster: [54.0]
+Average number of variables per cluster: [1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 16
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 13.5781182 seconds
+similarity matrix: 0.1874567 seconds
+{0: array([0, 1, 2, 3])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.536321 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [4]
+Average number of observations per cluster: [14.0]
+Average number of variables per cluster: [1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 16
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 13.7237777 seconds
+similarity matrix: 0.1718343 seconds
+{0: array([0, 1, 2, 3])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.2262388 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [4]
+Average number of observations per cluster: [100.0]
+Average number of variables per cluster: [1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 16
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 13.3980731 seconds
+similarity matrix: 0.2968052 seconds
+{0: array([0, 2, 3, 1])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.80371 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [6]
+Average number of observations per cluster: [1094.0]
+Average number of variables per cluster: [1.33]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 36
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 14.1005152 seconds
+similarity matrix: 0.3124281 seconds
+{0: array([0, 2, 3, 1])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.5658613 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [6]
+Average number of observations per cluster: [675.0]
+Average number of variables per cluster: [1.33]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 36
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 13.8782894 seconds
+similarity matrix: 0.312427 seconds
+{0: array([0, 1, 2, 3])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.8371696 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [6]
+Average number of observations per cluster: [2051.0]
+Average number of variables per cluster: [1.33]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 36
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 14.1495966 seconds
+similarity matrix: 0.4842521 seconds
+{0: array([0, 1, 2, 3])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 15.3054326 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [9]
+Average number of observations per cluster: [3476.0]
+Average number of variables per cluster: [1.67]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 81
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 15.7896847 seconds
+similarity matrix: 0.1874544 seconds
+{0: array([0, 1, 2, 3])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.3109597 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [4]
+Average number of observations per cluster: [78.0]
+Average number of variables per cluster: [1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 16
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 13.4984141 seconds
+similarity matrix: 0.2423629 seconds
+{0: array([0, 2, 1, 3])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.4829055 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [5]
+Average number of observations per cluster: [731.0]
+Average number of variables per cluster: [1.2]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 25
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 13.7252684 seconds
+similarity matrix: 0.1874552 seconds
+{0: array([0, 1, 2, 3])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.6259109 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [4]
+Average number of observations per cluster: [26.0]
+Average number of variables per cluster: [1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 16
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 13.8133661 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 4 variables the time were:
+Similarity Matrix
+[0.1562566, 0.1874567, 0.1718343, 0.2968052, 0.3124281, 0.312427, 0.4842521, 0.1874544, 0.2423629, 0.1874552]
+Hierarchical clustering
+[0.0155814, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Apriori with clusters
+[13.4062802, 13.536321, 13.2262388, 13.80371, 13.5658613, 13.8371696, 15.3054326, 13.3109597, 13.4829055, 13.6259109]
+Merging of patterns
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Number of intersections
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Number of variables tested for subsets
+[16, 16, 16, 36, 36, 36, 81, 16, 25, 16]
+Number of observations per pattern
+[54.0, 14.0, 100.0, 1094.0, 675.0, 2051.0, 3476.0, 78.0, 731.0, 26.0]
+Number of variables per pattern
+[1.0, 1.0, 1.0, 1.33, 1.33, 1.33, 1.67, 1.0, 1.2, 1.0]
+Number of patterns discovered
+[4, 4, 4, 6, 6, 6, 9, 4, 5, 4]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Dissimilar
+#########################################################################################
+similarity matrix: 0.1874559 seconds
+{0: array([0, 1, 2, 3])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.639375 seconds
+Intermediate analysis
+Number of patterns per cluster: [4]
+Average number of observations per cluster: [54.0]
+Average number of variables per cluster: [1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 16
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 13.8268309 seconds
+similarity matrix: 0.18746 seconds
+{0: array([0, 1, 2, 3])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.6001494 seconds
+Intermediate analysis
+Number of patterns per cluster: [4]
+Average number of observations per cluster: [14.0]
+Average number of variables per cluster: [1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 16
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 13.7876094 seconds
+similarity matrix: 0.1959283 seconds
+{0: array([0, 1, 2, 3])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.5905944 seconds
+Intermediate analysis
+Number of patterns per cluster: [4]
+Average number of observations per cluster: [100.0]
+Average number of variables per cluster: [1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 16
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 13.7865227 seconds
+similarity matrix: 0.3157267 seconds
+{0: array([0, 1, 3, 2])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 14.1929867 seconds
+Intermediate analysis
+Number of patterns per cluster: [6]
+Average number of observations per cluster: [1094.0]
+Average number of variables per cluster: [1.33]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 36
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 14.5087134 seconds
+similarity matrix: 0.3124294 seconds
+{0: array([0, 1, 3, 2])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 14.0147741 seconds
+Intermediate analysis
+Number of patterns per cluster: [6]
+Average number of observations per cluster: [675.0]
+Average number of variables per cluster: [1.33]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 36
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 14.3272035 seconds
+similarity matrix: 0.3307025 seconds
+{0: array([0, 1, 3, 2])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 14.3971823 seconds
+Intermediate analysis
+Number of patterns per cluster: [6]
+Average number of observations per cluster: [2051.0]
+Average number of variables per cluster: [1.33]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 36
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 14.7278848 seconds
+similarity matrix: 0.4842568 seconds
+{0: array([0, 3, 1, 2])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 14.7859402 seconds
+Intermediate analysis
+Number of patterns per cluster: [9]
+Average number of observations per cluster: [3476.0]
+Average number of variables per cluster: [1.67]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 81
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 15.270197 seconds
+similarity matrix: 0.1874564 seconds
+{0: array([0, 1, 2, 3])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.6975851 seconds
+Intermediate analysis
+Number of patterns per cluster: [4]
+Average number of observations per cluster: [78.0]
+Average number of variables per cluster: [1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 16
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 13.8850415 seconds
+similarity matrix: 0.2343563 seconds
+{0: array([0, 1, 3, 2])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.8735289 seconds
+Intermediate analysis
+Number of patterns per cluster: [5]
+Average number of observations per cluster: [731.0]
+Average number of variables per cluster: [1.2]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 25
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 14.1078852 seconds
+similarity matrix: 0.1874506 seconds
+{0: array([0, 1, 2, 3])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.7829663 seconds
+Intermediate analysis
+Number of patterns per cluster: [4]
+Average number of observations per cluster: [26.0]
+Average number of variables per cluster: [1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 16
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 13.9704169 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 4 variables the time were:
+Similarity Matrix
+[0.1874559, 0.18746, 0.1959283, 0.3157267, 0.3124294, 0.3307025, 0.4842568, 0.1874564, 0.2343563, 0.1874506]
+Hierarchical clustering
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Apriori with clusters
+[13.639375, 13.6001494, 13.5905944, 14.1929867, 14.0147741, 14.3971823, 14.7859402, 13.6975851, 13.8735289, 13.7829663]
+Merging of patterns
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Number of intersections
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Number of variables tested for subsets
+[16, 16, 16, 36, 36, 36, 81, 16, 25, 16]
+Number of observations per pattern
+[54.0, 14.0, 100.0, 1094.0, 675.0, 2051.0, 3476.0, 78.0, 731.0, 26.0]
+Number of variables per pattern
+[1.0, 1.0, 1.0, 1.33, 1.33, 1.33, 1.67, 1.0, 1.2, 1.0]
+Number of patterns discovered
+[4, 4, 4, 6, 6, 6, 9, 4, 5, 4]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Random
+#########################################################################################
+similarity matrix: 0.1797792 seconds
+{0: ['2447', '476', '5393', '6175']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.9543343 seconds
+Intermediate analysis
+Number of patterns per cluster: [4]
+Average number of observations per cluster: [54.0]
+Average number of variables per cluster: [1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 16
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 14.1341135 seconds
+similarity matrix: 0.1874537 seconds
+{0: ['1373', '177', '5064', '6073']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.6916809 seconds
+Intermediate analysis
+Number of patterns per cluster: [4]
+Average number of observations per cluster: [14.0]
+Average number of variables per cluster: [1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 16
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 13.8791346 seconds
+similarity matrix: 0.187455 seconds
+{0: ['1440', '6704', '6022', '5085']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.823251 seconds
+Intermediate analysis
+Number of patterns per cluster: [4]
+Average number of observations per cluster: [100.0]
+Average number of variables per cluster: [1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 16
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 14.010706 seconds
+similarity matrix: 0.312428 seconds
+{0: ['123', '36', '20', '6715']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.84785 seconds
+Intermediate analysis
+Number of patterns per cluster: [6]
+Average number of observations per cluster: [1094.0]
+Average number of variables per cluster: [1.33]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 36
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 14.160278 seconds
+similarity matrix: 0.3051992 seconds
+{0: ['282', '295', '164', '4513']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.7970102 seconds
+Intermediate analysis
+Number of patterns per cluster: [6]
+Average number of observations per cluster: [675.0]
+Average number of variables per cluster: [1.33]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 36
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 14.1022094 seconds
+similarity matrix: 0.3124263 seconds
+{0: ['5194', '1559', '4517', '6393']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.9996639 seconds
+Intermediate analysis
+Number of patterns per cluster: [6]
+Average number of observations per cluster: [2051.0]
+Average number of variables per cluster: [1.33]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 36
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 14.3120902 seconds
+similarity matrix: 0.4842616 seconds
+{0: ['2448', '4798', '2349', '4422']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 14.7447727 seconds
+Intermediate analysis
+Number of patterns per cluster: [9]
+Average number of observations per cluster: [3476.0]
+Average number of variables per cluster: [1.67]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 81
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 15.2290343 seconds
+similarity matrix: 0.1874554 seconds
+{0: ['6896', '4020', '409', '2474']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.4582448 seconds
+Intermediate analysis
+Number of patterns per cluster: [4]
+Average number of observations per cluster: [78.0]
+Average number of variables per cluster: [1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 16
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 13.6457002 seconds
+similarity matrix: 0.2499438 seconds
+{0: ['1426', '4507', '6989', '4407']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.8583462 seconds
+Intermediate analysis
+Number of patterns per cluster: [5]
+Average number of observations per cluster: [731.0]
+Average number of variables per cluster: [1.2]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 25
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 14.10829 seconds
+similarity matrix: 0.1874662 seconds
+{0: ['6744', '6301', '397', '5513']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 1
+Apriori with clusters: 13.6080116 seconds
+Intermediate analysis
+Number of patterns per cluster: [4]
+Average number of observations per cluster: [26.0]
+Average number of variables per cluster: [1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 0
+Number of variables checked for subsets: 16
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 13.7954778 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 4 variables the time were:
+Similarity Matrix
+[0.1797792, 0.1874537, 0.187455, 0.312428, 0.3051992, 0.3124263, 0.4842616, 0.1874554, 0.2499438, 0.1874662]
+Hierarchical clustering
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Apriori with clusters
+[13.9543343, 13.6916809, 13.823251, 13.84785, 13.7970102, 13.9996639, 14.7447727, 13.4582448, 13.8583462, 13.6080116]
+Merging of patterns
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Number of intersections
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Number of variables tested for subsets
+[16, 16, 16, 36, 36, 36, 81, 16, 25, 16]
+Number of observations per pattern
+[54.0, 14.0, 100.0, 1094.0, 675.0, 2051.0, 3476.0, 78.0, 731.0, 26.0]
+Number of variables per pattern
+[1.0, 1.0, 1.0, 1.33, 1.33, 1.33, 1.67, 1.0, 1.2, 1.0]
+Number of patterns discovered
+[4, 4, 4, 6, 6, 6, 9, 4, 5, 4]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Number of variables: 8
+
+
+#########################################################################################
+#########################################################################################
+Similar
+#########################################################################################
+similarity matrix: 1.4215831 seconds
+{1: array([1, 7, 2, 6]), 0: array([0, 3, 4, 5])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 28.7561937 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [12, 4]
+Average number of observations per cluster: [2692.0, 64.0]
+Average number of variables per cluster: [1.92, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 48
+Number of variables checked for subsets: 3215
+Number of interserctions 0
+Number of variables checked for subsets: 131
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0071895 seconds
+Combined time: 30.1849663 seconds
+similarity matrix: 0.6873825 seconds
+{0: array([0, 1, 6, 4]), 2: array([2, 3, 5, 7])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 27.6525026 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [6, 5]
+Average number of observations per cluster: [69.0, 54.0]
+Average number of variables per cluster: [1.33, 1.2]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 30
+Number of variables checked for subsets: 1101
+Number of interserctions 0
+Number of variables checked for subsets: 100
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 28.3398851 seconds
+similarity matrix: 0.7966848 seconds
+{0: array([0, 5, 1, 4]), 2: array([2, 3, 6, 7])}
+Hierarchical clustering: 0.0156198 seconds
+Number of clusters : 2
+Apriori with clusters: 27.2782549 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [8, 4]
+Average number of observations per cluster: [166.0, 8.0]
+Average number of variables per cluster: [1.5, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 32
+Number of variables checked for subsets: 1429
+Number of interserctions 0
+Number of variables checked for subsets: 116
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 28.0905595 seconds
+similarity matrix: 1.673739 seconds
+{3: array([3, 7, 4, 5]), 0: array([0, 1, 2, 6])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 29.5616452 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [10, 4]
+Average number of observations per cluster: [12292.0, 44.0]
+Average number of variables per cluster: [2.1, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 40
+Number of variables checked for subsets: 2177
+Number of interserctions 0
+Number of variables checked for subsets: 78
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0468659 seconds
+Combined time: 31.2822501 seconds
+similarity matrix: 0.8435505 seconds
+{0: array([0, 1, 3, 2]), 4: array([4, 5, 6, 7])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 27.7970856 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [8, 4]
+Average number of observations per cluster: [135.0, 36.0]
+Average number of variables per cluster: [1.5, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 32
+Number of variables checked for subsets: 1457
+Number of interserctions 0
+Number of variables checked for subsets: 116
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 28.6406361 seconds
+similarity matrix: 0.6560951 seconds
+{0: array([0, 2, 1, 3]), 4: array([4, 7, 5, 6])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 28.0351 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [5, 5]
+Average number of observations per cluster: [180.0, 45.0]
+Average number of variables per cluster: [1.2, 1.2]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 25
+Number of variables checked for subsets: 790
+Number of interserctions 0
+Number of variables checked for subsets: 95
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 28.6911951 seconds
+similarity matrix: 1.0701816 seconds
+{3: array([3, 6, 7, 4]), 0: array([0, 1, 2, 5])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 28.1745123 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [11, 4]
+Average number of observations per cluster: [2409.0, 10.0]
+Average number of variables per cluster: [1.82, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 44
+Number of variables checked for subsets: 2667
+Number of interserctions 0
+Number of variables checked for subsets: 108
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156258 seconds
+Combined time: 29.2603197 seconds
+similarity matrix: 1.2992271 seconds
+{1: array([1, 2, 4, 5]), 0: array([0, 3, 6, 7])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 29.8389876 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [9, 4]
+Average number of observations per cluster: [5812.0, 100.0]
+Average number of variables per cluster: [1.78, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 36
+Number of variables checked for subsets: 1833
+Number of interserctions 0
+Number of variables checked for subsets: 88
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156218 seconds
+Combined time: 31.1694511 seconds
+similarity matrix: 0.8278882 seconds
+{1: array([1, 7, 0, 2]), 3: array([3, 4, 5, 6])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 27.7646713 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [9, 4]
+Average number of observations per cluster: [1697.0, 106.0]
+Average number of variables per cluster: [1.56, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 36
+Number of variables checked for subsets: 1805
+Number of interserctions 0
+Number of variables checked for subsets: 136
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.015622 seconds
+Combined time: 28.6081815 seconds
+similarity matrix: 0.8123084 seconds
+{0: array([0, 2, 4, 7]), 1: array([1, 3, 5, 6])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 27.5364592 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [8, 4]
+Average number of observations per cluster: [406.0, 58.0]
+Average number of variables per cluster: [1.5, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 32
+Number of variables checked for subsets: 1449
+Number of interserctions 0
+Number of variables checked for subsets: 120
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 28.3487676 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 8 variables the time were:
+Similarity Matrix
+[1.4215831, 0.6873825, 0.7966848, 1.673739, 0.8435505, 0.6560951, 1.0701816, 1.2992271, 0.8278882, 0.8123084]
+Hierarchical clustering
+[0.0, 0.0, 0.0156198, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Apriori with clusters
+[28.7561937, 27.6525026, 27.2782549, 29.5616452, 27.7970856, 28.0351, 28.1745123, 29.8389876, 27.7646713, 27.5364592]
+Merging of patterns
+[0.0071895, 0.0, 0.0, 0.0468659, 0.0, 0.0, 0.0156258, 0.0156218, 0.015622, 0.0]
+Number of intersections
+[48, 30, 32, 40, 32, 25, 44, 36, 36, 32]
+Number of variables tested for subsets
+[3346, 1201, 1545, 2255, 1573, 885, 2775, 1921, 1941, 1569]
+Number of observations per pattern
+[1378.0, 61.5, 87.0, 6168.0, 85.5, 112.5, 1209.5, 2956.0, 901.5, 232.0]
+Number of variables per pattern
+[1.46, 1.2650000000000001, 1.25, 1.55, 1.25, 1.2, 1.4100000000000001, 1.3900000000000001, 1.28, 1.25]
+Number of patterns discovered
+[36, 20, 29, 22, 29, 19, 27, 26, 34, 30]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Dissimilar
+#########################################################################################
+similarity matrix: 1.3590555 seconds
+{0: array([0, 2, 3, 5]), 1: array([1, 4, 6, 7])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 29.0973554 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 12]
+Average number of observations per cluster: [173.0, 2630.0]
+Average number of variables per cluster: [1.0, 1.92]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 48
+Number of variables checked for subsets: 2060
+Number of interserctions 0
+Number of variables checked for subsets: 432
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156217 seconds
+Combined time: 30.4720326 seconds
+similarity matrix: 0.6640739 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 6, 7])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 27.8455371 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 6]
+Average number of observations per cluster: [58.0, 75.0]
+Average number of variables per cluster: [1.0, 1.33]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 24
+Number of variables checked for subsets: 638
+Number of interserctions 0
+Number of variables checked for subsets: 114
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 28.509611 seconds
+similarity matrix: 0.8050731 seconds
+{0: array([0, 2, 3, 4]), 1: array([1, 6, 5, 7])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 27.8413172 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 6]
+Average number of observations per cluster: [38.0, 200.0]
+Average number of variables per cluster: [1.0, 1.33]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 24
+Number of variables checked for subsets: 700
+Number of interserctions 0
+Number of variables checked for subsets: 150
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 28.6463903 seconds
+similarity matrix: 1.5777553 seconds
+{0: array([0, 1, 2, 4]), 3: array([3, 5, 6, 7])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 29.5465888 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 6]
+Average number of observations per cluster: [115.0, 20262.0]
+Average number of variables per cluster: [1.0, 2.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 24
+Number of variables checked for subsets: 688
+Number of interserctions 0
+Number of variables checked for subsets: 150
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0312411 seconds
+Combined time: 31.1555852 seconds
+similarity matrix: 0.7734938 seconds
+{0: array([0, 2, 4, 5]), 1: array([1, 6, 7, 3])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 27.6913593 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 5]
+Average number of observations per cluster: [87.0, 173.0]
+Average number of variables per cluster: [1.0, 1.2]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 20
+Number of variables checked for subsets: 551
+Number of interserctions 0
+Number of variables checked for subsets: 125
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 28.4648531 seconds
+similarity matrix: 0.6092312 seconds
+{0: array([0, 1, 3, 4]), 2: array([2, 5, 6, 7])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 28.1457986 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4]
+Average number of observations per cluster: [214.0, 66.0]
+Average number of variables per cluster: [1.0, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 16
+Number of variables checked for subsets: 400
+Number of interserctions 0
+Number of variables checked for subsets: 96
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 28.7550298 seconds
+similarity matrix: 1.0778327 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 7, 6])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 28.3559275 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 10]
+Average number of observations per cluster: [50.0, 2628.0]
+Average number of variables per cluster: [1.0, 1.7]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 40
+Number of variables checked for subsets: 1501
+Number of interserctions 0
+Number of variables checked for subsets: 310
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156176 seconds
+Combined time: 29.4493778 seconds
+similarity matrix: 1.3513686 seconds
+{2: array([2, 5, 6, 7]), 0: array([0, 1, 3, 4])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 30.4109929 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 6]
+Average number of observations per cluster: [480.0, 8214.0]
+Average number of variables per cluster: [1.0, 1.5]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 24
+Number of variables checked for subsets: 702
+Number of interserctions 0
+Number of variables checked for subsets: 156
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156205 seconds
+Combined time: 31.777982 seconds
+similarity matrix: 0.8591719 seconds
+{0: array([0, 3, 4, 5]), 1: array([1, 2, 6, 7])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 27.8287712 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 6]
+Average number of observations per cluster: [49.0, 2572.0]
+Average number of variables per cluster: [1.0, 1.33]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 24
+Number of variables checked for subsets: 688
+Number of interserctions 0
+Number of variables checked for subsets: 156
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 28.6879431 seconds
+similarity matrix: 0.8279299 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 6, 7])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 27.3959399 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 6]
+Average number of observations per cluster: [240.0, 412.0]
+Average number of variables per cluster: [1.0, 1.33]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 24
+Number of variables checked for subsets: 719
+Number of interserctions 0
+Number of variables checked for subsets: 156
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 28.2238698 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 8 variables the time were:
+Similarity Matrix
+[1.3590555, 0.6640739, 0.8050731, 1.5777553, 0.7734938, 0.6092312, 1.0778327, 1.3513686, 0.8591719, 0.8279299]
+Hierarchical clustering
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Apriori with clusters
+[29.0973554, 27.8455371, 27.8413172, 29.5465888, 27.6913593, 28.1457986, 28.3559275, 30.4109929, 27.8287712, 27.3959399]
+Merging of patterns
+[0.0156217, 0.0, 0.0, 0.0312411, 0.0, 0.0, 0.0156176, 0.0156205, 0.0, 0.0]
+Number of intersections
+[48, 24, 24, 24, 20, 16, 40, 24, 24, 24]
+Number of variables tested for subsets
+[2492, 752, 850, 838, 676, 496, 1811, 858, 844, 875]
+Number of observations per pattern
+[1401.5, 66.5, 119.0, 10188.5, 130.0, 140.0, 1339.0, 4347.0, 1310.5, 326.0]
+Number of variables per pattern
+[1.46, 1.165, 1.165, 1.5, 1.1, 1.0, 1.35, 1.25, 1.165, 1.165]
+Number of patterns discovered
+[36, 19, 25, 25, 25, 24, 31, 26, 26, 26]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Random
+#########################################################################################
+similarity matrix: 1.359016 seconds
+{0: ['5982', '440', '4656', '1446'], 1: ['4023', '4938', '7057', '6311']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 28.9844377 seconds
+Intermediate analysis
+Number of patterns per cluster: [5, 9]
+Average number of observations per cluster: [157.0, 3494.0]
+Average number of variables per cluster: [1.2, 1.67]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 45
+Number of variables checked for subsets: 2061
+Number of interserctions 0
+Number of variables checked for subsets: 270
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156217 seconds
+Combined time: 30.3590754 seconds
+similarity matrix: 0.6560945 seconds
+{0: ['6540', '7047', '6153', '4156'], 1: ['4658', '5959', '5284', '1309']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 27.5490363 seconds
+Intermediate analysis
+Number of patterns per cluster: [5, 4]
+Average number of observations per cluster: [70.0, 83.0]
+Average number of variables per cluster: [1.2, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 20
+Number of variables checked for subsets: 613
+Number of interserctions 0
+Number of variables checked for subsets: 84
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 28.2051308 seconds
+similarity matrix: 0.7654843 seconds
+{0: ['409', '44', '2481', '5133'], 1: ['6723', '422', '2463', '2403']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 27.6530444 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 6]
+Average number of observations per cluster: [48.0, 194.0]
+Average number of variables per cluster: [1.0, 1.33]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 24
+Number of variables checked for subsets: 719
+Number of interserctions 0
+Number of variables checked for subsets: 150
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 28.4185287 seconds
+similarity matrix: 1.7712739 seconds
+{0: ['485', '161', '180', '2309'], 1: ['6931', '5989', '4581', '5544']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 30.0529173 seconds
+Intermediate analysis
+Number of patterns per cluster: [7, 4]
+Average number of observations per cluster: [17359.0, 132.0]
+Average number of variables per cluster: [2.0, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 28
+Number of variables checked for subsets: 1125
+Number of interserctions 0
+Number of variables checked for subsets: 88
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.046866 seconds
+Combined time: 31.8710572 seconds
+similarity matrix: 0.7855308 seconds
+{0: ['6926', '5235', '8', '6703'], 1: ['5135', '6969', '6895', '5884']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 27.9140817 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 5]
+Average number of observations per cluster: [124.0, 143.0]
+Average number of variables per cluster: [1.0, 1.2]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 20
+Number of variables checked for subsets: 561
+Number of interserctions 0
+Number of variables checked for subsets: 125
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156235 seconds
+Combined time: 28.715236 seconds
+similarity matrix: 0.6179925 seconds
+{0: ['7002', '5554', '4531', '2441'], 1: ['7054', '6139', '4672', '6291']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 28.3977454 seconds
+Intermediate analysis
+Number of patterns per cluster: [5, 4]
+Average number of observations per cluster: [215.0, 12.0]
+Average number of variables per cluster: [1.2, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 20
+Number of variables checked for subsets: 613
+Number of interserctions 0
+Number of variables checked for subsets: 84
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 29.0157379 seconds
+similarity matrix: 1.1175371 seconds
+{0: ['6880', '176', '1366', '1891'], 1: ['7042', '4841', '4923', '4813']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 28.9516477 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 11]
+Average number of observations per cluster: [10.0, 2409.0]
+Average number of variables per cluster: [1.0, 1.82]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 44
+Number of variables checked for subsets: 1677
+Number of interserctions 0
+Number of variables checked for subsets: 297
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0089758 seconds
+Combined time: 30.0781606 seconds
+similarity matrix: 1.3573501 seconds
+{0: ['4823', '4428', '6989', '187'], 1: ['4435', '271', '4586', '1028']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 30.1614566 seconds
+Intermediate analysis
+Number of patterns per cluster: [7, 4]
+Average number of observations per cluster: [7095.0, 385.0]
+Average number of variables per cluster: [1.71, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 28
+Number of variables checked for subsets: 1162
+Number of interserctions 0
+Number of variables checked for subsets: 95
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156258 seconds
+Combined time: 31.5344325 seconds
+similarity matrix: 0.906033 seconds
+{0: ['4495', '6866', '4657', '221'], 1: ['4835', '4584', '1396', '5495']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 28.7121356 seconds
+Intermediate analysis
+Number of patterns per cluster: [6, 4]
+Average number of observations per cluster: [2510.0, 143.0]
+Average number of variables per cluster: [1.33, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 24
+Number of variables checked for subsets: 861
+Number of interserctions 0
+Number of variables checked for subsets: 104
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 29.6181686 seconds
+similarity matrix: 0.8832393 seconds
+{0: ['4838', '6884', '4756', '2417'], 1: ['2429', '6739', '5971', '4408']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 2
+Apriori with clusters: 27.7629505 seconds
+Intermediate analysis
+Number of patterns per cluster: [7, 4]
+Average number of observations per cluster: [442.0, 92.0]
+Average number of variables per cluster: [1.43, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 28
+Number of variables checked for subsets: 1143
+Number of interserctions 0
+Number of variables checked for subsets: 120
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 28.6461898 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 8 variables the time were:
+Similarity Matrix
+[1.359016, 0.6560945, 0.7654843, 1.7712739, 0.7855308, 0.6179925, 1.1175371, 1.3573501, 0.906033, 0.8832393]
+Hierarchical clustering
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Apriori with clusters
+[28.9844377, 27.5490363, 27.6530444, 30.0529173, 27.9140817, 28.3977454, 28.9516477, 30.1614566, 28.7121356, 27.7629505]
+Merging of patterns
+[0.0156217, 0.0, 0.0, 0.046866, 0.0156235, 0.0, 0.0089758, 0.0156258, 0.0, 0.0]
+Number of intersections
+[45, 20, 24, 28, 20, 20, 44, 28, 24, 28]
+Number of variables tested for subsets
+[2331, 697, 869, 1213, 686, 697, 1974, 1257, 965, 1263]
+Number of observations per pattern
+[1825.5, 76.5, 121.0, 8745.5, 133.5, 113.5, 1209.5, 3740.0, 1326.5, 267.0]
+Number of variables per pattern
+[1.435, 1.1, 1.165, 1.5, 1.1, 1.1, 1.4100000000000001, 1.355, 1.165, 1.2149999999999999]
+Number of patterns discovered
+[30, 21, 25, 25, 25, 21, 27, 26, 26, 30]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Number of variables: 12
+
+
+#########################################################################################
+#########################################################################################
+Similar
+#########################################################################################
+similarity matrix: 1.8613186 seconds
+{0: array([ 0,  1, 11,  9]), 2: array([2, 3, 4, 5]), 6: array([ 6,  7,  8, 10])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 42.6717087 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [11, 5, 4]
+Average number of observations per cluster: [3565.0, 80.0, 20.0]
+Average number of variables per cluster: [1.82, 1.2, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 319
+Number of variables checked for subsets: 72958
+Number of interserctions 20
+Number of variables checked for subsets: 1134
+Number of interserctions 0
+Number of variables checked for subsets: 208
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0468684 seconds
+Combined time: 44.5798957 seconds
+similarity matrix: 1.9003143 seconds
+{0: array([0, 8, 4, 5]), 1: array([1, 2, 3, 7]), 6: array([ 6,  9, 10, 11])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 41.7619926 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [11, 5, 4]
+Average number of observations per cluster: [1254.0, 72.0, 13.0]
+Average number of variables per cluster: [1.82, 1.2, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 319
+Number of variables checked for subsets: 73807
+Number of interserctions 20
+Number of variables checked for subsets: 1168
+Number of interserctions 0
+Number of variables checked for subsets: 187
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0312491 seconds
+Combined time: 43.693556 seconds
+similarity matrix: 1.7651638 seconds
+{2: array([ 2, 11,  6, 10]), 0: array([0, 1, 3, 5]), 4: array([4, 7, 8, 9])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 42.6314147 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [10, 4, 4]
+Average number of observations per cluster: [1505.0, 22.0, 50.0]
+Average number of variables per cluster: [1.7, 1.25, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 240
+Number of variables checked for subsets: 45106
+Number of interserctions 16
+Number of variables checked for subsets: 904
+Number of interserctions 0
+Number of variables checked for subsets: 248
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156202 seconds
+Combined time: 44.4121987 seconds
+similarity matrix: 1.671438 seconds
+{1: array([ 1,  4,  2, 10]), 0: array([0, 3, 5, 7]), 6: array([ 6,  8,  9, 11])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 42.122078 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [9, 4, 5]
+Average number of observations per cluster: [325.0, 4.0, 74.0]
+Average number of variables per cluster: [1.56, 1.0, 1.2]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 261
+Number of variables checked for subsets: 52819
+Number of interserctions 20
+Number of variables checked for subsets: 1090
+Number of interserctions 0
+Number of variables checked for subsets: 425
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156103 seconds
+Combined time: 43.8091263 seconds
+similarity matrix: 1.8674388 seconds
+{5: array([5, 8, 4, 9]), 0: array([0, 1, 2, 3]), 6: array([ 6,  7, 10, 11])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 42.7497591 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [11, 5, 4]
+Average number of observations per cluster: [3186.0, 14.0, 32.0]
+Average number of variables per cluster: [1.73, 1.2, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 319
+Number of variables checked for subsets: 76144
+Number of interserctions 20
+Number of variables checked for subsets: 1254
+Number of interserctions 0
+Number of variables checked for subsets: 192
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0468679 seconds
+Combined time: 44.6640658 seconds
+similarity matrix: 1.9851534 seconds
+{1: array([ 1,  9,  4, 10]), 0: array([0, 7, 5, 2]), 3: array([ 3,  6,  8, 11])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 41.5696308 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [10, 7, 4]
+Average number of observations per cluster: [460.0, 46.0, 9.0]
+Average number of variables per cluster: [1.6, 1.43, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 390
+Number of variables checked for subsets: 114114
+Number of interserctions 28
+Number of variables checked for subsets: 2293
+Number of interserctions 0
+Number of variables checked for subsets: 504
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156213 seconds
+Combined time: 43.5704055 seconds
+similarity matrix: 1.2653255 seconds
+{1: array([1, 5, 3, 4]), 0: array([0, 2, 6, 7]), 8: array([ 8,  9, 10, 11])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 41.1118784 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [7, 4, 4]
+Average number of observations per cluster: [56.0, 114.0, 15.0]
+Average number of variables per cluster: [1.43, 1.0, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 168
+Number of variables checked for subsets: 24243
+Number of interserctions 16
+Number of variables checked for subsets: 908
+Number of interserctions 0
+Number of variables checked for subsets: 260
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156203 seconds
+Combined time: 42.3928242 seconds
+similarity matrix: 1.4215421 seconds
+{5: array([ 5,  8, 11,  9]), 0: array([0, 1, 2, 3]), 4: array([ 4,  6,  7, 10])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 42.6052347 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [9, 5, 4]
+Average number of observations per cluster: [251.0, 71.0, 4.0]
+Average number of variables per cluster: [1.67, 1.2, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 261
+Number of variables checked for subsets: 49253
+Number of interserctions 20
+Number of variables checked for subsets: 1032
+Number of interserctions 0
+Number of variables checked for subsets: 184
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156156 seconds
+Combined time: 44.0423924 seconds
+similarity matrix: 2.7026444 seconds
+{3: array([ 3,  8, 11,  4]), 0: array([0, 5, 1, 2]), 6: array([ 6,  7,  9, 10])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 44.7560289 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [10, 6, 4]
+Average number of observations per cluster: [5662.0, 35.0, 20.0]
+Average number of variables per cluster: [2.0, 1.33, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 340
+Number of variables checked for subsets: 83840
+Number of interserctions 24
+Number of variables checked for subsets: 1447
+Number of interserctions 0
+Number of variables checked for subsets: 200
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0624887 seconds
+Combined time: 47.521162 seconds
+similarity matrix: 1.1559737 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 7, 8]), 6: array([ 6,  9, 10, 11])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 42.237006 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [4, 6, 4]
+Average number of observations per cluster: [96.0, 114.0, 6.0]
+Average number of variables per cluster: [1.0, 1.33, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 136
+Number of variables checked for subsets: 14776
+Number of interserctions 24
+Number of variables checked for subsets: 1288
+Number of interserctions 0
+Number of variables checked for subsets: 248
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 43.3929797 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 12 variables the time were:
+Similarity Matrix
+[1.8613186, 1.9003143, 1.7651638, 1.671438, 1.8674388, 1.9851534, 1.2653255, 1.4215421, 2.7026444, 1.1559737]
+Hierarchical clustering
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Apriori with clusters
+[42.6717087, 41.7619926, 42.6314147, 42.122078, 42.7497591, 41.5696308, 41.1118784, 42.6052347, 44.7560289, 42.237006]
+Merging of patterns
+[0.0468684, 0.0312491, 0.0156202, 0.0156103, 0.0468679, 0.0156213, 0.0156203, 0.0156156, 0.0624887, 0.0]
+Number of intersections
+[339, 339, 256, 281, 339, 418, 184, 281, 364, 160]
+Number of variables tested for subsets
+[74300, 75162, 46258, 54334, 77590, 116911, 25411, 50469, 85487, 16312]
+Number of observations per pattern
+[1221.6666666666667, 446.3333333333333, 525.6666666666666, 134.33333333333334, 1077.3333333333333, 171.66666666666666, 61.666666666666664, 108.66666666666667, 1905.6666666666667, 72.0]
+Number of variables per pattern
+[1.3399999999999999, 1.3399999999999999, 1.3166666666666667, 1.2533333333333332, 1.3099999999999998, 1.3433333333333335, 1.1433333333333333, 1.29, 1.4433333333333334, 1.11]
+Number of patterns discovered
+[52, 53, 62, 85, 74, 126, 65, 46, 68, 62]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Dissimilar
+#########################################################################################
+similarity matrix: 1.9370825 seconds
+{0: array([0, 2, 3, 5]), 1: array([1, 4, 7, 8]), 6: array([ 6,  9, 10, 11])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 42.8650024 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 5]
+Average number of observations per cluster: [66.0, 4921.0, 2543.0]
+Average number of variables per cluster: [1.0, 1.0, 1.2]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 116
+Number of variables checked for subsets: 11766
+Number of interserctions 20
+Number of variables checked for subsets: 1452
+Number of interserctions 0
+Number of variables checked for subsets: 380
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0468631 seconds
+Combined time: 44.848948 seconds
+similarity matrix: 1.9923778 seconds
+{0: array([0, 1, 6, 9]), 2: array([2, 3, 4, 5]), 7: array([ 7, 10, 11,  8])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 42.5829786 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 6]
+Average number of observations per cluster: [233.0, 109.0, 2089.0]
+Average number of variables per cluster: [1.0, 1.0, 1.5]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 136
+Number of variables checked for subsets: 15593
+Number of interserctions 24
+Number of variables checked for subsets: 1468
+Number of interserctions 0
+Number of variables checked for subsets: 409
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156145 seconds
+Combined time: 44.5909709 seconds
+similarity matrix: 1.7730728 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 6, 8]), 7: array([ 7,  9, 10, 11])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 42.5963028 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 5]
+Average number of observations per cluster: [432.0, 147.0, 2491.0]
+Average number of variables per cluster: [1.0, 1.0, 1.2]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 116
+Number of variables checked for subsets: 11724
+Number of interserctions 20
+Number of variables checked for subsets: 1264
+Number of interserctions 0
+Number of variables checked for subsets: 370
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.015621 seconds
+Combined time: 44.3849966 seconds
+similarity matrix: 1.6483356 seconds
+{0: array([0, 1, 3, 5]), 2: array([ 2,  6,  7, 11]), 4: array([ 4,  8,  9, 10])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 41.5085388 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 7]
+Average number of observations per cluster: [178.0, 86.0, 316.0]
+Average number of variables per cluster: [1.0, 1.0, 1.43]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 156
+Number of variables checked for subsets: 19186
+Number of interserctions 28
+Number of variables checked for subsets: 1524
+Number of interserctions 0
+Number of variables checked for subsets: 511
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 43.1568744 seconds
+similarity matrix: 1.8432787 seconds
+{0: array([0, 2, 3, 4]), 6: array([ 6,  7,  9, 11]), 1: array([ 1,  5, 10,  8])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 42.4070225 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 6]
+Average number of observations per cluster: [42.0, 52.0, 5799.0]
+Average number of variables per cluster: [1.0, 1.0, 1.33]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 136
+Number of variables checked for subsets: 15354
+Number of interserctions 24
+Number of variables checked for subsets: 1434
+Number of interserctions 0
+Number of variables checked for subsets: 444
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0624849 seconds
+Combined time: 44.3127861 seconds
+similarity matrix: 1.8589376 seconds
+{0: array([0, 1, 2, 3]), 4: array([ 4,  6,  8, 11]), 5: array([ 5,  9,  7, 10])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 41.9785409 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 8]
+Average number of observations per cluster: [27.0, 283.0, 458.0]
+Average number of variables per cluster: [1.0, 1.0, 1.5]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 176
+Number of variables checked for subsets: 24809
+Number of interserctions 32
+Number of variables checked for subsets: 2222
+Number of interserctions 0
+Number of variables checked for subsets: 752
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156211 seconds
+Combined time: 43.8530996 seconds
+similarity matrix: 1.2426095 seconds
+{0: array([0, 1, 6, 7]), 2: array([2, 3, 4, 5]), 8: array([ 8,  9, 10, 11])}
+Hierarchical clustering: 0.0156219 seconds
+Number of clusters : 3
+Apriori with clusters: 43.1061459 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4]
+Average number of observations per cluster: [106.0, 103.0, 15.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 96
+Number of variables checked for subsets: 9003
+Number of interserctions 16
+Number of variables checked for subsets: 972
+Number of interserctions 0
+Number of variables checked for subsets: 324
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156115 seconds
+Combined time: 44.3799888 seconds
+similarity matrix: 1.3908859 seconds
+{0: array([0, 1, 3, 4]), 2: array([2, 5, 6, 7]), 8: array([ 8,  9, 10, 11])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 41.7527156 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 7]
+Average number of observations per cluster: [26.0, 69.0, 320.0]
+Average number of variables per cluster: [1.0, 1.0, 1.43]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 156
+Number of variables checked for subsets: 18724
+Number of interserctions 28
+Number of variables checked for subsets: 1448
+Number of interserctions 0
+Number of variables checked for subsets: 490
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 43.1436015 seconds
+similarity matrix: 2.4838343 seconds
+{0: array([0, 2, 4, 6]), 1: array([1, 5, 7, 8]), 3: array([ 3, 10,  9, 11])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 43.3860413 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 7]
+Average number of observations per cluster: [109.0, 854.0, 7087.0]
+Average number of variables per cluster: [1.0, 1.0, 1.71]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 156
+Number of variables checked for subsets: 18538
+Number of interserctions 28
+Number of variables checked for subsets: 1390
+Number of interserctions 0
+Number of variables checked for subsets: 448
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.1093524 seconds
+Combined time: 45.979228 seconds
+similarity matrix: 1.0934897 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 6, 8]), 7: array([ 7,  9, 10, 11])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 41.938334 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4]
+Average number of observations per cluster: [96.0, 64.0, 112.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 96
+Number of variables checked for subsets: 8872
+Number of interserctions 16
+Number of variables checked for subsets: 990
+Number of interserctions 0
+Number of variables checked for subsets: 312
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156219 seconds
+Combined time: 43.0474456 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 12 variables the time were:
+Similarity Matrix
+[1.9370825, 1.9923778, 1.7730728, 1.6483356, 1.8432787, 1.8589376, 1.2426095, 1.3908859, 2.4838343, 1.0934897]
+Hierarchical clustering
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0156219, 0.0, 0.0, 0.0]
+Apriori with clusters
+[42.8650024, 42.5829786, 42.5963028, 41.5085388, 42.4070225, 41.9785409, 43.1061459, 41.7527156, 43.3860413, 41.938334]
+Merging of patterns
+[0.0468631, 0.0156145, 0.015621, 0.0, 0.0624849, 0.0156211, 0.0156115, 0.0, 0.1093524, 0.0156219]
+Number of intersections
+[136, 160, 136, 184, 160, 208, 112, 184, 184, 112]
+Number of variables tested for subsets
+[13598, 17470, 13358, 21221, 17232, 27783, 10299, 20662, 20376, 10174]
+Number of observations per pattern
+[2510.0, 810.3333333333334, 1023.3333333333334, 193.33333333333334, 1964.3333333333333, 256.0, 74.66666666666667, 138.33333333333334, 2683.3333333333335, 90.66666666666667]
+Number of variables per pattern
+[1.0666666666666667, 1.1666666666666667, 1.0666666666666667, 1.1433333333333333, 1.11, 1.1666666666666667, 1.0, 1.1433333333333333, 1.2366666666666666, 1.0]
+Number of patterns discovered
+[76, 77, 74, 73, 74, 94, 81, 70, 64, 78]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Random
+#########################################################################################
+similarity matrix: 1.9682857 seconds
+{0: ['5794', '6813', '2476', '4311'], 1: ['91', '1588', '4936', '5654'], 2: ['203', '6950', '5175', '5946']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 42.8566742 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 6, 5]
+Average number of observations per cluster: [72.0, 2106.0, 3961.0]
+Average number of variables per cluster: [1.0, 1.33, 1.2]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 164
+Number of variables checked for subsets: 20018
+Number of interserctions 30
+Number of variables checked for subsets: 1956
+Number of interserctions 0
+Number of variables checked for subsets: 320
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0624854 seconds
+Combined time: 44.8874453 seconds
+similarity matrix: 1.8841364 seconds
+{0: ['6025', '6175', '6823', '4406'], 1: ['1763', '4576', '4939', '5884'], 2: ['6440', '4468', '4854', '4060']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 42.4529226 seconds
+Intermediate analysis
+Number of patterns per cluster: [6, 5, 4]
+Average number of observations per cluster: [213.0, 2514.0, 15.0]
+Average number of variables per cluster: [1.33, 1.4, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 174
+Number of variables checked for subsets: 25223
+Number of interserctions 20
+Number of variables checked for subsets: 1283
+Number of interserctions 0
+Number of variables checked for subsets: 260
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156222 seconds
+Combined time: 44.3526812 seconds
+similarity matrix: 1.7966943 seconds
+{0: ['162', '387', '4896', '6385'], 1: ['6601', '6412', '4423', '1440'], 2: ['4648', '5195', '6981', '6472']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 41.8395455 seconds
+Intermediate analysis
+Number of patterns per cluster: [7, 5, 4]
+Average number of observations per cluster: [2048.0, 144.0, 22.0]
+Average number of variables per cluster: [1.43, 1.2, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 203
+Number of variables checked for subsets: 33519
+Number of interserctions 20
+Number of variables checked for subsets: 1187
+Number of interserctions 0
+Number of variables checked for subsets: 296
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156195 seconds
+Combined time: 43.6518593 seconds
+similarity matrix: 1.6714921 seconds
+{0: ['6460', '5949', '725', '81'], 1: ['4557', '2321', '827', '1237'], 2: ['2486', '248', '44', '27']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 42.2413415 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 7, 4]
+Average number of observations per cluster: [45.0, 361.0, 144.0]
+Average number of variables per cluster: [1.0, 1.43, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 156
+Number of variables checked for subsets: 20059
+Number of interserctions 28
+Number of variables checked for subsets: 2325
+Number of interserctions 0
+Number of variables checked for subsets: 356
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 43.9128336 seconds
+similarity matrix: 1.9213857 seconds
+{0: ['6559', '6519', '5875', '4833'], 1: ['4506', '4270', '1014', '4805'], 2: ['4449', '5295', '4654', '5135']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 43.4403307 seconds
+Intermediate analysis
+Number of patterns per cluster: [6, 5, 4]
+Average number of observations per cluster: [4595.0, 988.0, 54.0]
+Average number of variables per cluster: [1.33, 1.2, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 174
+Number of variables checked for subsets: 24928
+Number of interserctions 20
+Number of variables checked for subsets: 1251
+Number of interserctions 0
+Number of variables checked for subsets: 248
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0312428 seconds
+Combined time: 45.3929592 seconds
+similarity matrix: 1.9238419 seconds
+{0: ['6169', '6795', '4126', '4581'], 1: ['4932', '6909', '3346', '7074'], 2: ['5194', '6122', '4808', '5904']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 42.0849455 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 8, 4]
+Average number of observations per cluster: [30.0, 590.0, 34.0]
+Average number of variables per cluster: [1.0, 1.62, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 176
+Number of variables checked for subsets: 22642
+Number of interserctions 32
+Number of variables checked for subsets: 2287
+Number of interserctions 0
+Number of variables checked for subsets: 248
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.015622 seconds
+Combined time: 44.0244094 seconds
+similarity matrix: 1.282838 seconds
+{0: ['4640', '6815', '3384', '5893'], 1: ['2483', '6160', '6303', '6501'], 2: ['4449', '6389', '5194', '303']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 41.8384522 seconds
+Intermediate analysis
+Number of patterns per cluster: [7, 4, 4]
+Average number of observations per cluster: [83.0, 12.0, 67.0]
+Average number of variables per cluster: [1.43, 1.0, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 168
+Number of variables checked for subsets: 24245
+Number of interserctions 16
+Number of variables checked for subsets: 908
+Number of interserctions 0
+Number of variables checked for subsets: 260
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0156226 seconds
+Combined time: 43.1369128 seconds
+similarity matrix: 1.4294789 seconds
+{0: ['2454', '6725', '4862', '4479'], 1: ['1498', '1476', '469', '1569'], 2: ['4542', '153', '6813', '2349']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 41.9791899 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 6]
+Average number of observations per cluster: [48.0, 28.0, 386.0]
+Average number of variables per cluster: [1.0, 1.0, 1.33]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 136
+Number of variables checked for subsets: 15032
+Number of interserctions 24
+Number of variables checked for subsets: 1301
+Number of interserctions 0
+Number of variables checked for subsets: 420
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 43.4086688 seconds
+similarity matrix: 2.5310911 seconds
+{0: ['194', '284', '4591', '2080'], 1: ['4840', '4940', '232', '4633'], 2: ['6534', '6850', '3400', '1074']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 44.394397 seconds
+Intermediate analysis
+Number of patterns per cluster: [5, 4, 7]
+Average number of observations per cluster: [668.0, 12001.0, 168.0]
+Average number of variables per cluster: [1.2, 1.75, 1.43]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 195
+Number of variables checked for subsets: 28027
+Number of interserctions 28
+Number of variables checked for subsets: 1660
+Number of interserctions 0
+Number of variables checked for subsets: 425
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0624939 seconds
+Combined time: 46.987982 seconds
+similarity matrix: 1.1559815 seconds
+{0: ['98', '5824', '5314', '2451'], 1: ['2468', '4973', '6544', '5574'], 2: ['1098', '4754', '4469', '6260']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 3
+Apriori with clusters: 41.8425447 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4]
+Average number of observations per cluster: [168.0, 95.0, 10.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 96
+Number of variables checked for subsets: 8922
+Number of interserctions 16
+Number of variables checked for subsets: 912
+Number of interserctions 0
+Number of variables checked for subsets: 312
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0 seconds
+Combined time: 42.9985262 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 12 variables the time were:
+Similarity Matrix
+[1.9682857, 1.8841364, 1.7966943, 1.6714921, 1.9213857, 1.9238419, 1.282838, 1.4294789, 2.5310911, 1.1559815]
+Hierarchical clustering
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Apriori with clusters
+[42.8566742, 42.4529226, 41.8395455, 42.2413415, 43.4403307, 42.0849455, 41.8384522, 41.9791899, 44.394397, 41.8425447]
+Merging of patterns
+[0.0624854, 0.0156222, 0.0156195, 0.0, 0.0312428, 0.015622, 0.0156226, 0.0, 0.0624939, 0.0]
+Number of intersections
+[194, 194, 223, 184, 194, 208, 184, 160, 223, 112]
+Number of variables tested for subsets
+[22294, 26766, 35002, 22740, 26427, 25177, 25413, 16753, 30112, 10146]
+Number of observations per pattern
+[2046.3333333333333, 914.0, 738.0, 183.33333333333334, 1879.0, 218.0, 54.0, 154.0, 4279.0, 91.0]
+Number of variables per pattern
+[1.1766666666666667, 1.2433333333333334, 1.21, 1.1433333333333333, 1.1766666666666667, 1.2066666666666668, 1.1433333333333333, 1.11, 1.46, 1.0]
+Number of patterns discovered
+[64, 65, 74, 89, 62, 62, 65, 70, 59, 78]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Number of variables: 16
+
+
+#########################################################################################
+#########################################################################################
+Similar
+#########################################################################################
+similarity matrix: 5.1664089 seconds
+{4: array([ 4,  8,  9, 11]), 1: array([ 1,  6, 14,  3]), 0: array([0, 2, 7, 5]), 10: array([10, 12, 13, 15])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 57.6683594 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [7, 14, 5, 8]
+Average number of observations per cluster: [50.0, 5332.0, 31.0, 285.0]
+Average number of variables per cluster: [1.43, 2.0, 1.2, 1.62]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 5663
+Number of variables checked for subsets: 17009777
+Number of interserctions 742
+Number of variables checked for subsets: 363370
+Number of interserctions 40
+Number of variables checked for subsets: 3320
+Number of interserctions 0
+Number of variables checked for subsets: 1581
+End of merge analysis
+#########################################################################################
+Merging with clusters: 2.8453671 seconds
+Combined time: 65.6801354 seconds
+similarity matrix: 2.2026089 seconds
+{0: array([ 0,  7, 14,  9]), 1: array([1, 8, 2, 3]), 4: array([ 4, 10,  5,  6]), 11: array([11, 12, 13, 15])}
+Hierarchical clustering: 0.015621 seconds
+Number of clusters : 4
+Apriori with clusters: 56.6065717 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [8, 5, 5, 4]
+Average number of observations per cluster: [179.0, 38.0, 20.0, 14.0]
+Average number of variables per cluster: [1.5, 1.2, 1.2, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 1432
+Number of variables checked for subsets: 1262369
+Number of interserctions 145
+Number of variables checked for subsets: 18485
+Number of interserctions 20
+Number of variables checked for subsets: 1674
+Number of interserctions 0
+Number of variables checked for subsets: 688
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.2030772 seconds
+Combined time: 59.0278788 seconds
+similarity matrix: 2.7734286 seconds
+{0: array([0, 1, 5, 8]), 2: array([2, 3, 4, 6]), 7: array([ 7, 15,  9, 10]), 11: array([11, 12, 13, 14])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 56.3490111 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [13, 4, 5, 4]
+Average number of observations per cluster: [444.0, 62.0, 44.0, 19.0]
+Average number of variables per cluster: [1.92, 1.0, 1.2, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 1937
+Number of variables checked for subsets: 2301518
+Number of interserctions 116
+Number of variables checked for subsets: 14568
+Number of interserctions 20
+Number of variables checked for subsets: 1756
+Number of interserctions 0
+Number of variables checked for subsets: 736
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.3592884 seconds
+Combined time: 59.4817281 seconds
+similarity matrix: 2.6517922 seconds
+{3: array([ 3,  4,  7, 13]), 0: array([0, 1, 2, 6]), 5: array([ 5,  8,  9, 11]), 10: array([10, 15, 14, 12])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 55.4906879 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [10, 5, 4, 6]
+Average number of observations per cluster: [192.0, 24.0, 11.0, 85.0]
+Average number of variables per cluster: [1.6, 1.2, 1.0, 1.33]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 2090
+Number of variables checked for subsets: 2657001
+Number of interserctions 170
+Number of variables checked for subsets: 25101
+Number of interserctions 24
+Number of variables checked for subsets: 1954
+Number of interserctions 0
+Number of variables checked for subsets: 1512
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.4217761 seconds
+Combined time: 58.5642562 seconds
+similarity matrix: 4.7040138 seconds
+{5: array([ 5,  7, 15, 13]), 0: array([0, 1, 6, 2]), 3: array([3, 4, 9, 8]), 10: array([10, 11, 12, 14])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 57.981092 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [13, 5, 6, 4]
+Average number of observations per cluster: [12005.0, 17.0, 26.0, 78.0]
+Average number of variables per cluster: [2.08, 1.2, 1.33, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 2717
+Number of variables checked for subsets: 4180357
+Number of interserctions 170
+Number of variables checked for subsets: 25574
+Number of interserctions 24
+Number of variables checked for subsets: 1938
+Number of interserctions 0
+Number of variables checked for subsets: 372
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.8605928 seconds
+Combined time: 63.5456986 seconds
+similarity matrix: 2.7180698 seconds
+{1: array([ 1,  3,  8, 13]), 0: array([0, 2, 4, 6]), 5: array([ 5, 14,  7,  9]), 10: array([10, 11, 12, 15])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 56.1605099 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [13, 4, 5, 4]
+Average number of observations per cluster: [309.0, 15.0, 48.0, 2954.0]
+Average number of variables per cluster: [1.92, 1.0, 1.2, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 1937
+Number of variables checked for subsets: 2294962
+Number of interserctions 116
+Number of variables checked for subsets: 14452
+Number of interserctions 20
+Number of variables checked for subsets: 1890
+Number of interserctions 0
+Number of variables checked for subsets: 736
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.7734157 seconds
+Combined time: 59.6519954 seconds
+similarity matrix: 3.4212757 seconds
+{0: array([ 0,  9, 15,  8]), 1: array([ 1,  3, 12, 14]), 2: array([2, 4, 5, 6]), 7: array([ 7, 10, 11, 13])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 58.1888873 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [7, 11, 4, 4]
+Average number of observations per cluster: [55.0, 5036.0, 28.0, 8.0]
+Average number of variables per cluster: [1.43, 1.82, 1.0, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 2093
+Number of variables checked for subsets: 2514600
+Number of interserctions 264
+Number of variables checked for subsets: 58868
+Number of interserctions 16
+Number of variables checked for subsets: 1301
+Number of interserctions 0
+Number of variables checked for subsets: 549
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.4620428 seconds
+Combined time: 62.0722058 seconds
+similarity matrix: 4.0933314 seconds
+{2: array([ 2,  4, 13,  5]), 0: array([0, 1, 3, 6]), 7: array([ 7,  8,  9, 10]), 11: array([11, 12, 15, 14])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 57.8321609 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [9, 4, 4, 5]
+Average number of observations per cluster: [11405.0, 21.0, 19.0, 41.0]
+Average number of variables per cluster: [1.89, 1.0, 1.0, 1.2]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 1341
+Number of variables checked for subsets: 1130143
+Number of interserctions 116
+Number of variables checked for subsets: 14630
+Number of interserctions 20
+Number of variables checked for subsets: 1264
+Number of interserctions 0
+Number of variables checked for subsets: 288
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.3124224 seconds
+Combined time: 62.2379147 seconds
+similarity matrix: 3.1242636 seconds
+{7: array([ 7, 12, 11, 15]), 0: array([ 0,  1,  9, 13]), 2: array([2, 3, 4, 5]), 6: array([ 6,  8, 10, 14])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 57.1102857 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [10, 6, 5, 4]
+Average number of observations per cluster: [4654.0, 71.0, 15.0, 4.0]
+Average number of variables per cluster: [1.7, 1.33, 1.2, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 2090
+Number of variables checked for subsets: 2542714
+Number of interserctions 174
+Number of variables checked for subsets: 26046
+Number of interserctions 20
+Number of variables checked for subsets: 1674
+Number of interserctions 0
+Number of variables checked for subsets: 592
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.4530188 seconds
+Combined time: 60.6875681 seconds
+similarity matrix: 3.7491569 seconds
+{7: array([ 7, 12,  8, 13]), 0: array([ 0, 14,  9,  2]), 1: array([1, 3, 4, 5]), 6: array([ 6, 10, 11, 15])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 57.3778855 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [6, 12, 4, 4]
+Average number of observations per cluster: [24.0, 5407.0, 50.0, 16.0]
+Average number of variables per cluster: [1.5, 2.0, 1.0, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 1944
+Number of variables checked for subsets: 2107743
+Number of interserctions 288
+Number of variables checked for subsets: 67660
+Number of interserctions 16
+Number of variables checked for subsets: 1145
+Number of interserctions 0
+Number of variables checked for subsets: 414
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.453021 seconds
+Combined time: 61.5800634 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 16 variables the time were:
+Similarity Matrix
+[5.1664089, 2.2026089, 2.7734286, 2.6517922, 4.7040138, 2.7180698, 3.4212757, 4.0933314, 3.1242636, 3.7491569]
+Hierarchical clustering
+[0.0, 0.015621, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Apriori with clusters
+[57.6683594, 56.6065717, 56.3490111, 55.4906879, 57.981092, 56.1605099, 58.1888873, 57.8321609, 57.1102857, 57.3778855]
+Merging of patterns
+[2.8453671, 0.2030772, 0.3592884, 0.4217761, 0.8605928, 0.7734157, 0.4620428, 0.3124224, 0.4530188, 0.453021]
+Number of intersections
+[6445, 1597, 2073, 2284, 2911, 2073, 2373, 1477, 2284, 2248]
+Number of variables tested for subsets
+[17378048, 1283216, 2318578, 2685568, 4208241, 2312040, 2575318, 1146325, 2571026, 2176962]
+Number of observations per pattern
+[1424.5, 62.75, 142.25, 78.0, 3031.5, 831.5, 1281.75, 2871.5, 1186.0, 1374.25]
+Number of variables per pattern
+[1.5625, 1.225, 1.28, 1.2825, 1.4025, 1.28, 1.3125, 1.2725, 1.3075, 1.375]
+Number of patterns discovered
+[200, 172, 184, 252, 104, 184, 137, 139, 148, 103]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Dissimilar
+#########################################################################################
+similarity matrix: 5.234027 seconds
+{0: array([0, 2, 3, 4]), 7: array([ 7,  8, 11, 15]), 5: array([ 5,  6, 10, 13]), 1: array([ 1,  9, 12, 14])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 59.0449139 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 6, 11]
+Average number of observations per cluster: [74.0, 51.0, 4119.0, 3381.0]
+Average number of variables per cluster: [1.0, 1.0, 1.33, 1.82]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 1676
+Number of variables checked for subsets: 1621217
+Number of interserctions 332
+Number of variables checked for subsets: 77127
+Number of interserctions 66
+Number of variables checked for subsets: 13003
+Number of interserctions 0
+Number of variables checked for subsets: 2464
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.8279303 seconds
+Combined time: 65.1068712 seconds
+similarity matrix: 2.2453903 seconds
+{0: array([0, 2, 3, 5]), 1: array([1, 4, 6, 7]), 8: array([ 8,  9, 10, 11]), 12: array([12, 13, 14, 15])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 55.5447364 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4, 4]
+Average number of observations per cluster: [232.0, 88.0, 55.0, 65.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 496
+Number of variables checked for subsets: 206569
+Number of interserctions 96
+Number of variables checked for subsets: 13924
+Number of interserctions 16
+Number of variables checked for subsets: 2069
+Number of interserctions 0
+Number of variables checked for subsets: 1136
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0468605 seconds
+Combined time: 57.8369872 seconds
+similarity matrix: 2.8117973 seconds
+{0: array([0, 2, 3, 4]), 1: array([ 1,  7,  9, 10]), 5: array([ 5,  6, 11, 13]), 8: array([ 8, 12, 14, 15])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 55.9440791 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4, 4]
+Average number of observations per cluster: [884.0, 164.0, 357.0, 111.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 496
+Number of variables checked for subsets: 207954
+Number of interserctions 96
+Number of variables checked for subsets: 15922
+Number of interserctions 16
+Number of variables checked for subsets: 2695
+Number of interserctions 0
+Number of variables checked for subsets: 1184
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0625223 seconds
+Combined time: 58.8183987 seconds
+similarity matrix: 2.7891555 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 8, 9]), 6: array([ 6,  7, 10, 11]), 12: array([12, 13, 14, 15])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 55.7751869 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4, 6]
+Average number of observations per cluster: [296.0, 48.0, 88.0, 140.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0, 1.33]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 696
+Number of variables checked for subsets: 345444
+Number of interserctions 136
+Number of variables checked for subsets: 18650
+Number of interserctions 24
+Number of variables checked for subsets: 3064
+Number of interserctions 0
+Number of variables checked for subsets: 1368
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0624932 seconds
+Combined time: 58.6268356 seconds
+similarity matrix: 4.6346925 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 6, 8, 9]), 10: array([10, 11, 12, 14]), 5: array([ 5,  7, 13, 15])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 58.0663717 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4, 13]
+Average number of observations per cluster: [43.0, 16.0, 78.0, 12005.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0, 2.08]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 1396
+Number of variables checked for subsets: 1116492
+Number of interserctions 276
+Number of variables checked for subsets: 48770
+Number of interserctions 52
+Number of variables checked for subsets: 4728
+Number of interserctions 0
+Number of variables checked for subsets: 1716
+End of merge analysis
+#########################################################################################
+Merging with clusters: 1.6282556 seconds
+Combined time: 64.3293198 seconds
+similarity matrix: 2.738538 seconds
+{0: array([0, 1, 2, 4]), 3: array([ 3,  6,  7, 10]), 5: array([ 5,  9, 11, 12]), 8: array([ 8, 15, 13, 14])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 56.6797348 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4, 7]
+Average number of observations per cluster: [470.0, 207.0, 2997.0, 184.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0, 1.43]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 796
+Number of variables checked for subsets: 436298
+Number of interserctions 156
+Number of variables checked for subsets: 22873
+Number of interserctions 28
+Number of variables checked for subsets: 3256
+Number of interserctions 0
+Number of variables checked for subsets: 1624
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.1173672 seconds
+Combined time: 59.53564 seconds
+similarity matrix: 3.5617001 seconds
+{0: array([0, 1, 2, 4]), 3: array([ 3,  5, 11, 13]), 6: array([6, 7, 8, 9]), 10: array([10, 14, 15, 12])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 57.1586199 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4, 7]
+Average number of observations per cluster: [80.0, 2668.0, 56.0, 5244.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0, 1.43]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 796
+Number of variables checked for subsets: 438441
+Number of interserctions 156
+Number of variables checked for subsets: 24034
+Number of interserctions 28
+Number of variables checked for subsets: 2387
+Number of interserctions 0
+Number of variables checked for subsets: 1631
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.4452959 seconds
+Combined time: 61.1656159 seconds
+similarity matrix: 4.0567839 seconds
+{0: array([0, 1, 3, 5]), 6: array([ 6,  8,  9, 10]), 11: array([11, 12, 13, 14]), 2: array([ 2,  7, 15,  4])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 57.9106185 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4, 6]
+Average number of observations per cluster: [49.0, 24.0, 3206.0, 14944.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0, 1.83]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 696
+Number of variables checked for subsets: 325391
+Number of interserctions 136
+Number of variables checked for subsets: 17045
+Number of interserctions 24
+Number of variables checked for subsets: 2811
+Number of interserctions 0
+Number of variables checked for subsets: 1025
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.9301126 seconds
+Combined time: 62.897515 seconds
+similarity matrix: 3.0071508 seconds
+{0: array([0, 1, 2, 4]), 3: array([3, 5, 6, 8]), 7: array([ 7, 10, 14, 13]), 9: array([ 9, 12, 15, 11])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 57.4462479 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 5, 7]
+Average number of observations per cluster: [44.0, 5.0, 2485.0, 3223.0]
+Average number of variables per cluster: [1.0, 1.0, 1.2, 1.43]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 956
+Number of variables checked for subsets: 580094
+Number of interserctions 188
+Number of variables checked for subsets: 27127
+Number of interserctions 35
+Number of variables checked for subsets: 3918
+Number of interserctions 0
+Number of variables checked for subsets: 1288
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.4061605 seconds
+Combined time: 60.8595592 seconds
+similarity matrix: 3.8820006 seconds
+{0: array([0, 1, 3, 7]), 2: array([2, 4, 5, 6]), 8: array([ 8, 10, 11, 13]), 9: array([ 9, 12, 15, 14])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 57.5790054 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4, 11]
+Average number of observations per cluster: [4129.0, 67.0, 24.0, 2708.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0, 1.82]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 1196
+Number of variables checked for subsets: 876036
+Number of interserctions 236
+Number of variables checked for subsets: 39760
+Number of interserctions 44
+Number of variables checked for subsets: 4074
+Number of interserctions 0
+Number of variables checked for subsets: 1864
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.4686397 seconds
+Combined time: 61.9296457 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 16 variables the time were:
+Similarity Matrix
+[5.234027, 2.2453903, 2.8117973, 2.7891555, 4.6346925, 2.738538, 3.5617001, 4.0567839, 3.0071508, 3.8820006]
+Hierarchical clustering
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Apriori with clusters
+[59.0449139, 55.5447364, 55.9440791, 55.7751869, 58.0663717, 56.6797348, 57.1586199, 57.9106185, 57.4462479, 57.5790054]
+Merging of patterns
+[0.8279303, 0.0468605, 0.0625223, 0.0624932, 1.6282556, 0.1173672, 0.4452959, 0.9301126, 0.4061605, 0.4686397]
+Number of intersections
+[2074, 608, 608, 856, 1724, 980, 980, 856, 1179, 1476]
+Number of variables tested for subsets
+[1713811, 223698, 227755, 368526, 1171706, 464051, 466493, 346272, 612427, 921734]
+Number of observations per pattern
+[1906.25, 110.0, 379.0, 143.0, 3035.5, 964.5, 2012.0, 4555.75, 1439.25, 1732.0]
+Number of variables per pattern
+[1.2875, 1.0, 1.0, 1.0825, 1.27, 1.1075, 1.1075, 1.2075, 1.1575, 1.205]
+Number of patterns discovered
+[224, 284, 296, 228, 132, 232, 233, 171, 184, 183]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Random
+#########################################################################################
+similarity matrix: 5.0116757 seconds
+{0: ['6922', '6581', '4020', '6970'], 1: ['6331', '4469', '6384', '152'], 2: ['5195', '6695', '4861', '6181'], 3: ['163', '72', '26', '1048']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 58.3886365 seconds
+Intermediate analysis
+Number of patterns per cluster: [6, 5, 5, 11]
+Average number of observations per cluster: [3814.0, 324.0, 44.0, 3381.0]
+Average number of variables per cluster: [1.33, 1.2, 1.2, 1.82]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 2586
+Number of variables checked for subsets: 3727438
+Number of interserctions 355
+Number of variables checked for subsets: 87240
+Number of interserctions 55
+Number of variables checked for subsets: 5627
+Number of interserctions 0
+Number of variables checked for subsets: 2002
+End of merge analysis
+#########################################################################################
+Merging with clusters: 1.3513719 seconds
+Combined time: 64.7516841 seconds
+similarity matrix: 2.2494695 seconds
+{0: ['6671', '6699', '4852', '6371'], 1: ['5113', '6911', '5504', '5555'], 2: ['6409', '4461', '2405', '5194'], 3: ['6449', '5951', '6482', '4791']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 55.4574797 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 5, 6, 4]
+Average number of observations per cluster: [6.0, 85.0, 169.0, 75.0]
+Average number of variables per cluster: [1.0, 1.2, 1.33, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 836
+Number of variables checked for subsets: 449109
+Number of interserctions 170
+Number of variables checked for subsets: 24919
+Number of interserctions 24
+Number of variables checked for subsets: 2432
+Number of interserctions 0
+Number of variables checked for subsets: 688
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.0937314 seconds
+Combined time: 57.8006806 seconds
+similarity matrix: 2.8353363 seconds
+{0: ['6249', '152', '6901', '4942'], 1: ['5999', '5453', '6299', '533'], 2: ['5304', '284', '426', '33'], 3: ['4516', '599', '5753', '270']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 55.4265668 seconds
+Intermediate analysis
+Number of patterns per cluster: [8, 4, 4, 5]
+Average number of observations per cluster: [236.0, 40.0, 851.0, 126.0]
+Average number of variables per cluster: [1.5, 1.0, 1.0, 1.2]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 1192
+Number of variables checked for subsets: 958457
+Number of interserctions 116
+Number of variables checked for subsets: 14763
+Number of interserctions 20
+Number of variables checked for subsets: 2440
+Number of interserctions 0
+Number of variables checked for subsets: 1160
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.1874569 seconds
+Combined time: 58.44936 seconds
+similarity matrix: 2.7337731 seconds
+{0: ['423', '2321', '6262', '4475'], 1: ['4832', '5653', '2303', '38'], 2: ['349', '6813', '4563', '4732'], 3: ['2309', '4060', '6519', '7103']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 55.3346705 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 6, 5, 5]
+Average number of observations per cluster: [56.0, 126.0, 265.0, 53.0]
+Average number of variables per cluster: [1.0, 1.33, 1.2, 1.2]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 1004
+Number of variables checked for subsets: 611232
+Number of interserctions 210
+Number of variables checked for subsets: 34539
+Number of interserctions 25
+Number of variables checked for subsets: 2124
+Number of interserctions 0
+Number of variables checked for subsets: 720
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.1093463 seconds
+Combined time: 58.1777899 seconds
+similarity matrix: 4.6011451 seconds
+{0: ['4054', '6061', '2229', '5334'], 1: ['6392', '7022', '2300', '6014'], 2: ['522', '4412', '5385', '188'], 3: ['6443', '5104', '6887', '5553']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 59.1103413 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 8, 7, 6]
+Average number of observations per cluster: [24.0, 6878.0, 6947.0, 38.0]
+Average number of variables per cluster: [1.0, 1.75, 1.57, 1.33]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 2012
+Number of variables checked for subsets: 2173912
+Number of interserctions 440
+Number of variables checked for subsets: 129390
+Number of interserctions 42
+Number of variables checked for subsets: 3654
+Number of interserctions 0
+Number of variables checked for subsets: 694
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.6248517 seconds
+Combined time: 64.3363381 seconds
+similarity matrix: 2.8743625 seconds
+{0: ['5065', '2101', '5463', '1498'], 1: ['6123', '6665', '6866', '4068'], 2: ['5164', '4923', '235', '4547'], 3: ['4451', '4635', '6860', '318']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 56.0345233 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 7, 6]
+Average number of observations per cluster: [15.0, 2958.0, 243.0, 403.0]
+Average number of variables per cluster: [1.0, 1.0, 1.43, 1.33]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 1116
+Number of variables checked for subsets: 792285
+Number of interserctions 220
+Number of variables checked for subsets: 37457
+Number of interserctions 42
+Number of variables checked for subsets: 6270
+Number of interserctions 0
+Number of variables checked for subsets: 1392
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.187456 seconds
+Combined time: 59.0963418 seconds
+similarity matrix: 3.4093404 seconds
+{0: ['6415', '1112', '330', '208'], 1: ['5534', '6562', '420', '5972'], 2: ['4649', '5374', '6250', '2454'], 3: ['2463', '5114', '6580', '84']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 57.0489834 seconds
+Intermediate analysis
+Number of patterns per cluster: [6, 4, 4, 5]
+Average number of observations per cluster: [1821.0, 38.0, 58.0, 7312.0]
+Average number of variables per cluster: [1.33, 1.0, 1.0, 1.6]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 894
+Number of variables checked for subsets: 553714
+Number of interserctions 116
+Number of variables checked for subsets: 14460
+Number of interserctions 20
+Number of variables checked for subsets: 2076
+Number of interserctions 0
+Number of variables checked for subsets: 925
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.6091944 seconds
+Combined time: 61.0675182 seconds
+similarity matrix: 3.9762712 seconds
+{0: ['6560', '169', '4846', '6445'], 1: ['66', '4682', '5964', '6699'], 2: ['4784', '4430', '4408', '5474'], 3: ['182', '1714', '5323', '4516']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 58.9280295 seconds
+Intermediate analysis
+Number of patterns per cluster: [5, 6, 6, 4]
+Average number of observations per cluster: [2569.0, 3764.0, 7817.0, 12.0]
+Average number of variables per cluster: [1.2, 1.5, 1.5, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 1220
+Number of variables checked for subsets: 906806
+Number of interserctions 204
+Number of variables checked for subsets: 36263
+Number of interserctions 24
+Number of variables checked for subsets: 2517
+Number of interserctions 0
+Number of variables checked for subsets: 475
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.3832379 seconds
+Combined time: 63.2875386 seconds
+similarity matrix: 3.0149112 seconds
+{0: ['6978', '4649', '6482', '222'], 1: ['4948', '4642', '6802', '4879'], 2: ['2345', '5946', '5313', '6770'], 3: ['6299', '1101', '264', '162']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 4
+Apriori with clusters: 57.5570668 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 5, 6, 5]
+Average number of observations per cluster: [36.0, 186.0, 3266.0, 2833.0]
+Average number of variables per cluster: [1.0, 1.2, 1.33, 1.2]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 1004
+Number of variables checked for subsets: 615256
+Number of interserctions 205
+Number of variables checked for subsets: 32584
+Number of interserctions 30
+Number of variables checked for subsets: 2823
+Number of interserctions 0
+Number of variables checked for subsets: 740
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.3905342 seconds
+Combined time: 60.9625122 seconds
+similarity matrix: 3.8272244 seconds
+{0: ['124', '4946', '7053', '5655'], 1: ['6741', '6035', '4791', '6014'], 2: ['820', '4744', '6152', '6928'], 3: ['7046', '6927', '6405', '4879']}
+Hierarchical clustering: 0.0156211 seconds
+Number of clusters : 4
+Apriori with clusters: 57.0383363 seconds
+Intermediate analysis
+Number of patterns per cluster: [8, 4, 6, 6]
+Average number of observations per cluster: [3729.0, 29.0, 24.0, 2768.0]
+Average number of variables per cluster: [1.62, 1.0, 1.33, 1.5]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 1952
+Number of variables checked for subsets: 2219034
+Number of interserctions 192
+Number of variables checked for subsets: 28565
+Number of interserctions 36
+Number of variables checked for subsets: 2469
+Number of interserctions 0
+Number of variables checked for subsets: 591
+End of merge analysis
+#########################################################################################
+Merging with clusters: 0.7890235 seconds
+Combined time: 61.6702053 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 16 variables the time were:
+Similarity Matrix
+[5.0116757, 2.2494695, 2.8353363, 2.7337731, 4.6011451, 2.8743625, 3.4093404, 3.9762712, 3.0149112, 3.8272244]
+Hierarchical clustering
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0156211]
+Apriori with clusters
+[58.3886365, 55.4574797, 55.4265668, 55.3346705, 59.1103413, 56.0345233, 57.0489834, 58.9280295, 57.5570668, 57.0383363]
+Merging of patterns
+[1.3513719, 0.0937314, 0.1874569, 0.1093463, 0.6248517, 0.187456, 0.6091944, 0.3832379, 0.3905342, 0.7890235]
+Number of intersections
+[2996, 1030, 1328, 1239, 2494, 1378, 1030, 1448, 1239, 2180]
+Number of variables tested for subsets
+[3822307, 477148, 976820, 648615, 2307650, 837404, 571175, 946061, 651403, 2250659]
+Number of observations per pattern
+[1890.75, 83.75, 313.25, 125.0, 3471.75, 904.75, 2307.25, 3540.5, 1580.25, 1637.5]
+Number of variables per pattern
+[1.3875000000000002, 1.1325, 1.175, 1.1825, 1.4125, 1.19, 1.2325, 1.3, 1.1825, 1.3625]
+Number of patterns discovered
+[182, 172, 232, 144, 116, 232, 185, 151, 148, 127]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Number of variables: 20
+
+
+#########################################################################################
+#########################################################################################
+Similar
+#########################################################################################
+similarity matrix: 6.1385397 seconds
+{3: array([ 3,  8, 16, 19]), 0: array([ 0,  1,  9, 15]), 2: array([2, 4, 5, 6]), 7: array([ 7, 13, 11, 14]), 10: array([10, 12, 18, 17])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 70.7750991 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [15, 7, 4, 4, 6]
+Average number of observations per cluster: [6306.0, 82.0, 4.0, 4.0, 78.0]
+Average number of variables per cluster: [2.13, 1.43, 1.0, 1.25, 1.33]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 20985
+Number of variables checked for subsets: 231575615
+Number of interserctions 1218
+Number of variables checked for subsets: 959588
+Number of interserctions 136
+Number of variables checked for subsets: 18751
+Number of interserctions 24
+Number of variables checked for subsets: 2455
+Number of interserctions 0
+Number of variables checked for subsets: 1015
+End of merge analysis
+#########################################################################################
+Merging with clusters: 35.8405103 seconds
+Combined time: 112.7541491 seconds
+similarity matrix: 8.0187781 seconds
+{1: array([ 1,  3, 10,  4]), 12: array([12, 13, 14, 19]), 0: array([0, 7, 5, 6]), 2: array([ 2, 11, 15,  8]), 9: array([ 9, 16, 17, 18])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 71.5596508 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [11, 8, 5, 6, 4]
+Average number of observations per cluster: [28828.0, 113.0, 391.0, 58.0, 24.0]
+Average number of variables per cluster: [2.18, 1.5, 1.2, 1.33, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 20779
+Number of variables checked for subsets: 226564585
+Number of interserctions 1672
+Number of variables checked for subsets: 1716690
+Number of interserctions 170
+Number of variables checked for subsets: 28438
+Number of interserctions 24
+Number of variables checked for subsets: 3083
+Number of interserctions 0
+Number of variables checked for subsets: 630
+End of merge analysis
+#########################################################################################
+Merging with clusters: 35.6119305 seconds
+Combined time: 115.1903594 seconds
+similarity matrix: 5.1801407 seconds
+{5: array([ 5, 18, 12, 15]), 0: array([ 0, 11,  2, 17]), 1: array([ 1,  8, 13,  6]), 3: array([3, 4, 7, 9]), 10: array([10, 14, 16, 19])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 69.6310713 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [8, 9, 8, 4, 4]
+Average number of observations per cluster: [31.0, 866.0, 100.0, 54.0, 32.0]
+Average number of variables per cluster: [1.5, 1.56, 1.5, 1.0, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 17992
+Number of variables checked for subsets: 184611959
+Number of interserctions 2016
+Number of variables checked for subsets: 2762944
+Number of interserctions 192
+Number of variables checked for subsets: 48394
+Number of interserctions 16
+Number of variables checked for subsets: 6300
+Number of interserctions 0
+Number of variables checked for subsets: 5428
+End of merge analysis
+#########################################################################################
+Merging with clusters: 27.6888564 seconds
+Combined time: 102.5000684 seconds
+similarity matrix: 5.6712282 seconds
+{11: array([11, 16, 15, 18]), 7: array([ 7, 12,  9, 17]), 0: array([ 0,  1, 10,  2]), 3: array([3, 4, 5, 6]), 8: array([ 8, 13, 14, 19])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 70.6368109 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [10, 12, 5, 4, 4]
+Average number of observations per cluster: [253.0, 5894.0, 38.0, 29.0, 13.0]
+Average number of variables per cluster: [1.6, 2.0, 1.2, 1.0, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 19490
+Number of variables checked for subsets: 199172150
+Number of interserctions 1788
+Number of variables checked for subsets: 1926564
+Number of interserctions 120
+Number of variables checked for subsets: 17891
+Number of interserctions 16
+Number of variables checked for subsets: 2656
+Number of interserctions 0
+Number of variables checked for subsets: 1489
+End of merge analysis
+#########################################################################################
+Merging with clusters: 32.1959757 seconds
+Combined time: 108.5040148 seconds
+similarity matrix: 4.3663265 seconds
+{0: array([ 0,  4, 11, 13]), 7: array([ 7,  8, 18, 17]), 1: array([1, 2, 3, 5]), 6: array([ 6,  9, 15, 10]), 12: array([12, 14, 16, 19])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 69.9778246 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [8, 9, 4, 5, 4]
+Average number of observations per cluster: [82.0, 2897.0, 2.0, 49.0, 31.0]
+Average number of variables per cluster: [1.5, 1.67, 1.0, 1.2, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 11992
+Number of variables checked for subsets: 77892807
+Number of interserctions 1341
+Number of variables checked for subsets: 1131858
+Number of interserctions 116
+Number of variables checked for subsets: 14810
+Number of interserctions 20
+Number of variables checked for subsets: 3093
+Number of interserctions 0
+Number of variables checked for subsets: 1741
+End of merge analysis
+#########################################################################################
+Merging with clusters: 12.3416357 seconds
+Combined time: 86.6857868 seconds
+similarity matrix: 3.955007 seconds
+{1: array([ 1, 17, 14, 18]), 0: array([ 0, 15,  2,  9]), 3: array([3, 4, 6, 5]), 7: array([ 7,  8, 16, 11]), 10: array([10, 12, 13, 19])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 71.5782668 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [8, 7, 5, 3, 5]
+Average number of observations per cluster: [1788.0, 59.0, 46.0, 3.0, 38.0]
+Average number of variables per cluster: [1.5, 1.43, 1.2, 1.33, 1.2]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 9208
+Number of variables checked for subsets: 46309034
+Number of interserctions 1001
+Number of variables checked for subsets: 621666
+Number of interserctions 115
+Number of variables checked for subsets: 13001
+Number of interserctions 15
+Number of variables checked for subsets: 1310
+Number of interserctions 0
+Number of variables checked for subsets: 1845
+End of merge analysis
+#########################################################################################
+Merging with clusters: 6.8465616 seconds
+Combined time: 82.3798354 seconds
+similarity matrix: 4.9070689 seconds
+{5: array([ 5, 15, 13, 18]), 0: array([ 0, 11, 12,  4]), 1: array([ 1, 19,  2,  9]), 3: array([ 3,  6, 10, 14]), 7: array([ 7,  8, 16, 17])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 69.9065092 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [13, 7, 6, 4, 6]
+Average number of observations per cluster: [904.0, 99.0, 37.0, 4.0, 68.0]
+Average number of variables per cluster: [1.92, 1.43, 1.33, 1.0, 1.33]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 25467
+Number of variables checked for subsets: 335969253
+Number of interserctions 1708
+Number of variables checked for subsets: 1677314
+Number of interserctions 204
+Number of variables checked for subsets: 33735
+Number of interserctions 24
+Number of variables checked for subsets: 2522
+Number of interserctions 0
+Number of variables checked for subsets: 1770
+End of merge analysis
+#########################################################################################
+Merging with clusters: 53.005279 seconds
+Combined time: 127.8188571 seconds
+similarity matrix: 3.6499163 seconds
+{6: array([ 6, 14, 18, 15]), 0: array([0, 4, 1, 2]), 3: array([3, 5, 7, 9]), 8: array([ 8, 12, 10, 11]), 13: array([13, 16, 17, 19])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 69.5865271 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [10, 4, 4, 6, 4]
+Average number of observations per cluster: [935.0, 7.0, 34.0, 34.0, 40.0]
+Average number of variables per cluster: [1.7, 1.25, 1.0, 1.33, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 8740
+Number of variables checked for subsets: 42844666
+Number of interserctions 696
+Number of variables checked for subsets: 339168
+Number of interserctions 136
+Number of variables checked for subsets: 19052
+Number of interserctions 24
+Number of variables checked for subsets: 4054
+Number of interserctions 0
+Number of variables checked for subsets: 1908
+End of merge analysis
+#########################################################################################
+Merging with clusters: 6.2281622 seconds
+Combined time: 79.4646056 seconds
+similarity matrix: 3.7727996 seconds
+{9: array([ 9, 10, 18, 13]), 0: array([0, 1, 2, 3]), 4: array([4, 5, 6, 8]), 7: array([ 7, 19, 11, 12]), 14: array([14, 15, 16, 17])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 69.7080372 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [11, 4, 4, 5, 4]
+Average number of observations per cluster: [698.0, 22.0, 50.0, 36.0, 50.0]
+Average number of variables per cluster: [1.73, 1.0, 1.0, 1.2, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 8239
+Number of variables checked for subsets: 40766388
+Number of interserctions 596
+Number of variables checked for subsets: 287180
+Number of interserctions 116
+Number of variables checked for subsets: 17328
+Number of interserctions 20
+Number of variables checked for subsets: 4368
+Number of interserctions 0
+Number of variables checked for subsets: 3272
+End of merge analysis
+#########################################################################################
+Merging with clusters: 5.9383287 seconds
+Combined time: 79.4191655 seconds
+similarity matrix: 4.1476783 seconds
+{2: array([ 2, 14, 12, 13]), 6: array([ 6, 17, 15, 19]), 0: array([ 0,  1, 11,  3]), 4: array([4, 9, 5, 7]), 8: array([ 8, 10, 16, 18])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 69.3908277 seconds
+#########################################################################################
+Intermediate analysis
+Number of patterns per cluster: [11, 7, 6, 5, 4]
+Average number of observations per cluster: [459.0, 83.0, 79.0, 18.0, 32.0]
+Average number of variables per cluster: [1.73, 1.43, 1.33, 1.2, 1.0]
+End of intermediate analysis
+#########################################################################################
+#########################################################################################
+Merge analysis:
+Number of interserctions 18469
+Number of variables checked for subsets: 182226937
+Number of interserctions 1463
+Number of variables checked for subsets: 1292578
+Number of interserctions 174
+Number of variables checked for subsets: 28598
+Number of interserctions 20
+Number of variables checked for subsets: 3026
+Number of interserctions 0
+Number of variables checked for subsets: 1944
+End of merge analysis
+#########################################################################################
+Merging with clusters: 28.3036188 seconds
+Combined time: 101.8421248 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 20 variables the time were:
+Similarity Matrix
+[6.1385397, 8.0187781, 5.1801407, 5.6712282, 4.3663265, 3.955007, 4.9070689, 3.6499163, 3.7727996, 4.1476783]
+Hierarchical clustering
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Apriori with clusters
+[70.7750991, 71.5596508, 69.6310713, 70.6368109, 69.9778246, 71.5782668, 69.9065092, 69.5865271, 69.7080372, 69.3908277]
+Merging of patterns
+[35.8405103, 35.6119305, 27.6888564, 32.1959757, 12.3416357, 6.8465616, 53.005279, 6.2281622, 5.9383287, 28.3036188]
+Number of intersections
+[22363, 22645, 20216, 21414, 13469, 10339, 27403, 9596, 8971, 20126]
+Number of variables tested for subsets
+[232557424, 228313426, 187435025, 201120750, 79044309, 46946856, 337684594, 43208848, 41078536, 183553083]
+Number of observations per pattern
+[1294.8, 5882.8, 216.6, 1245.4, 612.2, 386.8, 222.4, 210.0, 171.2, 134.2]
+Number of variables per pattern
+[1.428, 1.442, 1.312, 1.3599999999999999, 1.274, 1.332, 1.402, 1.256, 1.186, 1.338]
+Number of patterns discovered
+[258, 273, 1357, 375, 436, 369, 295, 477, 818, 486]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Dissimilar
+#########################################################################################
+similarity matrix: 6.048757 seconds
+{0: array([0, 1, 2, 4]), 5: array([ 5,  7,  9, 10]), 11: array([11, 12, 13, 15]), 16: array([16, 17, 18, 19]), 3: array([ 3,  6, 14,  8])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 71.3808228 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4, 10, 6]
+Average number of observations per cluster: [92.0, 43.0, 54.0, 685.0, 13184.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0, 1.7, 1.5]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 7696
+Number of variables checked for subsets: 33675350
+Number of interserctions 1536
+Number of variables checked for subsets: 1423958
+Number of interserctions 304
+Number of variables checked for subsets: 79562
+Number of interserctions 60
+Number of variables checked for subsets: 25424
+Number of interserctions 0
+Number of variables checked for subsets: 4140
+End of merge analysis
+#########################################################################################
+Merging with clusters: 12.9827791 seconds
+Combined time: 90.4123589 seconds
+similarity matrix: 7.9537836 seconds
+{0: array([0, 5, 6, 8]), 1: array([ 1,  9, 14, 18]), 2: array([ 2,  7, 16, 17]), 11: array([11, 12, 15, 19]), 3: array([ 3,  4, 10, 13])}
+Hierarchical clustering: 0.0156222 seconds
+Number of clusters : 5
+Apriori with clusters: 72.2560523 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4, 4, 11]
+Average number of observations per cluster: [489.0, 6698.0, 77.0, 95.0, 17674.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0, 1.0, 2.18]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 5996
+Number of variables checked for subsets: 20171780
+Number of interserctions 1196
+Number of variables checked for subsets: 873277
+Number of interserctions 236
+Number of variables checked for subsets: 43841
+Number of interserctions 44
+Number of variables checked for subsets: 10678
+Number of interserctions 0
+Number of variables checked for subsets: 4235
+End of merge analysis
+#########################################################################################
+Merging with clusters: 12.7195878 seconds
+Combined time: 92.9450459 seconds
+similarity matrix: 5.2025762 seconds
+{0: array([0, 4, 7, 9]), 1: array([ 1,  3,  6, 10]), 2: array([ 2,  5, 11, 16]), 8: array([ 8, 12, 14, 19]), 13: array([13, 15, 17, 18])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 69.883864 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4, 4, 8]
+Average number of observations per cluster: [152.0, 132.0, 892.0, 92.0, 475.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0, 1.0, 1.5]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 4496
+Number of variables checked for subsets: 13501988
+Number of interserctions 896
+Number of variables checked for subsets: 634737
+Number of interserctions 176
+Number of variables checked for subsets: 46817
+Number of interserctions 32
+Number of variables checked for subsets: 14585
+Number of interserctions 0
+Number of variables checked for subsets: 8808
+End of merge analysis
+#########################################################################################
+Merging with clusters: 2.4837543 seconds
+Combined time: 77.5701945 seconds
+similarity matrix: 5.678982 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 6, 8]), 9: array([ 9, 11, 14, 19]), 10: array([10, 13, 15, 12]), 7: array([ 7, 16, 17, 18])}
+Hierarchical clustering: 0.0156187 seconds
+Number of clusters : 5
+Apriori with clusters: 71.1674884 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4, 7, 11]
+Average number of observations per cluster: [38.0, 26.0, 366.0, 1637.0, 4484.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0, 1.43, 1.82]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 9596
+Number of variables checked for subsets: 49960269
+Number of interserctions 1916
+Number of variables checked for subsets: 2048258
+Number of interserctions 380
+Number of variables checked for subsets: 100644
+Number of interserctions 77
+Number of variables checked for subsets: 17449
+Number of interserctions 0
+Number of variables checked for subsets: 5181
+End of merge analysis
+#########################################################################################
+Merging with clusters: 11.2205658 seconds
+Combined time: 88.0826549 seconds
+similarity matrix: 4.325291 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 6, 9]), 7: array([ 7, 10, 11, 12]), 8: array([ 8, 14, 16, 17]), 13: array([13, 15, 19, 18])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 70.5496374 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4, 4, 7]
+Average number of observations per cluster: [5.0, 80.0, 80.0, 94.0, 3718.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0, 1.0, 1.43]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 3996
+Number of variables checked for subsets: 10388304
+Number of interserctions 796
+Number of variables checked for subsets: 472038
+Number of interserctions 156
+Number of variables checked for subsets: 29219
+Number of interserctions 28
+Number of variables checked for subsets: 9832
+Number of interserctions 0
+Number of variables checked for subsets: 5740
+End of merge analysis
+#########################################################################################
+Merging with clusters: 2.8345507 seconds
+Combined time: 77.7094791 seconds
+similarity matrix: 3.9521337 seconds
+{0: array([0, 2, 3, 5]), 1: array([1, 6, 7, 8]), 4: array([ 4,  9, 10, 11]), 12: array([12, 13, 14, 15]), 16: array([16, 17, 18, 19])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 70.2274228 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4, 4, 5]
+Average number of observations per cluster: [60.0, 86.0, 59.0, 2996.0, 399.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0, 1.0, 1.2]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 2996
+Number of variables checked for subsets: 6245261
+Number of interserctions 596
+Number of variables checked for subsets: 289935
+Number of interserctions 116
+Number of variables checked for subsets: 22128
+Number of interserctions 20
+Number of variables checked for subsets: 8728
+Number of interserctions 0
+Number of variables checked for subsets: 4049
+End of merge analysis
+#########################################################################################
+Merging with clusters: 1.234086 seconds
+Combined time: 75.4136425 seconds
+similarity matrix: 5.0294755 seconds
+{0: array([0, 1, 2, 3]), 4: array([ 4,  5,  6, 10]), 7: array([ 7,  9, 11, 17]), 8: array([ 8, 12, 14, 19]), 13: array([13, 16, 18, 15])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 69.797482 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4, 4, 8]
+Average number of observations per cluster: [38.0, 1720.0, 174.0, 54.0, 529.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0, 1.0, 1.5]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 4496
+Number of variables checked for subsets: 13514635
+Number of interserctions 896
+Number of variables checked for subsets: 642040
+Number of interserctions 176
+Number of variables checked for subsets: 45621
+Number of interserctions 32
+Number of variables checked for subsets: 13567
+Number of interserctions 0
+Number of variables checked for subsets: 8824
+End of merge analysis
+#########################################################################################
+Merging with clusters: 2.30573 seconds
+Combined time: 77.1326875 seconds
+similarity matrix: 3.8272167 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 7, 8]), 9: array([ 9, 10, 11, 12]), 14: array([14, 16, 17, 19]), 6: array([ 6, 13, 15, 18])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 69.9297733 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4, 4, 6]
+Average number of observations per cluster: [11.0, 56.0, 22.0, 97.0, 1507.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0, 1.0, 1.33]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 3496
+Number of variables checked for subsets: 8178873
+Number of interserctions 696
+Number of variables checked for subsets: 376053
+Number of interserctions 136
+Number of variables checked for subsets: 23643
+Number of interserctions 24
+Number of variables checked for subsets: 9597
+Number of interserctions 0
+Number of variables checked for subsets: 4878
+End of merge analysis
+#########################################################################################
+Merging with clusters: 1.6737943 seconds
+Combined time: 75.4307843 seconds
+similarity matrix: 3.8975461 seconds
+{0: array([0, 1, 2, 3]), 4: array([4, 5, 6, 7]), 8: array([ 8,  9, 11, 14]), 10: array([10, 12, 16, 17]), 13: array([13, 15, 19, 18])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 69.7121685 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4, 4, 7]
+Average number of observations per cluster: [22.0, 52.0, 99.0, 118.0, 1011.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0, 1.0, 1.43]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 3996
+Number of variables checked for subsets: 10400086
+Number of interserctions 796
+Number of variables checked for subsets: 466955
+Number of interserctions 156
+Number of variables checked for subsets: 30043
+Number of interserctions 28
+Number of variables checked for subsets: 8302
+Number of interserctions 0
+Number of variables checked for subsets: 5726
+End of merge analysis
+#########################################################################################
+Merging with clusters: 1.9773369 seconds
+Combined time: 75.5870515 seconds
+similarity matrix: 4.1504021 seconds
+{0: array([0, 2, 5, 7]), 1: array([1, 3, 4, 6]), 8: array([ 8,  9, 10, 11]), 13: array([13, 19, 14, 18]), 12: array([12, 16, 17, 15])}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 69.6697516 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 4, 6, 5]
+Average number of observations per cluster: [842.0, 126.0, 32.0, 236.0, 159.0]
+Average number of variables per cluster: [1.0, 1.0, 1.0, 1.33, 1.2]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 4196
+Number of variables checked for subsets: 10887064
+Number of interserctions 836
+Number of variables checked for subsets: 473195
+Number of interserctions 164
+Number of variables checked for subsets: 23959
+Number of interserctions 30
+Number of variables checked for subsets: 9422
+Number of interserctions 0
+Number of variables checked for subsets: 3150
+End of merge analysis
+#########################################################################################
+Merging with clusters: 1.7065955 seconds
+Combined time: 75.5267492 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 20 variables the time were:
+Similarity Matrix
+[6.048757, 7.9537836, 5.2025762, 5.678982, 4.325291, 3.9521337, 5.0294755, 3.8272167, 3.8975461, 4.1504021]
+Hierarchical clustering
+[0.0, 0.0156222, 0.0, 0.0156187, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Apriori with clusters
+[71.3808228, 72.2560523, 69.883864, 71.1674884, 70.5496374, 70.2274228, 69.797482, 69.9297733, 69.7121685, 69.6697516]
+Merging of patterns
+[12.9827791, 12.7195878, 2.4837543, 11.2205658, 2.8345507, 1.234086, 2.30573, 1.6737943, 1.9773369, 1.7065955]
+Number of intersections
+[9596, 7472, 5600, 11969, 4976, 3728, 5600, 4352, 4976, 5226]
+Number of variables tested for subsets
+[35208434, 21103811, 14206935, 52131801, 10905133, 6570101, 14224687, 8593044, 10911112, 11396790]
+Number of observations per pattern
+[2811.6, 5006.6, 348.6, 1310.2, 795.4, 720.0, 503.0, 338.6, 260.4, 279.0]
+Number of variables per pattern
+[1.24, 1.236, 1.1, 1.25, 1.0859999999999999, 1.04, 1.1, 1.066, 1.0859999999999999, 1.106]
+Number of patterns discovered
+[690, 385, 1101, 471, 820, 813, 1103, 813, 818, 630]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################
+Random
+#########################################################################################
+similarity matrix: 6.076999 seconds
+{0: ['1389', '2301', '6325', '4933'], 1: ['868', '4457', '303', '5314'], 2: ['4506', '5744', '6989', '4574'], 3: ['1121', '4903', '47', '4029'], 4: ['223', '5714', '4655', '1212']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 71.6438119 seconds
+Intermediate analysis
+Number of patterns per cluster: [11, 4, 7, 5, 5]
+Average number of observations per cluster: [7308.0, 10.0, 735.0, 305.0, 54.0]
+Average number of variables per cluster: [1.82, 1.0, 1.57, 1.4, 1.2]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 15829
+Number of variables checked for subsets: 130205729
+Number of interserctions 1148
+Number of variables checked for subsets: 739651
+Number of interserctions 245
+Number of variables checked for subsets: 43763
+Number of interserctions 25
+Number of variables checked for subsets: 2382
+Number of interserctions 0
+Number of variables checked for subsets: 803
+End of merge analysis
+#########################################################################################
+Merging with clusters: 20.1003244 seconds
+Combined time: 97.8211353 seconds
+similarity matrix: 7.9922178 seconds
+{0: ['5315', '2234', '2320', '4550'], 1: ['6885', '5783', '250', '265'], 2: ['281', '446', '4584', '4551'], 3: ['4742', '4727', '4649', '4549'], 4: ['6162', '4413', '6460', '4426']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 74.0125902 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 7, 7, 5, 7]
+Average number of observations per cluster: [44.0, 6577.0, 344.0, 5312.0, 11051.0]
+Average number of variables per cluster: [1.0, 1.71, 1.43, 1.2, 2.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 12284
+Number of variables checked for subsets: 78739849
+Number of interserctions 2681
+Number of variables checked for subsets: 4048143
+Number of interserctions 329
+Number of variables checked for subsets: 78389
+Number of interserctions 35
+Number of variables checked for subsets: 5737
+Number of interserctions 0
+Number of variables checked for subsets: 2247
+End of merge analysis
+#########################################################################################
+Merging with clusters: 25.1409456 seconds
+Combined time: 107.1457536 seconds
+similarity matrix: 5.1942327 seconds
+{0: ['1004', '1330', '5981', '284'], 1: ['4822', '6302', '2456', '273'], 2: ['5304', '6560', '2333', '4864'], 3: ['6408', '4574', '2427', '92'], 4: ['4563', '377', '7116', '5815']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 70.0308806 seconds
+Intermediate analysis
+Number of patterns per cluster: [9, 8, 5, 4, 5]
+Average number of observations per cluster: [806.0, 114.0, 25.0, 55.0, 128.0]
+Average number of variables per cluster: [1.67, 1.62, 1.2, 1.0, 1.2]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 14571
+Number of variables checked for subsets: 110877483
+Number of interserctions 1432
+Number of variables checked for subsets: 1222954
+Number of interserctions 145
+Number of variables checked for subsets: 21236
+Number of interserctions 20
+Number of variables checked for subsets: 2313
+Number of interserctions 0
+Number of variables checked for subsets: 1105
+End of merge analysis
+#########################################################################################
+Merging with clusters: 16.6260511 seconds
+Combined time: 91.8511644 seconds
+similarity matrix: 5.5935351 seconds
+{0: ['4551', '6978', '260', '5273'], 1: ['2198', '4459', '278', '4772'], 2: ['5385', '6431', '6714', '6970'], 3: ['547', '4519', '4633', '7076'], 4: ['97', '1763', '5875', '6083']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 72.0708952 seconds
+Intermediate analysis
+Number of patterns per cluster: [7, 6, 5, 6, 4]
+Average number of observations per cluster: [6566.0, 1880.0, 133.0, 316.0, 272.0]
+Average number of variables per cluster: [1.43, 1.33, 1.2, 1.33, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 10283
+Number of variables checked for subsets: 58004769
+Number of interserctions 1254
+Number of variables checked for subsets: 985270
+Number of interserctions 170
+Number of variables checked for subsets: 29008
+Number of interserctions 24
+Number of variables checked for subsets: 4286
+Number of interserctions 0
+Number of variables checked for subsets: 1291
+End of merge analysis
+#########################################################################################
+Merging with clusters: 9.4409205 seconds
+Combined time: 87.1053508 seconds
+similarity matrix: 4.4190771 seconds
+{0: ['2465', '2227', '7103', '5085'], 1: ['4828', '4618', '2314', '81'], 2: ['1238', '4175', '6937', '2401'], 3: ['2424', '6641', '4943', '4423'], 4: ['4217', '5094', '601', '7116']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 70.5695247 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 6, 5, 4]
+Average number of observations per cluster: [39.0, 61.0, 4335.0, 88.0, 50.0]
+Average number of variables per cluster: [1.0, 1.0, 1.33, 1.2, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 4196
+Number of variables checked for subsets: 10773580
+Number of interserctions 836
+Number of variables checked for subsets: 474654
+Number of interserctions 174
+Number of variables checked for subsets: 38975
+Number of interserctions 20
+Number of variables checked for subsets: 5752
+Number of interserctions 0
+Number of variables checked for subsets: 2488
+End of merge analysis
+#########################################################################################
+Merging with clusters: 1.7419037 seconds
+Combined time: 76.7305055 seconds
+similarity matrix: 3.9990581 seconds
+{0: ['4941', '6322', '186', '4675'], 1: ['5990', '385', '4745', '1386'], 2: ['6849', '4923', '6652', '4845'], 3: ['6515', '5134', '1409', '4640'], 4: ['4832', '4409', '4775', '4783']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 70.3081569 seconds
+Intermediate analysis
+Number of patterns per cluster: [6, 5, 4, 4, 4]
+Average number of observations per cluster: [58.0, 399.0, 127.0, 32.0, 2956.0]
+Average number of variables per cluster: [1.33, 1.2, 1.0, 1.0, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 4494
+Number of variables checked for subsets: 12885292
+Number of interserctions 620
+Number of variables checked for subsets: 330669
+Number of interserctions 96
+Number of variables checked for subsets: 16226
+Number of interserctions 16
+Number of variables checked for subsets: 3816
+Number of interserctions 0
+Number of variables checked for subsets: 1873
+End of merge analysis
+#########################################################################################
+Merging with clusters: 2.7890112 seconds
+Combined time: 77.0962262 seconds
+similarity matrix: 4.8605516 seconds
+{0: ['6312', '6359', '5313', '6481'], 1: ['5013', '4656', '4049', '559'], 2: ['1548', '153', '6910', '6946'], 3: ['4794', '2338', '4888', '6715'], 4: ['2452', '2482', '7045', '440']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 69.9839774 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 5, 7, 4, 6]
+Average number of observations per cluster: [63.0, 401.0, 301.0, 68.0, 1263.0]
+Average number of variables per cluster: [1.0, 1.2, 1.43, 1.0, 1.33]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 6716
+Number of variables checked for subsets: 25318422
+Number of interserctions 1395
+Number of variables checked for subsets: 1198573
+Number of interserctions 238
+Number of variables checked for subsets: 55106
+Number of interserctions 24
+Number of variables checked for subsets: 5878
+Number of interserctions 0
+Number of variables checked for subsets: 3066
+End of merge analysis
+#########################################################################################
+Merging with clusters: 4.5156364 seconds
+Combined time: 79.3601654 seconds
+similarity matrix: 3.7102549 seconds
+{0: ['5723', '5814', '7064', '59'], 1: ['536', '4184', '5973', '2430'], 2: ['6651', '4593', '6441', '4881'], 3: ['6430', '4869', '6918', '6780'], 4: ['6723', '1727', '4551', '6490']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 69.7528716 seconds
+Intermediate analysis
+Number of patterns per cluster: [7, 5, 4, 4, 4]
+Average number of observations per cluster: [1253.0, 36.0, 16.0, 62.0, 118.0]
+Average number of variables per cluster: [1.43, 1.2, 1.0, 1.0, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 5243
+Number of variables checked for subsets: 17126331
+Number of interserctions 620
+Number of variables checked for subsets: 318668
+Number of interserctions 96
+Number of variables checked for subsets: 15598
+Number of interserctions 16
+Number of variables checked for subsets: 4530
+Number of interserctions 0
+Number of variables checked for subsets: 2484
+End of merge analysis
+#########################################################################################
+Merging with clusters: 2.5855129 seconds
+Combined time: 76.0486394 seconds
+similarity matrix: 3.8976081 seconds
+{0: ['4452', '6870', '2441', '6542'], 1: ['1727', '28', '2478', '1481'], 2: ['5974', '245', '6262', '6282'], 3: ['4824', '4611', '5844', '382'], 4: ['6601', '5243', '4411', '2329']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 70.407987 seconds
+Intermediate analysis
+Number of patterns per cluster: [4, 4, 6, 6, 5]
+Average number of observations per cluster: [58.0, 44.0, 83.0, 104.0, 1338.0]
+Average number of variables per cluster: [1.0, 1.0, 1.33, 1.33, 1.2]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 5876
+Number of variables checked for subsets: 19632405
+Number of interserctions 1172
+Number of variables checked for subsets: 822348
+Number of interserctions 246
+Number of variables checked for subsets: 49782
+Number of interserctions 30
+Number of variables checked for subsets: 6015
+Number of interserctions 0
+Number of variables checked for subsets: 2410
+End of merge analysis
+#########################################################################################
+Merging with clusters: 3.8241558 seconds
+Combined time: 78.1297509 seconds
+similarity matrix: 4.0555526 seconds
+{0: ['6319', '4519', '1330', '5503'], 1: ['6723', '2302', '4659', '6625'], 2: ['4624', '6642', '6222', '6794'], 3: ['4198', '1046', '5863', '6938'], 4: ['5725', '4866', '5315', '5999']}
+Hierarchical clustering: 0.0 seconds
+Number of clusters : 5
+Apriori with clusters: 70.0414443 seconds
+Intermediate analysis
+Number of patterns per cluster: [9, 4, 4, 4, 4]
+Average number of observations per cluster: [474.0, 44.0, 212.0, 155.0, 86.0]
+Average number of variables per cluster: [1.56, 1.0, 1.0, 1.0, 1.0]
+End of intermediate analysis
+#########################################################################################
+Merge analysis:
+Number of interserctions 5616
+Number of variables checked for subsets: 21773256
+Number of interserctions 496
+Number of variables checked for subsets: 251095
+Number of interserctions 96
+Number of variables checked for subsets: 21142
+Number of interserctions 16
+Number of variables checked for subsets: 8943
+Number of interserctions 0
+Number of variables checked for subsets: 5336
+End of merge analysis
+#########################################################################################
+Merging with clusters: 3.2415764 seconds
+Combined time: 77.3385733 seconds
+#########################################################################################
+#########################################################################################
+#########################################################################################
+For 20 variables the time were:
+Similarity Matrix
+[6.076999, 7.9922178, 5.1942327, 5.5935351, 4.4190771, 3.9990581, 4.8605516, 3.7102549, 3.8976081, 4.0555526]
+Hierarchical clustering
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Apriori with clusters
+[71.6438119, 74.0125902, 70.0308806, 72.0708952, 70.5695247, 70.3081569, 69.9839774, 69.7528716, 70.407987, 70.0414443]
+Merging of patterns
+[20.1003244, 25.1409456, 16.6260511, 9.4409205, 1.7419037, 2.7890112, 4.5156364, 2.5855129, 3.8241558, 3.2415764]
+Number of intersections
+[17247, 15329, 16168, 11731, 5226, 5226, 8373, 5975, 7324, 6224]
+Number of variables tested for subsets
+[130992328, 82874365, 112125091, 59024624, 11295449, 13237876, 26581045, 17467611, 20512960, 22059772]
+Number of observations per pattern
+[1682.4, 4665.6, 225.6, 1833.4, 914.6, 714.4, 419.2, 297.0, 325.4, 194.2]
+Number of variables per pattern
+[1.3980000000000001, 1.468, 1.338, 1.258, 1.106, 1.106, 1.192, 1.126, 1.1720000000000002, 1.112]
+Number of patterns discovered
+[210, 321, 221, 411, 628, 621, 511, 621, 482, 1334]
+#########################################################################################
+#########################################################################################
+#########################################################################################
+#########################################################################################

@@ -2,6 +2,7 @@ import numpy as np
 import time
 import gc
 
+
 #Recebo um array que tem objectos do tipo
 
 '''

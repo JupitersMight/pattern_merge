@@ -1,48 +1,19 @@
-import numpy as np
-import pandas as pd
-import math
-from scipy.spatial import distance
-from merge_patterns import merge_patterns
+from agglomerative import agglomerative_clustering
+from metrics import *
 
-f = open("chess.txt", "r")
-supports = [0.99, 0.95, 0.90, 0.80, 0.70, 0.60, 0.50, 0.40, 0.30, 0.20, 0.10] #,0.90]
-#min_sup = 0.30
-nr_lines = 0
-variables = []
+datasets = ["datasets/chess.txt", "datasets/mushroom.txt", "datasets/connect.txt","datasets/pumsb.txt", "datasets/accidents.txt"]
 
-files = ["chess.txt"]#["chess.txt", "accidents.txt", "connect.txt", "mushroom.txt", "pumsb.txt"]
-
-'''
-# Read file
-for line in f:
-    curr_transaction = line.split(" ")
-    for value in curr_transaction:
-        processed_value = value.replace("\n","")
-        if processed_value not in variables:
-            variables.append(processed_value)
-    nr_lines += 1
-f.seek(0)
-# Create dataframe
-df = pd.DataFrame(data=np.zeros((nr_lines, len(variables)), dtype=int), columns=variables)
-curr_row_pointer = 0
-for line in f:
-    curr_transaction = line.split(" ")
-    for variable in curr_transaction:
-        processed_value = variable.replace("\n", "")
-        df.at[curr_row_pointer, processed_value] = 1
-    curr_row_pointer += 1
-'''
-
-for ficheiro in files:
-    print(ficheiro)
-    f = open(ficheiro, "r")
+for file in datasets:
+    print("Current file: " + file)
+    f = open(file, "r")
     nr_lines = 0
     variables = []
+
     # Read file
     for line in f:
         curr_transaction = line.split(" ")
         for value in curr_transaction:
-            processed_value = value.replace("\n","")
+            processed_value = value.replace("\n", "")
             if processed_value not in variables:
                 variables.append(processed_value)
         nr_lines += 1
@@ -57,161 +28,410 @@ for ficheiro in files:
             df.at[curr_row_pointer, processed_value] = 1
         curr_row_pointer += 1
 
-    for sup in supports:
+    df = df.drop(columns=[""])
+
+    ones = 0
+    for col in df.columns:
+        ones += len(df[df[col] == 1])
+
+    print(ones)
+
+    number_of_variables = [4,8,12,16,20]
+    #number_of_variables = [6,12,18,24,30,36]
+    #number_of_variables = [8,16,24,32,40]
+    max_per_cluster = 4
+    #max_per_cluster = 6
+    #max_per_cluster = 8
+
+    # Statistical significance
+    total_entries = df.shape[0] * df.shape[1]
+    p = ones/total_entries
+    n = len(df[df.columns[0]])
+    p = pow(p, max_per_cluster)
+    min_support = binom.ppf(q=0.05, n=n, p=p)/n
+
+    print("Minimum support : "+str(min_support))
+
+    for N in number_of_variables:
         print("#########################################################################################")
-        print("Current support: " + str(sup))
-        # Filter out columns with support less than threshold
-        columns_to_use = []
-        for col in df.columns:
-            counter = 0
-            for value in df[col]:
-                if value == 1:
-                    counter += 1
-            if counter/nr_lines > sup:
-                columns_to_use.append(col)
+        print("Number of variables: " + str(N))
 
-        copy_df = df[columns_to_use]
-        print(len(copy_df.columns))
+        print()
+        print()
+        print("#########################################################################################")
+        print("#########################################################################################")
+        print("Similar")
+        print("#########################################################################################")
 
-        # Calculate similarity matrix
-        similarity_matrix = []
-        for col in copy_df.columns:
-            similarity_matrix.append([])
+        similarity_m_times = []
+        hierarchical_times = []
+        apriori_clusters_times = []
+        merging_times = []
+        intersections = []
+        variables_subsets = []
+        variables_per_pattern = []
+        observations_per_pattern = []
 
-        for pointer_1 in range(0,len(copy_df.columns)):
-            for pointer_2 in range(0, len(copy_df.columns)):
-                dice_dist = distance.jaccard(copy_df[copy_df.columns[pointer_1]], copy_df[copy_df.columns[pointer_2]])
-                similarity_matrix[pointer_1].append(dice_dist)
+        #hierarchichal clustering properties
+        patterns_discovered = []
 
-        for i in range(0, len(similarity_matrix)):
-            for j in range(0, len(similarity_matrix)):
-                if similarity_matrix[i][j] == 0.0:
-                    similarity_matrix[i][j] = math.inf
-                if similarity_matrix[i][j] == 1.0:
-                    similarity_matrix[i][j] = -math.inf
+        stored_dfs = []
+        for counter in range(10):
+            columns_to_use = random.sample(list(df.columns), N)
+            copy_df = df[columns_to_use]
+            stored_dfs.append(copy_df)
 
-        #pattern_mining(copy_df, sup)
-        '''
-        K = len(similarity_matrix)
-        a = int(round(math.log(K, 2), 0))
-        clusters = cost_optimal_clustering(similarity_matrix)
-        print("Number of clusters: "+str(len(clusters)))
-        print(clusters)
-        if len(clusters) == 1:
-            continue
-        s = False
-        for c in clusters:
-            if len(c) > 11:
-                s = True
-                break
-        if s:
-            continue
-        patterns = []
-        individual_clusters = []
-        counter = 0
-        for cluster in clusters:
-            columns_to_use = []
-            for value in cluster:
-                columns_to_use.append(copy_df.columns[value])
-            df_copy = copy_df[columns_to_use].copy()
-            p_result = pattern_mining(df_copy, sup)
-            print(len(p_result))
-            individual_clusters.append(p_result)
-            patterns.extend(p_result)
-            counter += 1
+            start = time.time_ns()
+            copy_df = copy_df.replace(0, "?")
+            similarity_m = construct_distance_matrix(copy_df, "constant")
 
-        min_size_of_vocab_per_cluster = 1.0
-        min_vob_in_cluster = 2
-        patterns_to_merge = []
-        new_individual_clusters = []
-        for i in range(0, len(individual_clusters)):
-            size_of_vocab_in_cluster = len(clusters[i])
-            i_c = []
-            if size_of_vocab_in_cluster >= min_vob_in_cluster:
-                for val in individual_clusters[i]:
-                    if len(val["columns"]) / size_of_vocab_in_cluster >= min_size_of_vocab_per_cluster:
-                        patterns_to_merge.append(val)
-                        i_c.append(val)
-                new_individual_clusters.append(i_c)
+            s2 = time.time_ns()
+            similarity_m_times.append((s2 - start) / 1000000000)
+            print("similarity matrix: " + str((s2 - start) / 1000000000) + " seconds")
 
-        combined_patterns = merge_patterns(patterns_to_merge, new_individual_clusters, nr_lines, sup, patterns)
-        #print(len(combined_patterns))
-        '''
+            aglo_start = time.time_ns()
+
+            clusters = agglomerative_clustering(similarity_m, max_per_cluster)
+            print(clusters)
 
 
-'''
-# Filter out columns with support less than threshold
-columns_to_use = []
-for col in df.columns:
-    counter = 0
-    for value in df[col]:
-        if value == 1:
-            counter += 1
-    if counter/nr_lines > min_sup:
-        columns_to_use.append(col)
+            aglo_end = time.time_ns()
+            hierarchical_times.append((aglo_end - aglo_start) / 1000000000)
+            print("Hierarchical clustering: " + str((aglo_end - aglo_start) / 1000000000) + " seconds")
 
-df = df[columns_to_use]
-print(len(df.columns))
+            s1 = time.time_ns()
+            clusters_apriori = []
+            print("Number of clusters : " + str(len(clusters.keys())))
 
-# Calculate similarity matrix
-similarity_matrix = []
-for col in df.columns:
-    similarity_matrix.append([])
+            for cluster in clusters.keys():
+                columns_to_use = []
+                for value in clusters[cluster]:
+                    columns_to_use.append(copy_df.columns[value])
+                df_copy = copy_df[columns_to_use].copy()
+                y = runApriori(data_iter=df_copy, class_vector=0, minSupport=min_support, minLift=1.3)
+                y = merge_patterns([y], nr_lines, min_support)
+                clusters_apriori.append(y)
 
-for pointer_1 in range(0,len(df.columns)):
-    for pointer_2 in range(0, len(df.columns)):
-        dice_dist = distance.jaccard(df[df.columns[pointer_1]], df[df.columns[pointer_2]])
-        similarity_matrix[pointer_1].append(dice_dist)
+            end = time.time_ns()
+            apriori_clusters_times.append((end - s1) / 1000000000)
+            print("Apriori with clusters: " + str((end - s1) / 1000000000) + " seconds")
+            print("#########################################################################################")
+            print("Intermediate analysis")
+            nr_patterns_bef = []
+            size_obs_bef = []
+            size_vars = []
+            for cluster in clusters_apriori:
+                nr_patterns_bef.append(len(cluster))
+                variables_p = []
+                obs_p = []
+                for pattern in cluster:
+                    variables_p.append(len(pattern["columns"]))
+                    obs_p.append(len(pattern["indexes"]))
+                size_obs_bef.append(round((sum(obs_p)/(len(cluster) if len(cluster) > 0 else 1)), 0))
+                size_vars.append(round(sum(variables_p)/(len(cluster) if len(cluster) > 0 else 1), 2))
 
-for i in range(0, len(similarity_matrix)):
-    for j in range(0, len(similarity_matrix)):
-        if similarity_matrix[i][j]==0.0:
-            similarity_matrix[i][j] = math.inf
-        if similarity_matrix[i][j]==1.0:
-            similarity_matrix[i][j] = -math.inf
+            observations_per_pattern.append(sum(size_obs_bef)/len(clusters_apriori))
+            variables_per_pattern.append(sum(size_vars)/len(clusters_apriori))
+            print("Number of patterns per cluster: "+ str(nr_patterns_bef))
+            print("Average number of observations per cluster: "+ str(size_obs_bef))
+            print("Average number of variables per cluster: "+ str(size_vars))
+            print("End of intermediate analysis")
+            print("#########################################################################################")
+            start_merge = time.time_ns()
+            intermediate_intersections = []
+            intermediate_variables = []
+            result = merge_patterns_a(clusters_apriori, nr_lines, min_support, intermediate_intersections, intermediate_variables)
+            intersections.append(sum(intermediate_intersections))
+            variables_subsets.append(sum(intermediate_variables))
+            end_merge = time.time_ns()
+            merging_times.append((end_merge - start_merge) / 1000000000)
 
-#isolated_patterns = pattern_mining(df, min_sup)
-#print(isolated_patterns)
-#print("Number of patterns found in isolated pattern mining: "+str(len(isolated_patterns)))
+            patterns_discovered.append(len(result))
+            print("Merging with clusters: " + str((end_merge - start_merge) / 1000000000) + " seconds")
+            print("Combined time: " + str((end_merge - start) / 1000000000) + " seconds")
+
+        print("#########################################################################################")
+        print("#########################################################################################")
+        print("#########################################################################################")
+        print("For "+str(N)+" variables the time were:")
+        print("Similarity Matrix")
+        print(str(similarity_m_times))
+        print("Hierarchical clustering")
+        print(str(hierarchical_times))
+        print("Apriori with clusters")
+        print(str(apriori_clusters_times))
+        print("Merging of patterns")
+        print(str(merging_times))
+
+        print("Number of intersections")
+        print(str(intersections))
+        print("Number of variables tested for subsets")
+        print(str(variables_subsets))
+        print("Number of observations per pattern")
+        print(str(observations_per_pattern))
+        print("Number of variables per pattern")
+        print(str(variables_per_pattern))
+
+        print("Number of patterns discovered")
+        print(str(patterns_discovered))
+        print("#########################################################################################")
+        print("#########################################################################################")
+        print("#########################################################################################")
+
+        print("#########################################################################################")
+        print("Dissimilar")
+        print("#########################################################################################")
+        similarity_m_times = []
+        hierarchical_times = []
+        apriori_clusters_times = []
+        merging_times = []
+        intersections = []
+        variables_subsets = []
+        variables_per_pattern = []
+        observations_per_pattern = []
 
 
-K = len(similarity_matrix)
-a = int(round(math.log(K, 2), 0))
-clusters = cost_optimal_clustering(similarity_matrix)
-print("Number of clusters: "+str(len(clusters)))
-#print(clusters)
-patterns = []
-individual_clusters = []
-counter = 0
-for cluster in clusters:
-    columns_to_use = []
-    for value in cluster:
-        columns_to_use.append(df.columns[value])
-    df_copy = df[columns_to_use].copy()
-    p_result = pattern_mining(df_copy, min_sup)
-    print(len(p_result))
-    individual_clusters.append(p_result)
-    patterns.extend(p_result)
-    counter += 1
+        #hierarchichal clustering properties
+        patterns_discovered = []
 
-min_size_of_vocab_per_cluster = 1.0
-patterns_to_merge = []
-new_individual_clusters = []
-for i in range(0, len(individual_clusters)):
-    size_of_vocab_in_cluster = len(clusters[i])
-    i_c = []
-    for val in individual_clusters[i]:
-        if len(val["columns"]) / size_of_vocab_in_cluster >= min_size_of_vocab_per_cluster:
-            patterns_to_merge.append(val)
-            i_c.append(val)
-    new_individual_clusters.append(i_c)
+        for s_df in stored_dfs:
+            copy_df = s_df
+
+            start = time.time_ns()
+            copy_df = copy_df.replace(0, "?")
+            similarity_m = construct_distance_matrix(copy_df, "constant")
+
+            for i in range(0, len(similarity_m)):
+                for j in range(0, len(similarity_m)):
+                    if i == j:
+                        similarity_m[i][j] = 0
+                    else:
+                        similarity_m[i][j] = 1 - similarity_m[i][j]
+
+            s2 = time.time_ns()
+            similarity_m_times.append((s2 - start) / 1000000000)
+            print("similarity matrix: " + str((s2 - start) / 1000000000) + " seconds")
+
+            aglo_start = time.time_ns()
+
+            clusters = agglomerative_clustering(similarity_m, max_per_cluster)
+            print(clusters)
+
+            aglo_end = time.time_ns()
+            hierarchical_times.append((aglo_end - aglo_start) / 1000000000)
+            print("Hierarchical clustering: " + str((aglo_end - aglo_start) / 1000000000) + " seconds")
+
+            s1 = time.time_ns()
+            clusters_apriori = []
+            print("Number of clusters : " + str(len(clusters.keys())))
+            for cluster in clusters.keys():
+                columns_to_use = []
+                for value in clusters[cluster]:
+                    columns_to_use.append(copy_df.columns[value])
+                df_copy = copy_df[columns_to_use].copy()
+                y = runApriori(data_iter=df_copy, class_vector=0, minSupport=min_support, minLift=1.3)
+                y = merge_patterns([y], nr_lines, min_support)
+                clusters_apriori.append(y)
+
+                #print(len(y))
+            end = time.time_ns()
+            apriori_clusters_times.append((end - s1) / 1000000000)
+            print("Apriori with clusters: " + str((end - s1) / 1000000000) + " seconds")
+
+            print("Intermediate analysis")
+            nr_patterns_bef = []
+            size_obs_bef = []
+            size_vars = []
+            for cluster in clusters_apriori:
+                nr_patterns_bef.append(len(cluster))
+                variables_p = []
+                obs_p = []
+                for pattern in cluster:
+                    variables_p.append(len(pattern["columns"]))
+                    obs_p.append(len(pattern["indexes"]))
+                size_obs_bef.append(round((sum(obs_p)/(len(cluster) if len(cluster) > 0 else 1)), 0))
+                size_vars.append(round(sum(variables_p)/(len(cluster) if len(cluster) > 0 else 1), 2))
 
 
-combined_patterns = merge_patterns(patterns_to_merge, new_individual_clusters, nr_lines, min_sup, patterns)
-print(len(combined_patterns))
+            observations_per_pattern.append(sum(size_obs_bef)/len(clusters_apriori))
+            variables_per_pattern.append(sum(size_vars)/len(clusters_apriori))
+            print("Number of patterns per cluster: "+ str(nr_patterns_bef))
+            print("Average number of observations per cluster: "+ str(size_obs_bef))
+            print("Average number of variables per cluster: "+ str(size_vars))
+            print("End of intermediate analysis")
 
 
-#isolated_patterns = pattern_mining(df, min_sup)
-#print("Number of patterns found in isolated pattern mining: "+str(len(isolated_patterns)))
+            start_merge = time.time_ns()
+            intermediate_intersections = []
+            intermediate_variables = []
+            result = merge_patterns_a(clusters_apriori, nr_lines, min_support, intermediate_intersections, intermediate_variables)
+            intersections.append(sum(intermediate_intersections))
+            variables_subsets.append(sum(intermediate_variables))
+            end_merge = time.time_ns()
+            merging_times.append((end_merge - start_merge) / 1000000000)
 
-'''
+            patterns_discovered.append(len(result))
+            print("Merging with clusters: " + str((end_merge - start_merge) / 1000000000) + " seconds")
+            print("Combined time: " + str((end_merge - start) / 1000000000) + " seconds")
+
+        print("#########################################################################################")
+        print("#########################################################################################")
+        print("#########################################################################################")
+        print("For "+str(N)+" variables the time were:")
+        print("Similarity Matrix")
+        print(str(similarity_m_times))
+        print("Hierarchical clustering")
+        print(str(hierarchical_times))
+        print("Apriori with clusters")
+        print(str(apriori_clusters_times))
+        print("Merging of patterns")
+        print(str(merging_times))
+
+        print("Number of intersections")
+        print(str(intersections))
+        print("Number of variables tested for subsets")
+        print(str(variables_subsets))
+        print("Number of observations per pattern")
+        print(str(observations_per_pattern))
+        print("Number of variables per pattern")
+        print(str(variables_per_pattern))
+
+        print("Number of patterns discovered")
+        print(str(patterns_discovered))
+        print("#########################################################################################")
+        print("#########################################################################################")
+        print("#########################################################################################")
+
+        print("#########################################################################################")
+        print("Random")
+        print("#########################################################################################")
+
+        similarity_m_times = []
+        hierarchical_times = []
+        apriori_clusters_times = []
+        merging_times = []
+        intersections = []
+        variables_subsets = []
+        variables_per_pattern = []
+        observations_per_pattern = []
+
+
+        #hierarchichal clustering properties
+        patterns_discovered = []
+
+        for s_df in stored_dfs:
+
+            copy_df = s_df
+
+            start = time.time_ns()
+            copy_df = copy_df.replace(0, "?")
+            similarity_m = construct_distance_matrix(copy_df, "constant")
+
+            for i in range(0, len(similarity_m)):
+                for j in range(0, len(similarity_m)):
+                    if i == j:
+                        similarity_m[i][j] = 0
+                    else:
+                        similarity_m[i][j] = 1 - similarity_m[i][j]
+
+            s2 = time.time_ns()
+            similarity_m_times.append((s2 - start) / 1000000000)
+            print("similarity matrix: " + str((s2 - start) / 1000000000) + " seconds")
+
+            aglo_start = time.time_ns()
+
+            #clusters = agglomerative_clustering(similarity_m, 4)
+            columns_to_use = random.sample(list(copy_df.columns), N)
+            clusters = {}
+            next = -1
+            for i in range(N):
+                if i % max_per_cluster == 0:
+                    next += 1
+                if next not in clusters.keys():
+                    clusters[next] = [columns_to_use[i]]
+                else:
+                    clusters[next].append(columns_to_use[i])
+
+            print(clusters)
+
+            aglo_end = time.time_ns()
+            hierarchical_times.append((aglo_end - aglo_start) / 1000000000)
+            print("Hierarchical clustering: " + str((aglo_end - aglo_start) / 1000000000) + " seconds")
+
+            s1 = time.time_ns()
+            clusters_apriori = []
+            print("Number of clusters : " + str(len(clusters.keys())))
+            for cluster in clusters.keys():
+                columns_to_use = clusters[cluster]
+                df_copy = copy_df[columns_to_use].copy()
+                y = runApriori(data_iter=df_copy, class_vector=0, minSupport=min_support, minLift=1.3)
+                y = merge_patterns([y], nr_lines, min_support)
+                clusters_apriori.append(y)
+
+                #print(len(y))
+            end = time.time_ns()
+            apriori_clusters_times.append((end - s1) / 1000000000)
+            print("Apriori with clusters: " + str((end - s1) / 1000000000) + " seconds")
+
+            print("Intermediate analysis")
+            nr_patterns_bef = []
+            size_obs_bef = []
+            size_vars = []
+            for cluster in clusters_apriori:
+                nr_patterns_bef.append(len(cluster))
+                variables_p = []
+                obs_p = []
+                for pattern in cluster:
+                    variables_p.append(len(pattern["columns"]))
+                    obs_p.append(len(pattern["indexes"]))
+                size_obs_bef.append(round((sum(obs_p)/(len(cluster) if len(cluster) > 0 else 1)), 0))
+                size_vars.append(round(sum(variables_p)/(len(cluster) if len(cluster) > 0 else 1), 2))
+
+
+            observations_per_pattern.append(sum(size_obs_bef)/len(clusters_apriori))
+            variables_per_pattern.append(sum(size_vars)/len(clusters_apriori))
+            print("Number of patterns per cluster: "+ str(nr_patterns_bef))
+            print("Average number of observations per cluster: "+ str(size_obs_bef))
+            print("Average number of variables per cluster: "+ str(size_vars))
+            print("End of intermediate analysis")
+
+            start_merge = time.time_ns()
+            intermediate_intersections = []
+            intermediate_variables = []
+            result = merge_patterns_a(clusters_apriori, nr_lines, min_support, intermediate_intersections, intermediate_variables)
+            intersections.append(sum(intermediate_intersections))
+            variables_subsets.append(sum(intermediate_variables))
+            end_merge = time.time_ns()
+            merging_times.append((end_merge - start_merge) / 1000000000)
+
+            patterns_discovered.append(len(result))
+            print("Merging with clusters: " + str((end_merge - start_merge) / 1000000000) + " seconds")
+            print("Combined time: " + str((end_merge - start) / 1000000000) + " seconds")
+
+        print("#########################################################################################")
+        print("#########################################################################################")
+        print("#########################################################################################")
+        print("For "+str(N)+" variables the time were:")
+        print("Similarity Matrix")
+        print(str(similarity_m_times))
+        print("Hierarchical clustering")
+        print(str(hierarchical_times))
+        print("Apriori with clusters")
+        print(str(apriori_clusters_times))
+        print("Merging of patterns")
+        print(str(merging_times))
+
+        print("Number of intersections")
+        print(str(intersections))
+        print("Number of variables tested for subsets")
+        print(str(variables_subsets))
+        print("Number of observations per pattern")
+        print(str(observations_per_pattern))
+        print("Number of variables per pattern")
+        print(str(variables_per_pattern))
+
+        print("Number of patterns discovered")
+        print(str(patterns_discovered))
+        print("#########################################################################################")
+        print("#########################################################################################")
+        print("#########################################################################################")
